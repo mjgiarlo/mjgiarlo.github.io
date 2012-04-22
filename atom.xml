@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Octofutzing]]></title>
+  <title><![CDATA[Mike Giarlo]]></title>
   <link href="http://mjgiarlo.github.com/atom.xml" rel="self"/>
   <link href="http://mjgiarlo.github.com/"/>
-  <updated>2012-04-21T22:06:38-04:00</updated>
+  <updated>2012-04-21T22:18:36-04:00</updated>
   <id>http://mjgiarlo.github.com/</id>
   <author>
     <name><![CDATA[Mike Giarlo]]></name>
