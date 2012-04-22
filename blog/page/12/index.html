@@ -1,0 +1,725 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Octofutzing</title>
+  <meta name="author" content="Mike Giarlo">
+
+  
+  <meta name="description" content="As a community of librarians and technologists, we like to talk about innovation.Â Â A lot:Â We like it; we support it; we do it; we reward it; we &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://mjgiarlo.github.com/blog/page/12">
+  <link href="/favicon.ico" rel="icon">
+  
+  <link href="/assets/bootstrap/css/spacelab.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/bootstrap/css/custom.css" rel="stylesheet" type="text/css">
+  <link href="/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+  
+  <link href="/atom.xml" rel="alternate" title="Octofutzing" type="application/atom+xml">
+  
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4185469-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body    data-spy="scroll">
+
+  <div class="container">
+    <header class="jumbotron subhead" id="overview">
+      <div class="subscribe">
+  <table>
+    <tr>
+      <td><span>Get Updates: &nbsp;</span></td>
+      <td><a href="#" onclick="window.open('','FeedBurner','menubar=no,width=600,height=600,toolbar=no'); return false;" class="btn"><i class="icon-envelope"></i> By Email</a></td>
+      <td><a href="/atom.xml" class="btn"><i class="icon-cog"></i> By RSS</a></td>
+      <td><a href="http://twitter.com/mjgiarlo" class="btn"><i class="icon-twitter-sign"></i> On Twitter</a></td>
+    </tr>
+  </table>
+</div>
+<h1 class="title">Octofutzing</h1>
+
+  <p class="lead">Playing with this here thing</p>
+
+      <div class="navbar">
+  <div class="navbar-inner">
+    <div class="container" style="width: auto;">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/archives">Blog</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        
+          <form action="http://google.com/search" method="get" class="navbar-search pull-left">
+            <fieldset role="search">
+              <input type="hidden" name="q" value="site:mjgiarlo.github.com" />
+              <input type="text" name="q" results="0" placeholder="Search" class="search-query span2" />
+            </fieldset>
+          </form>
+        
+        <ul class="nav pull-right">
+          <li>
+            <a style="padding: 7px 0 0 0;" href="http://feeds.feedburner.com/brianarmstrong/vTOG"><img src="http://feeds.feedburner.com/~fc/brianarmstrong/vTOG?bg=a1cefc&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>            
+          </li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div>
+  </div><!-- /navbar-inner -->
+</div>
+
+    </header>
+    <div id="main">
+      <div id="content">
+        <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/07/13/innovation-v-sustainability/">Innovation v. Sustainability</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-07-13T16:01:33-04:00" pubdate data-updated="true">Jul 13<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>As a community of librarians and technologists, we like to talk about innovation.Â Â A lot:Â We like it; we support it; we do it; we reward it; we expect it; we value it; and weÂ <em>need</em> it.Â </p>
+
+<p>The obvious and crucial question to my mind is how an organization might support innovationÂ without sacrificing sustainability, or alternatively value sustainability without hampering innovation.Â </p>
+
+<p>This harks back to an earlier discussion at MPOW about using native XML databases as a storage back-end for XML web services - technologically, it&#8217;s a trivial decision, but how many different databases are we supposed to support?Â  The same question can be asked for programming languages, metadata schemas, operating systems, repositories, file formats, and so forth.Â </p>
+
+<p>Here are my assumptions:</p>
+
+<ol>
+    <li>InnovationÂ requires flexibility and agnosticism so that developers and sysadmins can nimbly explore options without artificial limitations;</li>
+    <li>Such flexibility and agnosticismÂ are relatively easy to attain in development shops, but are untenable in production shops where sustainability isÂ of theÂ utmost concern (and a corollary: that needing to support an indefinite number of technologies andÂ standards at any given time is not sustainable);</li>
+    <li>Without harmony between production shops and development shops, seeing projects through their complete lifecycle becomes difficult, at best, and impossible at worst.Â  If the development shop wants to use innovative language X for its Project Of The Month and the production shop only supports languages A, B, and C, does the dev shop need to refactor or does the prod shop need to loosen its support requirements?Â  Alternatively, does the dev shop get fed up with the prod shop&#8217;s policies and simply start housing their own production applications, despite the fact that they lack the resources to effectively manage them (per best practices)?</li>
+</ol>
+
+
+<p>How then does an organization position itself both to support innovation and to ensure sustainability?Â  Change of personnel?Â  Policies?Â  Procedures?Â  Organization structure?Â  Or is it more of a cultural shift?</p>
+
+<p>It&#8217;s one thing to talk innovation, but a whole &#8216;nother to actually do it.Â  And a third &#8216;nother to do it in a manner that&#8217;s sustainable, not to mention in accord withÂ all the otherÂ organizational values.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/07/12/screenscraped-rss-feeds/">Screenscraped RSS Feeds</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-07-12T23:02:23-04:00" pubdate data-updated="true">Jul 12<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I confess; I&#8217;m a fan of graphic novels, many of which are published by DC imprints <a target="_blank" href="http://www.dccomics.com/vertigo/">Vertigo</a> and <a target="_blank" href="http://www.dccomics.com/wildstorm/">WildStorm</a>.  Wanting to keep up with the newest titles without having to make weekly stops to the <a target="_blank" href="http://www.zanaducomics.com/z2.html">local comic shop</a> &#8211; which is a nifty shop, but why get up off your butt to do something if you don&#8217;t have to? &#8211; I went a-searchin&#8217; for some RSS feeds and found naught.  There may be some out there, and I&#8217;d be happy to hear of them.</p>
+
+<p>In the meantime, however, I&#8217;ve thrown together a quick and dirty screen-scraper (36 lines of PHP, partly inspired by <a target="_blank" href="http://www.codebeach.com/tutorials/screen-scrapping-rss-php.asp">Screen Scraping Your Way Into RSS</a>) that grabs an appropriate &#8220;new comics&#8221; page on the DC website, and generates an RSS feed from relevant discovered information.  To keep abreast of new Vertigo or WildStorm comics, subscribe to the following feeds (which should be updated on a monthly basis):</p>
+
+<blockquote><a target="_blank" href="http://feeds.feedburner.com/WildstormComics">http://feeds.feedburner.com/WildstormComics</a> (<a target="_blank" href="http://www.bloglines.com/sub/http://feeds.feedburner.com/WildstormComics">Sub with Bloglines</a>)
+<a target="_blank" href="http://feeds.feedburner.com/VertigoComics">http://feeds.feedburner.com/VertigoComics</a> (<a target="_blank" href="http://www.bloglines.com/sub/http://feeds.feedburner.com/VertigoComics">Sub with Bloglines</a>)</blockquote>
+
+
+<p>Enjoy, and spread the goodness if you wish.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/06/28/home-of-unapi-wp-plug-in/">Home of unAPI WP Plug-in</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-28T20:43:10-04:00" pubdate data-updated="true">Jun 28<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The WordPress plug-in for unAPI now lives here: <a href="http://www.lackoftalent.org/michael/blog/unapi-wordpress-plug-in/">http://www.lackoftalent.org/michael/blog/unapi-wordpress-plug-in/</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/06/26/unapi-10-compliance-and-a-belated-haiku/">unAPI 1.0 Compliance and a Belated Haiku!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-26T20:23:44-04:00" pubdate data-updated="true">Jun 26<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The page for the unAPI WordPressÂ plug-in has moved to the following location: <a href="http://www.lackoftalent.org/michael/blog/unapi-wordpress-plug-in/">http://www.lackoftalent.org/michael/blog/unapi-wordpress-plug-in/</a></p>
+
+<p>Technosophia is now compliant with the brandy new <a href="http://unapi.info/specs/" target="_blank">unAPI version 1.0 specification</a>Â (which bears an uncanny resemblance to revision 3). I&#8217;ve also added support for the MARCXML and SRW_DC formats to the <a href="http://www.lackoftalent.org/michael/blog/2006/05/19/unapi-revision-3-plug-in-for-wordpress/" target="_blank">WordPress plug-in</a>, and updated <a href="http://lxming.blogspot.com/" target="_blank">Xiaoming</a>&#8217;s unAPI Wiki page on <a href="http://unapi.stikipad.com/unapi/show/existing+formats" target="_blank">existing formats</a>.</p>
+
+<p><a href="/leftwing/src/unapi-1.0.zip" target="_blank">Download the unAPI-1.0Â plug-in for WordPress</a>Â </p>
+
+<p>I&#8217;d welcome any feedback on the goodness of my various formats. A cataloger I am not, so there are bound to be mess-upsÂ with my *_DC, MODS, and MARCXML records. Especially the MARCXML, eugh.</p>
+
+<blockquote>unAPI belâ€“
+lows,Â &#8221;veni, vidi, vici,&#8221;
+most triumphantly!</blockquote>
+
+
+<p>I never claimed to be a poet.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/06/20/all-things-must-come-to-an-end-or-shameless-sentimentality/">All Things Must Come to an End, or, Shameless Sentimentality</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-20T23:27:24-04:00" pubdate data-updated="true">Jun 20<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>One such thing, a just recently ended venture, is my bachelorhood.  I&#8217;ve been away for much of the past couple weeks preparing for, celebrating, and recovering from Elizabeth&#8217;s and my wedding on June 11th.</p>
+
+<p>And because sometimes jabbering about library technology, and thinking about the many and challenging issues facing our profession, can just plum tucker a guy out, I&#8217;m posting tonight to share a photograph my beloved mother took of Elizabeth and myself on our 0th anniversary.  There&#8217;ll be plenty of time in the future to spend on the aforementioned jabbering and thinking; for now, I&#8217;m just enjoying life.</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2006/06/20/all-things-must-come-to-an-end-or-shameless-sentimentality/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/05/31/oclc-report-on-students-perceptions-of-libraries/">OCLC Report on Students&#8217; Perceptions of Libraries</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-31T13:43:01-04:00" pubdate data-updated="true">May 31<span>st</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>From <a href="http://www.oclc.org/reports/perceptionscollege.htm">http://www.oclc.org/reports/perceptionscollege.htm</a>Â &#8211;</p>
+
+<blockquote><strong>College Studentsâ€™ Perceptions of Libraries and Information Resources</strong> examines the information-seeking habits and preferences of international college students. This report is a companion piece to the December 2005 OCLC <a href="http://www.lackoftalent.org/michael/blog/wp-admin/2005perceptions.htm"><em>Perceptions of Libraries and Information Resources</em></a> report.
+
+The 396 college students who participated in the survey range in age from 15 to 57 and are either undergraduate or graduate students. The college students were from all of the six countries included in the survey (Australia, Canada, India, Singapore, United Kingdom and the United States). Responses from U.S. 14- to 17-year-old participants have also been included to provide contrast and comparison with the college students, as these young people are potential college attendees.
+
+With all-new graphs and additional analysis of how college student data compare to that of total respondents, this report is a subset of the original <em>Perceptions</em> report and provides findings from the online survey in an effort to learn more about:
+<ul>
+    <li>Library use</li>
+    <li>Awareness and use of library electronic resources</li>
+    <li>The Internet search engine, the library and the librarian</li>
+    <li>Free vs. for-fee information</li>
+    <li>The â€œLibraryâ€ brand</li>
+</ul>
+This report looks at these questions from the point-of-view of college students and 14- to 17-year-olds. In the original study, we found that college students are more aware of and use librariesâ€™ information resources more than other survey respondents. In addition, the more educated the respondents, the more they continue to use libraries after graduation. Awareness does not always translate into high usage.
+
+Overall, respondents have positive, if outdated, views of the â€œLibrary.â€ Younger respondentsâ€”teenagers and young adultsâ€”do not express positive associations as frequently. These findings, and more, are valuable insights for anyone seeking to know more about the library usage and perceptions of college students and young people.
+
+This subset of the original <em>Perceptions</em> report is appropriate for provosts, deans and academic library administration. Read the report online or order a print copy using the links at the right, then use our feedback form to <a href="https://www3.oclc.org/app/percep/students/" target="form">tell us what you think</a>.</blockquote>
+
+
+<p>I&#8217;m eager to print this puppy out and read through it.Â  It may be eye-opening to read about what users <em>actually</em> think rather than the typicallyÂ confidentÂ proclamations aboutÂ users needs in the off-the-cuff, hand-wavy,Â evidence-bankrupt way thatÂ many (most?)Â tend toward.Â  I&#8217;m as guilty as the next guy or gal, but that doesn&#8217;t make it any more acceptable.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/05/19/unapi-revision-3-plug-in-for-wordpress/">unAPI Revision 3 Plug-in for WordPress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-19T09:23:22-04:00" pubdate data-updated="true">May 19<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The unAPI plug-in for WordPress has moved to the following location: <a href="http://www.lackoftalent.org/michael/blog/unapi-wordpress-plug-in/">http://www.lackoftalent.org/michael/blog/unapi-wordpress-plug-in/</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/05/18/unapi-rev3-compliance/">unAPI-rev3 Compliance</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-18T22:08:52-04:00" pubdate data-updated="true">May 18<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Technosophia is now compliant with <a href="http://unapi.info/specs/unapi-revision-3.html" target="_blank">unAPI-revision 3</a>.Â  Cruise around and let me know if you turn up any bugs.</p>
+
+<p>Â </p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/05/09/sharing-is-caring/">Sharing Is Caring</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-09T21:13:26-04:00" pubdate data-updated="true">May 9<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><font size="1">So I&#8217;m finally on del.icio.us. If anyone wants to recommend bookmarks for me (or vice versa), here I am:</font><font size="1"></p>
+
+<blockquote><a href="http://del.icio.us/Technosophia" target="_blank">http://del.icio.us/Technosophia</a></blockquote>
+
+
+<p>Â </p>
+
+<p /></font>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/05/02/the-jesters-case-for-fedora/">The Jester&#8217;s Case for Fedora</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-02T13:39:14-04:00" pubdate data-updated="true">May 2<span>nd</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Peter Murray has written a series of pieces about the <a title="Flexible Extensible Digital Object Repository Architecture" href="http://www.fedora.info/" target="_blank">Fedora digital repository system</a>Â over at the <a title="Disruptive Library Technology Jester" href="http://dltj.org/" target="_blank">Disruptive Library Technology Jester blog</a>.</p>
+
+<p>In the first piece, <a href="http://dltj.org/2006/01/general-purpose-repository/" target="_blank" rel="bookmark">On the Need for a General Purpose Digital Object Repository</a>, it is argued that having a unified repository simplifies management of information systems or &#8220;silos.&#8221;Â  For instance,Â there needn&#8217;t be duplication of workflows or synchronization of content if a numberÂ of an organization&#8217;s repositories, digital libraries, electronic journals, course management systems and so on are all built atop a robust institutional repository.Â  A unified repository is useful if one desires a search across previously disparate digital projects or collections, if one wishes to eliminate redundancies in coding, if one intends to have a particular object, collection of objects, or part of an object shared across different systems &#8211; e.g., a journal article repurposed in a course management system and deposited into an open archive.Â  With an open,Â flexible repository,Â like Fedora, such a configuration is possible assuming your organization, unit, or consortiumÂ has someone to devote to managing and customizing the repository.Â </p>
+
+<p>An advantage of using the Fedora system, as outlined in <a href="http://dltj.org/2006/04/why-fedora-because-you-dont-need-fedora/" target="_blank">Why Fedora? Because You Don&#8217;t Need Fedora</a>, is that due to modular design and adherence to more or less open standards, one is not necessarily wedded to Fedora for the foreseeable future.Â  Items inÂ a Fedora repository are serialized as XML objects, either in the <a href="http://www.fedora.info/download/2.1.1/userdocs/digitalobjects/rulesForMETS.html" target="_blank">Fedora-METS</a> or <a title="Fedora Object XML" href="http://www.fedora.info/download/2.0/userdocs/digitalobjects/introFOXML.html" target="_blank">FOXML</a> format.Â  While some of this information is copied into aÂ relational database system and anÂ <a title="Kowari at Sourceforge" href="http://kowari.sourceforge.net/" target="_blank">RDF triplestore</a> for speed and convenience, it is all intact within the serialized XML objects which reside in a predictable directory hierarchy on the local filesystem.Â  There are at least two advantages to this design:</p>
+
+<ol>
+    <li>Should Fedora experience a catastrophic system glitch, one may rebuild the entire system via a built-in utility (cleverly named &#8221;<a href="http://www.fedora.info/download/2.1.1/userdocs/server/cmd-line/index.html#rebuild" target="_blank">fedora-rebuild</a>&#8221;) that goes through the objects on the filesystem and restocks the database and triplestore.Â  And assuming that the administrator of the system is worth his salt, there should be regular full backups of the filesystem, so the entire repository should be rebuildable.Â  As Peter notes, a simple copy of the filesystem on which the XML objects reside is a fine practice in a larger digital preservation strategy.</li>
+    <li>If one decides to move away from Fedora to the Next Best Thingâ„¢, it should be relatively simple to migrate content from Fedora into the new system because of Fedora&#8217;s storage of all objects (and associated metadata, files, and disseminators) to the filesystem as serialized XML.Â  All one needs, perhaps,Â is a set of funky XSLT scripts to massage the objects into a format that works with the new system and voila.Â  (That is a gross oversimplification, but the point remains that open standards, simple file operations, and XML markup do make for more orderly migrations than black boxes, complex datastores, and loose coupling of information.)</li>
+    <li>Having one&#8217;s objects stored as XML on the filesystem also opens up opportunities to see how tools which act thereupon might be glued into the repository infrastructure.Â  One such example might be for an XML-aware search engine (such as <a href="http://www.etymon.com/tr.html" target="_blank">amberfish</a>, <a href="http://lucene.apache.org/" target="_blank">Lucene</a>, or <a href="http://www.indexdata.dk/zebra/" target="_blank">Zebra</a>).Â  Since you&#8217;ve got low-level access to these files, it would be fairly simple to tack on a search & indexingÂ system that is independent of your choice of repository.</li>
+</ol>
+
+
+<p>The third piece, <a href="http://dltj.org/2006/05/fedora-disseminators/" target="_blank">Thinking about Our Fedora Disseminators</a>, highlights Fedora as a repository system that&#8217;s put real emphasis on digital preservation.Â  While other repository systems allow for preservation of an object and its metadata, Fedora grants one the ability to preserve the<em> behavior</em> of digital objects and the datastreams thereof,Â a potentialÂ approach to the issue of format migration/emulation.Â Â Through a dissemination abstraction (the &#8220;behavior definition&#8221;) one might apply the same abstract behaviors to items in different formats, saving one the time ofÂ defining redundant behaviors.Â  My explanation is rather vague and incomplete, so I would encourage you to read Peter&#8217;s third piece in detail.Â  The point is that &#8220;for each record, <em>the application simply asked the repository to deliver a thumbnail of the object.</em> And the repository, regardless of media type, delivered one.&#8221;Â </p>
+
+<p>Taken together, Peter makes a strong case for Fedora as a fine back-end for a unified, multi-purposeÂ repository.Â  Unlike other repository systems that focus more on the front-end, Fedora focuses on being the plumbing, the &#8220;digital library operating system&#8221; as <a title="Ron's Bio at D-Lib" href="http://www.dlib.org/dlib/june05/authors/06authors.html#jantz" target="_blank">Ron Jantz</a> calls it.Â Â Â  Were I not already a Fedora enthusiast, I would find it quite difficult not to consider Fedora (or something like it, such asÂ LANL&#8217;s <a href="http://african.lanl.gov/aDORe/projects/adoreArchive/" target="_blank">aDORe Archive</a>)Â at MPOW.Â  Now if someone can send me some hints on drumming up institutional support&#8230;</p>
+
+<p>Â </p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/13/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/11/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h2>Recent Posts</h2>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2010/05/19/jsonovich-now-with-code-folding/">JSONovich: Now with code-folding!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/05/19/i2-resource-description/">I2: Resource Description</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/01/24/jsonovich-crawls-into-the-future/">JSONovich crawls into the future</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/12/22/forking/">Forking</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/09/27/exploring-curation-micro-services/">Exploring curation micro-services</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h2>Latest Tweets</h2>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+    <a href="http://twitter.com/mjgiarlo" class="twitter-follow-button" data-show-count="true">Follow @mjgiarlo</a>
+  
+</section>
+
+
+<section>
+  <h2>On Delicious</h2>
+  <div id="delicious"></div>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/technosophia?count=5&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+  <p><a href="http://delicious.com/technosophia">My Delicious Bookmarks &raquo;</a></p>
+</section>
+
+<section class="googleplus">
+  <h2>
+    <a href="https://plus.google.com/116359388875152424451?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h2>
+</section>
+
+
+
+<section>
+  <h2>GitHub Repos</h2>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/mjgiarlopsu-stewardship">@mjgiarlopsu-stewardship</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'mjgiarlopsu-stewardship',
+            count: 5,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+      </div>
+    </div>
+    <footer class="footer"><p>
+  Copyright &copy; 2012 - Mike Giarlo -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -
+  
+    <span class="credit">Theme by <a href="http://brianarmstrong.org">Brian Armstrong</a></span>
+  
+</p>
+</footer>
+    
+
+<script type="text/javascript">
+      var disqus_shortname = 'technosophia';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+    
+    $(document).ready(function(){
+      getTwitterFeed("mjgiarlo", 5, false);
+    });
+  </script>
+
+
+  </div>
+</body>
+</html>

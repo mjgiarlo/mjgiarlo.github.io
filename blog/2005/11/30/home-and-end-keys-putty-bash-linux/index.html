@@ -1,0 +1,399 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Home and End keys - PuTTY - bash - Linux - Octofutzing</title>
+  <meta name="author" content="Mike Giarlo">
+
+  
+  <meta name="description" content="Home and End Keys - PuTTY - Bash - Linux Nov 30th, 2005 <!-- google_ad_client = "ca-pub-7721655128098525"; /* Blog Main */ google_ad_slot = " &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://mjgiarlo.github.com/blog/2005/11/30/home-and-end-keys-putty-bash-linux">
+  <link href="/favicon.ico" rel="icon">
+  
+  <link href="/assets/bootstrap/css/spacelab.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/bootstrap/css/custom.css" rel="stylesheet" type="text/css">
+  <link href="/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+  
+  <link href="/atom.xml" rel="alternate" title="Octofutzing" type="application/atom+xml">
+  
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4185469-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body    data-spy="scroll">
+
+  <div class="container">
+    <header class="jumbotron subhead" id="overview">
+      <div class="subscribe">
+  <table>
+    <tr>
+      <td><span>Get Updates: &nbsp;</span></td>
+      <td><a href="#" onclick="window.open('','FeedBurner','menubar=no,width=600,height=600,toolbar=no'); return false;" class="btn"><i class="icon-envelope"></i> By Email</a></td>
+      <td><a href="/atom.xml" class="btn"><i class="icon-cog"></i> By RSS</a></td>
+      <td><a href="http://twitter.com/mjgiarlo" class="btn"><i class="icon-twitter-sign"></i> On Twitter</a></td>
+    </tr>
+  </table>
+</div>
+<h1 class="title">Octofutzing</h1>
+
+  <p class="lead">Playing with this here thing</p>
+
+      <div class="navbar">
+  <div class="navbar-inner">
+    <div class="container" style="width: auto;">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/archives">Blog</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        
+          <form action="http://google.com/search" method="get" class="navbar-search pull-left">
+            <fieldset role="search">
+              <input type="hidden" name="q" value="site:mjgiarlo.github.com" />
+              <input type="text" name="q" results="0" placeholder="Search" class="search-query span2" />
+            </fieldset>
+          </form>
+        
+        <ul class="nav pull-right">
+          <li>
+            <a style="padding: 7px 0 0 0;" href="http://feeds.feedburner.com/brianarmstrong/vTOG"><img src="http://feeds.feedburner.com/~fc/brianarmstrong/vTOG?bg=a1cefc&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>            
+          </li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div>
+  </div><!-- /navbar-inner -->
+</div>
+
+    </header>
+    <div id="main">
+      <div id="content">
+        <div class="row">
+  <div class="span8">
+    
+  <header>
+    
+      <h1 class="entry-title">Home and End Keys - PuTTY - Bash - Linux</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2005-11-30T17:30:00-05:00" pubdate data-updated="true">Nov 30<span>th</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  
+    <div style="float: right; padding-left: 15px; padding-botom: 15px; ">
+      <script type="text/javascript"><!--
+      google_ad_client = "ca-pub-7721655128098525";
+      /* Blog Main */
+      google_ad_slot = "7466725066";
+      google_ad_width = 336;
+      google_ad_height = 280;
+      //-->
+      </script>
+      <script type="text/javascript"
+      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+    </div>
+  
+  
+  <div class="entry-content"><p>Here&#8217;s a simple one. But first, some backstory.</p>
+
+<p>I&#8217;d been using the tcsh shell on my Linux servers for years, but I am now working in an environment where bash is the preferred shell. I view it as an opportunity to poke around in a shell that&#8217;s relatively unfamiliar to me as a dyed-in-the-wool tcsh user[<a href="http://www.lackoftalent.org/michael/blog/wp-admin/post.php#one">1</a>]. I&#8217;d also been used to connecting to my Linux servers with the SSH Communications Security version of the Secure Shell client. Unfortunately, the newest version of this client, which <em>is</em> available to me, will not connect to our department&#8217;s boxes due to the version (or configuration) of the OpenSSH libraries that have been installed. I&#8217;m new to this job, so I&#8217;m accepting this more or less on the authority of comments made by coworkers; I haven&#8217;t independently verified this, though I can confirm that I can&#8217;t connect with the SSH client. I switched to the <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty">PuTTY</a> SSH client, since it&#8217;s free, widely used, and supported by my colleagues. And, oh yeah, it connects to our Linux boxes.</p>
+
+<p>One of the neat features of the SSH Communications Security client is the ability map keys to certain other keys. For instance, I used to map the Home and End keys to &lt;Ctrl-a&gt; and &lt;Ctrl-e&gt; for ease of navigation on the command-line; sometimes the command strings I have to type are, to put it technically, <em>really frickin&#8217; long</em> and it&#8217;s nice to be able to make edits to the beginning and end of these command strings without holding down the left and right arrow keys for an hour. PuTTY does not have a key-mapping feature, so I was wondering how to get my Home and End keys to do more than just generate the &#8216;~&#8217; character. (Though such a feature is on PuTTY&#8217;s wish-list.)</p>
+
+<p>It turns out there&#8217;s a <em>simple fix</em>: just set the environment variable, TERM, to the value of &#8220;linux&#8221; in ~/.bash_profile (or .bashrc).</p>
+
+<p><code>export TERM=linux</code></p>
+
+<p>should do the trick. Make sure you logout and login again, or just source your bash config files. It&#8217;s possible that other TERM values do the trick as well, but &#8220;linux&#8221; has worked for me. Prior to that, the TERM variable was set to the value &#8220;xterm&#8221;.</p>
+
+<p>For some more shell-based key mapping geared toward the Backspace and Delete keys, see the <a href="http://www.ibb.net/~anne/keyboard.html">Consistent BackSpace and Delete Configuration</a> page.</p>
+
+<p><a name="one"></a>1. While I&#8217;ve used tcsh as my default shell for years, I do acknowledge the argument that <a href="http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/">csh programming is considered harmful</a>. I use the Bourne shell and Perl for scripting, though primarily the latter.</p>
+</div>
+
+  
+    <script type="text/javascript"><!--
+    google_ad_client = "ca-pub-7721655128098525";
+    /* Blog Bottom */
+    google_ad_slot = "4562123819";
+    google_ad_width = 728;
+    google_ad_height = 90;
+    //-->
+    </script>
+    <script type="text/javascript"
+    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+  
+
+
+    <footer>
+      <p class="meta">
+        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Mike Giarlo</span></span>
+
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2005-11-30T17:30:00-05:00" pubdate data-updated="true">Nov 30<span>th</span>, 2005</time>
+        
+
+
+      </p>
+      
+        <div class="sharing">
+  <br/>
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mjgiarlo.github.com/blog/2005/11/30/home-and-end-keys-putty-bash-linux/" data-via="mjgiarlo" data-counturl="http://mjgiarlo.github.com/blog/2005/11/30/home-and-end-keys-putty-bash-linux/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+      
+      <p class="meta">
+        
+        
+          <a class="basic-alignment right" href="/blog/2005/11/30/problems-joining-a-windows-2003-active-directory-domain/" title="Next Post: Problems joining a Windows 2003 Active Directory domain">Problems joining a Windows 2003 Active Directory domain &raquo;</a>
+        
+      </p>
+    </footer>
+    
+    
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+    
+  </div>
+
+  
+  <div class="span4 sidebar">
+    <div class="well">
+      
+        <section>
+  <h2>Recent Posts</h2>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2010/05/19/jsonovich-now-with-code-folding/">JSONovich: Now with code-folding!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/05/19/i2-resource-description/">I2: Resource Description</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/01/24/jsonovich-crawls-into-the-future/">JSONovich crawls into the future</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/12/22/forking/">Forking</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/09/27/exploring-curation-micro-services/">Exploring curation micro-services</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h2>Latest Tweets</h2>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+    <a href="http://twitter.com/mjgiarlo" class="twitter-follow-button" data-show-count="true">Follow @mjgiarlo</a>
+  
+</section>
+
+
+<section>
+  <h2>On Delicious</h2>
+  <div id="delicious"></div>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/technosophia?count=5&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+  <p><a href="http://delicious.com/technosophia">My Delicious Bookmarks &raquo;</a></p>
+</section>
+
+<section class="googleplus">
+  <h2>
+    <a href="https://plus.google.com/116359388875152424451?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h2>
+</section>
+
+
+
+<section>
+  <h2>GitHub Repos</h2>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/mjgiarlopsu-stewardship">@mjgiarlopsu-stewardship</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'mjgiarlopsu-stewardship',
+            count: 5,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+      
+    </div>
+  </div>
+
+</div>
+
+
+      </div>
+    </div>
+    <footer class="footer"><p>
+  Copyright &copy; 2012 - Mike Giarlo -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -
+  
+    <span class="credit">Theme by <a href="http://brianarmstrong.org">Brian Armstrong</a></span>
+  
+</p>
+</footer>
+    
+
+<script type="text/javascript">
+      var disqus_shortname = 'technosophia';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+    
+    $(document).ready(function(){
+      getTwitterFeed("mjgiarlo", 5, false);
+    });
+  </script>
+
+
+  </div>
+</body>
+</html>
