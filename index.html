@@ -1,35 +1,24 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Octofutzing</title>
-  <meta name="author" content="Mike Giarlo">
+    <meta charset="utf-8">
+    <title>Octofutzing</title>
+    <meta name="author" content="Mike Giarlo">
 
-  
-  <meta name="description" content="Thanks to a clean patch from Sean Coates, I&#8217;m releasing v1.5 of JSONovich. It now supports code-folding. Great hack, Sean!
-">
-  
+    
+    <meta name="description" content="JSONovich: Now With Code-folding! Thanks to a clean patch from Sean Coates, I&#8217;m releasing v1.5 of JSONovich. It now supports code-folding. &hellip;">
+    
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://mjgiarlo.github.com">
-  <link href="/favicon.ico" rel="icon">
-  
-  <link href="/assets/bootstrap/css/spacelab.min.css" rel="stylesheet" type="text/css">
-  <link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-  <link href="/assets/bootstrap/css/custom.css" rel="stylesheet" type="text/css">
-  <link href="/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
-  
-  <link href="/atom.xml" rel="alternate" title="Octofutzing" type="application/atom+xml">
-  
-  
+    <link href="/atom.xml" rel="alternate" title="Octofutzing" type="application/atom+xml">
+    <link rel="canonical" href="">
+    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+    
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-4185469-1']);
@@ -45,128 +34,91 @@
 
 </head>
 
-<body    data-spy="scroll">
-
-  <div class="container">
-    <header class="jumbotron subhead" id="overview">
-      <div class="subscribe">
-  <table>
-    <tr>
-      <td><span>Get Updates: &nbsp;</span></td>
-      <td><a href="#" onclick="window.open('','FeedBurner','menubar=no,width=600,height=600,toolbar=no'); return false;" class="btn"><i class="icon-envelope"></i> By Email</a></td>
-      <td><a href="/atom.xml" class="btn"><i class="icon-cog"></i> By RSS</a></td>
-      <td><a href="http://twitter.com/mjgiarlo" class="btn"><i class="icon-twitter-sign"></i> On Twitter</a></td>
-    </tr>
-  </table>
+<body>
+	<header class="inner"><h1 class="left"><a href="/">Octofutzing</a></h1>
+<nav class="menu left"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<div class="right">
+	<form class="search right" action="http://google.com/search" method="get">
+		<input class="left" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:mjgiarlo.github.com">
+	</form>
+	<div class="social right">
+		
+		<a class="facebook" href="http://www.facebook.com/mjgiarlo" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/116359388875152424451" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/mjgiarlo" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/mjgiarlopsu-stewardship" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
 </div>
-<h1 class="title">Octofutzing</h1>
 
-  <p class="lead">Playing with this here thing</p>
+</header>
+	
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/mjgiarlo">mjgiarlo</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('mjgiarlo', 5, false);
+	})(jQuery);
+</script>
 
-      <div class="navbar">
-  <div class="navbar-inner">
-    <div class="container" style="width: auto;">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <div class="nav-collapse">
-        <ul class="nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog/archives">Blog</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
+	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2010/05/19/jsonovich-now-with-code-folding/">JSONovich: Now With Code-folding!</a></h1>
+    <div class="entry">
+        <p>Thanks to a clean patch from <a href="http://twitter.com/coates/status/14322361424">Sean Coates</a>, I&#8217;m releasing v1.5 of JSONovich.  It now supports code-folding.  Great hack, Sean!</p>
+
         
-          <form action="http://google.com/search" method="get" class="navbar-search pull-left">
-            <fieldset role="search">
-              <input type="hidden" name="q" value="site:mjgiarlo.github.com" />
-              <input type="text" name="q" results="0" placeholder="Search" class="search-query span2" />
-            </fieldset>
-          </form>
         
-        <ul class="nav pull-right">
-          <li>
-          <!--  <a style="padding: 7px 0 0 0;" href="http://feeds.feedburner.com/brianarmstrong/vTOG"><img src="http://feeds.feedburner.com/~fc/brianarmstrong/vTOG?bg=a1cefc&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>        -->    
-          </li>
-        </ul>
-      </div><!-- /.nav-collapse -->
     </div>
-  </div><!-- /navbar-inner -->
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-19T20:21:51-04:00" pubdate data-updated="true">May 19<span>th</span>, 2010</time></div>
+        <div class="tags">
+
 </div>
-
-    </header>
-    <div id="main">
-      <div id="content">
-        <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/05/19/jsonovich-now-with-code-folding/">JSONovich: Now With Code-folding!</a></h1>
-    
-    
-      <p class="meta">
         
+    </div>
+</article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-05-19T20:21:51-04:00" pubdate data-updated="true">May 19<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Thanks to a clean patch from <a href="http://twitter.com/coates/status/14322361424">Sean Coates</a>, I&#8217;m releasing v1.5 of JSONovich.  It now supports code-folding.  Great hack, Sean!</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/05/19/i2-resource-description/">I2: Resource Description</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-05-19T09:38:18-04:00" pubdate data-updated="true">May 19<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I can hardly believe it&#8217;s been eight months since I last wrote about the <a href="http://lackoftalent.org/michael/blog/category/projects/niso-i2/">NISO I2</a> project.  A lot has changed since then ((I&#8217;ve moved and <a href="http://lackoftalent.org/michael/blog/2009/12/22/forking/">changed jobs</a>, in fact)).  I continue to work on I2 however; they won&#8217;t get rid of me that easily.</p>
+    <article class="post">
+    <h1 class="title"><a href="/blog/2010/05/19/i2-resource-description/">I2: Resource Description</a></h1>
+    <div class="entry">
+        <p>I can hardly believe it&#8217;s been eight months since I last wrote about the <a href="http://lackoftalent.org/michael/blog/category/projects/niso-i2/">NISO I2</a> project.  A lot has changed since then ((I&#8217;ve moved and <a href="http://lackoftalent.org/michael/blog/2009/12/22/forking/">changed jobs</a>, in fact)).  I continue to work on I2 however; they won&#8217;t get rid of me that easily.</p>
 
 <p>In the <a href="http://lackoftalent.org/michael/blog/2009/09/15/i2-survey-results/">last post</a>, I wrote:<blockquote>The next step is to build upon the report to draw yet more conclusions from the data â€” there&#8217;s an awful lot there â€” and flesh out some repository use cases for institutional identifiers. The I2 core group is moving quickly towards finalizing identifier metadata elements so that a standard may be drafted, and I think having some use cases documented will help drive the standard in a direction the community can get behind.</blockquote> Since that time, the three scenario groups &#8211; Electronic Resources; Institutional Repositories and Learning Management Systems; and Library Resource Management &#8211; have concluded their work.  The work of the scenario groups included surveys of over 300 people working in these fields.  The survey results have been analyzed and reports were posted on the NISO website.  These reports have been used to flesh out use cases for an institutional identifier.  Upon completion of this work, the scenario groups were disbanded and work continued in a broader I2 working group.</p>
 
@@ -176,169 +128,137 @@
 
 <p>I have been working on the RDF for I2 on and off for the past month or two.  Below are my impressions, as someone who is new to modeling in RDF, and the procedures I used to produce the draft RDF schema.</p>
 
+
+        
+        <a href="/blog/2010/05/19/i2-resource-description/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-19T09:38:18-04:00" pubdate data-updated="true">May 19<span>th</span>, 2010</time></div>
+        <div class="tags">
+
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2010/05/19/i2-resource-description/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/01/24/jsonovich-crawls-into-the-future/">JSONovich Crawls Into the Future</a></h1>
-    
-    
-      <p class="meta">
         
+    </div>
+</article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-01-24T14:28:27-05:00" pubdate data-updated="true">Jan 24<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>For those of you who use JSONovich rather than, e.g., <a href="https://addons.mozilla.org/en-US/firefox/addon/10869">JSONView</a>, I&#8217;ve tweaked the plugin (now at version 1.3) to work with Firefox 3.6.</p>
+    <article class="post">
+    <h1 class="title"><a href="/blog/2010/01/24/jsonovich-crawls-into-the-future/">JSONovich Crawls Into the Future</a></h1>
+    <div class="entry">
+        <p>For those of you who use JSONovich rather than, e.g., <a href="https://addons.mozilla.org/en-US/firefox/addon/10869">JSONView</a>, I&#8217;ve tweaked the plugin (now at version 1.3) to work with Firefox 3.6.</p>
 
 <p>I updated the version up on the Mozilla site as well, but things tend to stay in the sandbox for months at a time.  (For instance, I submitted version 1.2 back in November, and it&#8217;s not yet available.)  Feel free to install via <a href="http://lackoftalent.org/michael/blog/json-in-firefox/">my page</a>.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-24T14:28:27-05:00" pubdate data-updated="true">Jan 24<span>th</span>, 2010</time></div>
+        <div class="tags">
+
 </div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2009/12/22/forking/">Forking</a></h1>
-    
-    
-      <p class="meta">
         
+    </div>
+</article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-12-22T02:46:04-05:00" pubdate data-updated="true">Dec 22<span>nd</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I am not certain if this is a good idea or not, but I decided to set up a &#8220;work blog&#8221; as I set off on my <a href="http://twitter.com/mjgiarlo/status/4738074594">new path as a digital library architect</a>.  The lines between this blog and that blog are fuzzy &#8211; most lines are, in my eyes &#8211; so bear with me.  I&#8217;ve never been a prolific writer &#8211; it&#8217;s always a chore, an activity I simultaneously want to do more of, and do better, and also struggle mightily with.  (It&#8217;s the public school education?  HAR HAR!)   But even so, the posts here may slow yet more.  Or maybe that will be true of the new blog.  We shall see.</p>
+    <article class="post">
+    <h1 class="title"><a href="/blog/2009/12/22/forking/">Forking</a></h1>
+    <div class="entry">
+        <p>I am not certain if this is a good idea or not, but I decided to set up a &#8220;work blog&#8221; as I set off on my <a href="http://twitter.com/mjgiarlo/status/4738074594">new path as a digital library architect</a>.  The lines between this blog and that blog are fuzzy &#8211; most lines are, in my eyes &#8211; so bear with me.  I&#8217;ve never been a prolific writer &#8211; it&#8217;s always a chore, an activity I simultaneously want to do more of, and do better, and also struggle mightily with.  (It&#8217;s the public school education?  HAR HAR!)   But even so, the posts here may slow yet more.  Or maybe that will be true of the new blog.  We shall see.</p>
 
 <p>I&#8217;ve found that microblogging has largely filled the blogging gap for me; I&#8217;m more comfortable, somehow, posting smaller, more easily digestible &#8220;thoughtlets&#8221; via <a href="http://twitter.com/mjgiarlo">Twitter</a>/<a href="http://identi.ca/mjgiarlo">identi.ca</a>/<a href="http://facebook.com/mjgiarlo">Facebook</a>.  Perhaps I&#8217;ve succumbed to attention deficit disorder, flitting from one tiny undeveloped idea to the next.  It&#8217;s probable but I digress.</p>
 
 <p>If you&#8217;re interested, you can follow along as I grapple with <a href="http://www.personal.psu.edu/mjg36/blogs/">questions about digital library architecture</a>.  Comments are most welcome, both here and there, as always.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-12-22T02:46:04-05:00" pubdate data-updated="true">Dec 22<span>nd</span>, 2009</time></div>
+        <div class="tags">
+
 </div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2009/09/27/exploring-curation-micro-services/">Exploring Curation Micro-services</a></h1>
-    
-    
-      <p class="meta">
         
+    </div>
+</article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-09-27T00:00:29-04:00" pubdate data-updated="true">Sep 27<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://lackoftalent.org/images/micro_repo_thumb.png" alt="thumbnail of micro-repo tree" style="float: left"/>As far as I&#8217;m concerned, the most exciting developments this year in  repositories and digital curation have come out of the California Digital Library.  It has been impossible <a href="http://conferences.library.gatech.edu/or/or09/paper/view/95">not</a> <a href="http://uccsc2009.ucdavis.edu/preso/UCCSC-2009-CDL-PODS-v05.ppt">to</a> <a href="http://www.ijdc.net/index.php/ijdc/article/view/98">notice</a> <a href="https://meeting-reg.com/sunpasig/abstracts.php">their</a> <a href="http://www.digitalpreservation.gov/news/events/ndiipp_meetings/ndiipp09/docs/NDIIPP%20Partner%20Meeting%202009_Breakout%20Session%20Schedule.pdf">papers</a> <a href="http://www.ijdc.net/index.php/ijdc/article/view/108/84">and</a> <a href="http://www.cdlib.org/iPres/confsched.html">presentations</a>.  Put simply, their idea is that digital curation is enabled by &#8220;micro-services&#8221; built upon well-known abstractions such as the filesystem.  The benefits are obvious: filesystem tools are ubiquitous and cross-platform, and there are strong market forces to ensure the filesystem persists.  The idea is radically simple and straightforward, though many questions remain about such a paradigm.  I&#8217;ll return to those later.</p>
+    <article class="post">
+    <h1 class="title"><a href="/blog/2009/09/27/exploring-curation-micro-services/">Exploring Curation Micro-services</a></h1>
+    <div class="entry">
+        <p><img src="http://lackoftalent.org/images/micro_repo_thumb.png" alt="thumbnail of micro-repo tree" style="float: left"/>As far as I&#8217;m concerned, the most exciting developments this year in  repositories and digital curation have come out of the California Digital Library.  It has been impossible <a href="http://conferences.library.gatech.edu/or/or09/paper/view/95">not</a> <a href="http://uccsc2009.ucdavis.edu/preso/UCCSC-2009-CDL-PODS-v05.ppt">to</a> <a href="http://www.ijdc.net/index.php/ijdc/article/view/98">notice</a> <a href="https://meeting-reg.com/sunpasig/abstracts.php">their</a> <a href="http://www.digitalpreservation.gov/news/events/ndiipp_meetings/ndiipp09/docs/NDIIPP%20Partner%20Meeting%202009_Breakout%20Session%20Schedule.pdf">papers</a> <a href="http://www.ijdc.net/index.php/ijdc/article/view/108/84">and</a> <a href="http://www.cdlib.org/iPres/confsched.html">presentations</a>.  Put simply, their idea is that digital curation is enabled by &#8220;micro-services&#8221; built upon well-known abstractions such as the filesystem.  The benefits are obvious: filesystem tools are ubiquitous and cross-platform, and there are strong market forces to ensure the filesystem persists.  The idea is radically simple and straightforward, though many questions remain about such a paradigm.  I&#8217;ll return to those later.</p>
 
 <p>If you have not yet taken a look at CDL&#8217;s curation micro-service specifications, most of which may be printed on as few as one or two sheets of paper, see the <a href="http://www.cdlib.org/inside/diglib/">Digital Library Building Blocks</a>.</p>
 
 <p>My co-workers in the LC Repository Development Center have been chatting about these specs on and off throughout the year.  After months of procrastinating, I finally read all of the specs on Thursday; it&#8217;s wonderful that you can do so in the course of one reading session, I might add.  Yesterday a bunch of us RDCers got together to chat (informally) about the specs: what they&#8217;re for, how they work, and how they interact with one another.  I learn by doing, by examples, so I combed through each of the specs in advance of our meeting and tried to <a href="http://twitter.com/mjgiarlo/statuses/4371794936">construct</a> a minimal repository ((Perhaps it&#8217;s more in line with the specs to refer to this space as &#8220;a managed filesystem that drives repository and curation services,&#8221; given the CDL philosophy that preservation is not a place/repository.  But it&#8217;s easier to say &#8220;repository,&#8221; so there you go.)) based on micro-services.</p>
 
+
+        
+        <a href="/blog/2009/09/27/exploring-curation-micro-services/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-09-27T00:00:29-04:00" pubdate data-updated="true">Sep 27<span>th</span>, 2009</time></div>
+        <div class="tags">
+
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2009/09/27/exploring-curation-micro-services/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2009/09/26/command-line-shuffle/">Command-line Shuffle</a></h1>
-    
-    
-      <p class="meta">
         
+    </div>
+</article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-09-26T16:50:05-04:00" pubdate data-updated="true">Sep 26<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Being a nerd, I tend to like the command-line.  When I&#8217;m working on my laptop at home, I tend to like listening to music.  Before I discovered that <a href="http://en.wikipedia.org/wiki/MPlayer">mplayer</a> had a really convenient shuffle idiom, I would invoke it thusly (to listen to all my Pavement tracks in shuffle mode):</p>
+    <article class="post">
+    <h1 class="title"><a href="/blog/2009/09/26/command-line-shuffle/">Command-line Shuffle</a></h1>
+    <div class="entry">
+        <p>Being a nerd, I tend to like the command-line.  When I&#8217;m working on my laptop at home, I tend to like listening to music.  Before I discovered that <a href="http://en.wikipedia.org/wiki/MPlayer">mplayer</a> had a really convenient shuffle idiom, I would invoke it thusly (to listen to all my Pavement tracks in shuffle mode):</p>
 
 <pre lang="bash">
 export IFS=$'\n'
@@ -367,65 +287,78 @@ sys.stdout.writelines(args)
 find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist - -shuffle -loop 0
 </pre>
 
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-09-26T16:50:05-04:00" pubdate data-updated="true">Sep 26<span>th</span>, 2009</time></div>
+        <div class="tags">
+
 </div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2009/09/15/i2-survey-results/">I2: Survey Results</a></h1>
-    
-    
-      <p class="meta">
         
+    </div>
+</article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-09-15T08:29:55-04:00" pubdate data-updated="true">Sep 15<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I <a href="http://lackoftalent.org/michael/blog/2009/06/20/i2-survey/">wrote</a> in June that the I2 subgroup surveyed &#8220;repository managers to determine the current practices and needs of the repository community regarding institutional identifiers. Results from the survey will inform a set of use cases that will be shared with the community, and that are expected to drive the development of a new standard for institutional identifiers.&#8221;</p>
+    <article class="post">
+    <h1 class="title"><a href="/blog/2009/09/15/i2-survey-results/">I2: Survey Results</a></h1>
+    <div class="entry">
+        <p>I <a href="http://lackoftalent.org/michael/blog/2009/06/20/i2-survey/">wrote</a> in June that the I2 subgroup surveyed &#8220;repository managers to determine the current practices and needs of the repository community regarding institutional identifiers. Results from the survey will inform a set of use cases that will be shared with the community, and that are expected to drive the development of a new standard for institutional identifiers.&#8221;</p>
 
 <p>The survey closed in July, and the subgroup spent August writing a report on the survey results.  That report is now <a href="http://www.niso.org/apps/group_public/document.php?document_id=2773">final</a> and it&#8217;s available to the public.  Feedback may be sent to our (woefully underutilized) public <a href="http://www.niso.org/lists/i2info/">i2info</a> mailing list, left as a comment on this post, or e-mailed to me privately which I can forward to our internal list.</p>
 
 <p>The next step is to build upon the report to draw yet more conclusions from the data &#8211; there&#8217;s an awful lot there &#8211; and flesh out some repository use cases for institutional identifiers.  The I2 core group is moving quickly towards finalizing identifier metadata elements so that a standard may be drafted, and I think having some use cases documented will help drive the standard in a direction the community can get behind.</p>
 
 <p>Onward and upward.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-09-15T08:29:55-04:00" pubdate data-updated="true">Sep 15<span>th</span>, 2009</time></div>
+        <div class="tags">
+
 </div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2009/08/24/jsonovich-emerges/">JSONovich Emerges</a></h1>
-    
-    
-      <p class="meta">
         
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2009/08/24/jsonovich-emerges/">JSONovich Emerges</a></h1>
+    <div class="entry">
+        <p><a href="http://lackoftalent.org/michael/blog/json-in-firefox/">JSONovich</a> has now emerged from the Mozilla Add-ons <a href="http://lackoftalent.org/michael/blog/2008/12/23/jsonovich-in-the-sandbox/">sandbox</a> and is available to the masses: <a href="http://addons.mozilla.org/en-US/firefox/addon/10122">http://addons.mozilla.org/en-US/firefox/addon/10122</a>.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
 
 
 
@@ -437,50 +370,19 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
   
 
 
-<time datetime="2009-08-24T14:18:50-04:00" pubdate data-updated="true">Aug 24<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2009-08-24T14:18:50-04:00" pubdate data-updated="true">Aug 24<span>th</span>, 2009</time></div>
+        <div class="tags">
 
-
-  <div class="entry-content"><p><a href="http://lackoftalent.org/michael/blog/json-in-firefox/">JSONovich</a> has now emerged from the Mozilla Add-ons <a href="http://lackoftalent.org/michael/blog/2008/12/23/jsonovich-in-the-sandbox/">sandbox</a> and is available to the masses: <a href="http://addons.mozilla.org/en-US/firefox/addon/10122">http://addons.mozilla.org/en-US/firefox/addon/10122</a>.</p>
 </div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2009/08/10/linking-world-digital-library-data/">Linking World Digital Library Data</a></h1>
-    
-    
-      <p class="meta">
         
+    </div>
+</article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-08-10T18:44:29-04:00" pubdate data-updated="true">Aug 10<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>As I <a href="/michael/blog/2009/07/31/validating-ore-from-the-command-line/">mentioned earlier</a>, I&#8217;ve been learning about linked data in the context of dropping it into the <a href="http://www.wdl.org">World Digital Library</a> project.  I am hopeful we&#8217;ll be able to deploy the RDF views ((Sadly, the URIs are uglyish due to some constraints from our caching configuration.  I figure we can redirect uglyish URIs to cool ones and make use of owl:sameAs if those constraints go away.)) before too long.  In advance of that, I thought it might be helpful to share a sample of what our RDF would look like.  The RDF below represents the WDL item for the U.S. Constitution.  I appreciate constructive criticism.</p>
+    <article class="post">
+    <h1 class="title"><a href="/blog/2009/08/10/linking-world-digital-library-data/">Linking World Digital Library Data</a></h1>
+    <div class="entry">
+        <p>As I <a href="/michael/blog/2009/07/31/validating-ore-from-the-command-line/">mentioned earlier</a>, I&#8217;ve been learning about linked data in the context of dropping it into the <a href="http://www.wdl.org">World Digital Library</a> project.  I am hopeful we&#8217;ll be able to deploy the RDF views ((Sadly, the URIs are uglyish due to some constraints from our caching configuration.  I figure we can redirect uglyish URIs to cool ones and make use of owl:sameAs if those constraints go away.)) before too long.  In advance of that, I thought it might be helpful to share a sample of what our RDF would look like.  The RDF below represents the WDL item for the U.S. Constitution.  I appreciate constructive criticism.</p>
 
 <p>A few things to note:</p>
 
@@ -498,46 +400,36 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
 
 <p>The data after the jump:</p>
 
+
+        
+        <a href="/blog/2009/08/10/linking-world-digital-library-data/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-08-10T18:44:29-04:00" pubdate data-updated="true">Aug 10<span>th</span>, 2009</time></div>
+        <div class="tags">
+
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2009/08/10/linking-world-digital-library-data/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2009/08/10/is-marc-a-data-model/">Is MARC a Data Model?</a></h1>
-    
-    
-      <p class="meta">
         
+    </div>
+</article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-08-10T08:49:55-04:00" pubdate data-updated="true">Aug 10<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I posted a status update to <a href="http://twitter.com/mjgiarlo/statuses/3215173861">Twitter</a>, <a href="http://identi.ca/notice/7827179">identi.ca</a>, and <a href="http://facebook.com/mjgiarlo?story_fbid=255213260600">Facebook</a> late last night hoping to suss out two questions:<ol>
+    <article class="post">
+    <h1 class="title"><a href="/blog/2009/08/10/is-marc-a-data-model/">Is MARC a Data Model?</a></h1>
+    <div class="entry">
+        <p>I posted a status update to <a href="http://twitter.com/mjgiarlo/statuses/3215173861">Twitter</a>, <a href="http://identi.ca/notice/7827179">identi.ca</a>, and <a href="http://facebook.com/mjgiarlo?story_fbid=255213260600">Facebook</a> late last night hoping to suss out two questions:<ol>
 <li>Is MARC a data model?</li>
 <li>But really: what qualifies something as a data model?</li>
 </ol></p>
@@ -548,127 +440,42 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
 
 <p>I thought I&#8217;d share the responses, too.  Responses from Twitter are included in full w/ links to the original.  Responses from quasi-public Facebook have been anonymized.  You can see my replies interspersed as well and watch the evolution of the (admittedly short) discussion.  After the jump:</p>
 
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2009/08/10/is-marc-a-data-model/">Read on &rarr;</a>
-    </footer>
-  
 
-
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/2/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h2>Recent Posts</h2>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2010/05/19/jsonovich-now-with-code-folding/">JSONovich: Now with code-folding!</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2010/05/19/i2-resource-description/">I2: Resource Description</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2010/01/24/jsonovich-crawls-into-the-future/">JSONovich crawls into the future</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2009/12/22/forking/">Forking</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2009/09/27/exploring-curation-micro-services/">Exploring curation micro-services</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h2>Latest Tweets</h2>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-    <a href="http://twitter.com/mjgiarlo" class="twitter-follow-button" data-show-count="true">Follow @mjgiarlo</a>
-  
-</section>
-
-
-<section>
-  <h2>On Delicious</h2>
-  <div id="delicious"></div>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/technosophia?count=5&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
-  <p><a href="http://delicious.com/technosophia">My Delicious Bookmarks &raquo;</a></p>
-</section>
-
-<section class="googleplus">
-  <h2>
-    <a href="https://plus.google.com/116359388875152424451?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h2>
-</section>
-
-
-
-<section>
-  <h2>GitHub Repos</h2>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/mjgiarlopsu-stewardship">@mjgiarlopsu-stewardship</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'mjgiarlopsu-stewardship',
-            count: 5,
-            skip_forks: false,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-  
-</aside>
-
-      </div>
+        
+        <a href="/blog/2009/08/10/is-marc-a-data-model/" class="more-link">Read on &rarr;</a>
     </div>
-    <footer class="footer"><p>
-  Copyright &copy; 2012 - Mike Giarlo -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
   
-    <span class="credit">Theme by <a href="http://brianarmstrong.org">Brian Armstrong</a></span>
-  
-</p>
-</footer>
+
+
+<time datetime="2009-08-10T08:49:55-04:00" pubdate data-updated="true">Aug 10<span>th</span>, 2009</time></div>
+        <div class="tags">
+
+</div>
+        
+    </div>
+</article>
+
+<nav id="pagenavi">
     
+    
+        <a href="/blog/page/2/" class="next">Next</a>
+    
+    <a href="/blog/archives" class="center">Blog Archives</a>
+</nav></div>
+	<footer class="inner">Copyright &copy; 2012 Octofutzing</footer>
+	<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/slash.js"></script>
+
 
 <script type="text/javascript">
       var disqus_shortname = 'technosophia';
@@ -685,46 +492,5 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
 
 
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-    
-    $(document).ready(function(){
-      getTwitterFeed("mjgiarlo", 5, false);
-    });
-  </script>
-
-
-  </div>
 </body>
 </html>

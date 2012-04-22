@@ -1,34 +1,24 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>OAI-PMH in XQuery - Octofutzing</title>
-  <meta name="author" content="Mike Giarlo">
+    <meta charset="utf-8">
+    <title>OAI-PMH in XQuery - Octofutzing</title>
+    <meta name="author" content="Mike Giarlo">
 
-  
-  <meta name="description" content="OAI-PMH in XQuery Sep 25th, 2007 <!-- google_ad_client = "ca-pub-7721655128098525"; /* Blog Main */ google_ad_slot = "7466725066"; google_ad_width &hellip;">
-  
+    
+    <meta name="description" content="OAI-PMH in XQuery Thanks for the nod, Winona. Hopefully you folks will get some good use out of the XQuery-based OAI-PMH data provider I&#8217;ve &hellip;">
+    
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://mjgiarlo.github.com/blog/2007/09/25/oai-pmh-in-xquery">
-  <link href="/favicon.ico" rel="icon">
-  
-  <link href="/assets/bootstrap/css/spacelab.min.css" rel="stylesheet" type="text/css">
-  <link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-  <link href="/assets/bootstrap/css/custom.css" rel="stylesheet" type="text/css">
-  <link href="/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
-  
-  <link href="/atom.xml" rel="alternate" title="Octofutzing" type="application/atom+xml">
-  
-  
+    <link href="/atom.xml" rel="alternate" title="Octofutzing" type="application/atom+xml">
+    <link rel="canonical" href="">
+    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+    
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-4185469-1']);
@@ -44,105 +34,57 @@
 
 </head>
 
-<body    data-spy="scroll">
-
-  <div class="container">
-    <header class="jumbotron subhead" id="overview">
-      <div class="subscribe">
-  <table>
-    <tr>
-      <td><span>Get Updates: &nbsp;</span></td>
-      <td><a href="#" onclick="window.open('','FeedBurner','menubar=no,width=600,height=600,toolbar=no'); return false;" class="btn"><i class="icon-envelope"></i> By Email</a></td>
-      <td><a href="/atom.xml" class="btn"><i class="icon-cog"></i> By RSS</a></td>
-      <td><a href="http://twitter.com/mjgiarlo" class="btn"><i class="icon-twitter-sign"></i> On Twitter</a></td>
-    </tr>
-  </table>
-</div>
-<h1 class="title">Octofutzing</h1>
-
-  <p class="lead">Playing with this here thing</p>
-
-      <div class="navbar">
-  <div class="navbar-inner">
-    <div class="container" style="width: auto;">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <div class="nav-collapse">
-        <ul class="nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog/archives">Blog</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-        
-          <form action="http://google.com/search" method="get" class="navbar-search pull-left">
-            <fieldset role="search">
-              <input type="hidden" name="q" value="site:mjgiarlo.github.com" />
-              <input type="text" name="q" results="0" placeholder="Search" class="search-query span2" />
-            </fieldset>
-          </form>
-        
-        <ul class="nav pull-right">
-          <li>
-          <!--  <a style="padding: 7px 0 0 0;" href="http://feeds.feedburner.com/brianarmstrong/vTOG"><img src="http://feeds.feedburner.com/~fc/brianarmstrong/vTOG?bg=a1cefc&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>        -->    
-          </li>
-        </ul>
-      </div><!-- /.nav-collapse -->
-    </div>
-  </div><!-- /navbar-inner -->
+<body>
+	<header class="inner"><h1 class="left"><a href="/">Octofutzing</a></h1>
+<nav class="menu left"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<div class="right">
+	<form class="search right" action="http://google.com/search" method="get">
+		<input class="left" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:mjgiarlo.github.com">
+	</form>
+	<div class="social right">
+		
+		<a class="facebook" href="http://www.facebook.com/mjgiarlo" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/116359388875152424451" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/mjgiarlo" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/mjgiarlopsu-stewardship" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
 </div>
 
-    </header>
-    <div id="main">
-      <div id="content">
-        <div class="row">
-  <div class="span8">
-    
-  <header>
-    
-      <h1 class="entry-title">OAI-PMH in XQuery</h1>
-    
-    
-      <p class="meta">
-        
+</header>
+	
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/mjgiarlo">mjgiarlo</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('mjgiarlo', 5, false);
+	})(jQuery);
+</script>
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-09-25T13:48:44-04:00" pubdate data-updated="true">Sep 25<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  
-    <div style="float: right; padding-left: 15px; padding-botom: 15px; ">
-      <script type="text/javascript"><!--
-      google_ad_client = "ca-pub-7721655128098525";
-      /* Blog Main */
-      google_ad_slot = "7466725066";
-      google_ad_width = 336;
-      google_ad_height = 280;
-      //-->
-      </script>
-      <script type="text/javascript"
-      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-      </script>
-    </div>
-  
-  
-  <div class="entry-content"><p>Thanks for the nod, <a href="http://thedil.wordpress.com/2007/09/25/xquery-and-oai/" target="_blank">Winona</a>.  Hopefully you folks will get some good use out of the <a href="http://diglib2.princeton.edu/oss/wiki/xqOAI" target="_blank">XQuery-based OAI-PMH data provider</a> I&#8217;ve been working on.</p>
+	<div id="content" class="inner"><article class="post">
+    <h1 class="title">OAI-PMH in XQuery</h1>
+    <div class="entry"><p>Thanks for the nod, <a href="http://thedil.wordpress.com/2007/09/25/xquery-and-oai/" target="_blank">Winona</a>.  Hopefully you folks will get some good use out of the <a href="http://diglib2.princeton.edu/oss/wiki/xqOAI" target="_blank">XQuery-based OAI-PMH data provider</a> I&#8217;ve been working on.</p>
 
 <p>I just want to clarify that only one small bit of the code is specific to X-Hive, and that&#8217;s a call to an extension that gets last-modified dates from the X-Hive service.  We do not reliably store this information in the metadata itself, and so I needed to go this route.  Some folks do store this in MODS or elsewhere in descriptive or administrative metadata.  It should be a two-line change to short-circuit this behavior (xhive-exts:last-update() is only invoked in two places, I believe).</p>
 
@@ -150,30 +92,8 @@
 
 <p>I&#8217;ll be interested to hear more of UVM&#8217;s implementation and how I can make this thing more useful to others.</p>
 </div>
-
-  
-    <script type="text/javascript"><!--
-    google_ad_client = "ca-pub-7721655128098525";
-    /* Blog Bottom */
-    google_ad_slot = "4562123819";
-    google_ad_width = 728;
-    google_ad_height = 90;
-    //-->
-    </script>
-    <script type="text/javascript"
-    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
-  
-
-
-    <footer>
-      <p class="meta">
-        
-  
-
-<span class="byline author vcard">Posted by <span class="fn">Mike Giarlo</span></span>
-
-        
+    <div class="meta">
+        <div class="date">
 
 
 
@@ -185,153 +105,34 @@
   
 
 
-<time datetime="2007-09-25T13:48:44-04:00" pubdate data-updated="true">Sep 25<span>th</span>, 2007</time>
-        
+<time datetime="2007-09-25T13:48:44-04:00" pubdate data-updated="true">Sep 25<span>th</span>, 2007</time></div>
+        <div class="tags">
 
-
-      </p>
-      
-        <div class="sharing">
-  <br/>
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mjgiarlo.github.com/blog/2007/09/25/oai-pmh-in-xquery/" data-via="mjgiarlo" data-counturl="http://mjgiarlo.github.com/blog/2007/09/25/oai-pmh-in-xquery/" >Tweet</a>
-  
-  
-  <div class="g-plusone" data-size="medium"></div>
-  
-  
-    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
-  
 </div>
-
-      
-      <p class="meta">
         
-          <a class="basic-alignment left" href="/blog/2007/09/18/library-degrees-a-mixed-bag/" title="Previous Post: Library degrees a mixed bag?">&laquo; Library degrees a mixed bag?</a>
-        
-        
-          <a class="basic-alignment right" href="/blog/2007/09/27/october/" title="Next Post: October">October &raquo;</a>
-        
-      </p>
-    </footer>
-    
-    
-      <section>
-        <h1>Comments</h1>
-        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-      </section>
-    
-  </div>
-
-  
-  <div class="span4 sidebar">
-    <div class="well">
-      
-        <section>
-  <h2>Recent Posts</h2>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2010/05/19/jsonovich-now-with-code-folding/">JSONovich: Now with code-folding!</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2010/05/19/i2-resource-description/">I2: Resource Description</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2010/01/24/jsonovich-crawls-into-the-future/">JSONovich crawls into the future</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2009/12/22/forking/">Forking</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2009/09/27/exploring-curation-micro-services/">Exploring curation micro-services</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h2>Latest Tweets</h2>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-    <a href="http://twitter.com/mjgiarlo" class="twitter-follow-button" data-show-count="true">Follow @mjgiarlo</a>
-  
-</section>
-
-
-<section>
-  <h2>On Delicious</h2>
-  <div id="delicious"></div>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/technosophia?count=5&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
-  <p><a href="http://delicious.com/technosophia">My Delicious Bookmarks &raquo;</a></p>
-</section>
-
-<section class="googleplus">
-  <h2>
-    <a href="https://plus.google.com/116359388875152424451?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h2>
-</section>
-
-
-
-<section>
-  <h2>GitHub Repos</h2>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/mjgiarlopsu-stewardship">@mjgiarlopsu-stewardship</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'mjgiarlopsu-stewardship',
-            count: 5,
-            skip_forks: false,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-      
     </div>
-  </div>
-
+</article>
+<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
 </div>
 
+</div>
+	<footer class="inner">Copyright &copy; 2012 Octofutzing</footer>
+	<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/slash.js"></script>
 
-      </div>
-    </div>
-    <footer class="footer"><p>
-  Copyright &copy; 2012 - Mike Giarlo -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -
-  
-    <span class="credit">Theme by <a href="http://brianarmstrong.org">Brian Armstrong</a></span>
-  
-</p>
-</footer>
-    
 
 <script type="text/javascript">
       var disqus_shortname = 'technosophia';
@@ -348,46 +149,5 @@
 
 
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-    
-    $(document).ready(function(){
-      getTwitterFeed("mjgiarlo", 5, false);
-    });
-  </script>
-
-
-  </div>
 </body>
 </html>
