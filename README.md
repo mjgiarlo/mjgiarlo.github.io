@@ -7,6 +7,8 @@ TODO
 1. <strike>Write bio page</strike>
 1. <strike>Write projects page</strike>
 1. Add descriptions to projects page
+1. Fix alignment of list on home page
+1. Fix line breaks in bio page
 1. Write pubs page
 1. Write presos page
 1. Write contact page
