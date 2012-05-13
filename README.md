@@ -17,4 +17,4 @@ TODO
 1. ~~Pull over static resources (images, etc.)~~
 1. Describe past projects on projects page
 1. Fix alignment of list on home page
-
+1. Move domain name and create magic CNAME file
