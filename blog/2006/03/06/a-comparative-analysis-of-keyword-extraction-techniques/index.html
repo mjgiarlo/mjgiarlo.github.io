@@ -9,7 +9,7 @@
   <meta name="author" content="Mike Giarlo">
 
   
-  <meta name="description" content="With widespread digitization of printed materials and steady growth of &#8220;born-digital&#8221; resources, there arise certain questions about &hellip;">
+  <meta name="description" content="A Comparative Analysis of Keyword Extraction Techniques [Excerpt] Mar 6th, 2006 <!-- google_ad_client = "ca-pub-7721655128098525"; /* Blog Main */ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,22 +20,14 @@
   
   <link rel="canonical" href="http://mjgiarlo.github.com/blog/2006/03/06/a-comparative-analysis-of-keyword-extraction-techniques">
   <link href="/favicon.ico" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <script src="/javascripts/jquery-1.7.1.min.js" type="text/javascript"></script>
-  <script src="/javascripts/jquery-ui-1.8.custom.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    $(function() {
-        $("#accordion").accordion({ autoHeight: false });
-    });
-  </script>
+  
+  <link href="/assets/bootstrap/css/spacelab.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/bootstrap/css/custom.css" rel="stylesheet" type="text/css">
+  <link href="/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+  
   <link href="/atom.xml" rel="alternate" title="Mike Giarlo" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
+  
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -52,45 +44,63 @@
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Mike Giarlo</a></h1>
-  
-    <h2>Dad; Hacker; Librarian; Digital Library Architect at Penn State; Lacker of Talent; Craft Brew Enthusiast</h2>
-  
-</hgroup>
+<body    data-spy="scroll">
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:mjgiarlo.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Home</a></li>
-  <li><a href="/bio">Bio</a></li>
-  <li><a href="/vita">Vita</a></li>
-  <li><a href="/projects">Projects</a></li>
-  <li><a href="/publications">Publications</a></li>
-  <li><a href="/presentations">Presentations</a></li>
-  <li><a href="/blog">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/contact">Contact</a></li>
-</ul>
+  <div class="container">
+    <header class="jumbotron subhead" id="overview">
+      <div class="subscribe">
+  <table>
+    <tr>
+      <td><span>Get Updates: &nbsp;</span></td>
+      <td><a href="#" onclick="window.open('','FeedBurner','menubar=no,width=600,height=600,toolbar=no'); return false;" class="btn"><i class="icon-envelope"></i> By Email</a></td>
+      <td><a href="/atom.xml" class="btn"><i class="icon-cog"></i> By RSS</a></td>
+      <td><a href="http://twitter.com/mjgiarlo" class="btn"><i class="icon-twitter-sign"></i> On Twitter</a></td>
+    </tr>
+  </table>
+</div>
+<h1 class="title">Mike Giarlo</h1>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article class="hentry" role="article">
-  
+  <p class="lead">Dad; Hacker; Librarian; Digital Library Architect at Penn State; Lacker of Talent; Craft Brew Enthusiast</p>
+
+      <div class="navbar">
+  <div class="navbar-inner">
+    <div class="container" style="width: auto;">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/archives">Blog</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        
+          <form action="http://google.com/search" method="get" class="navbar-search pull-left">
+            <fieldset role="search">
+              <input type="hidden" name="q" value="site:mjgiarlo.github.com" />
+              <input type="text" name="q" results="0" placeholder="Search" class="search-query span2" />
+            </fieldset>
+          </form>
+        
+        <ul class="nav pull-right">
+          <li>
+            <a style="padding: 7px 0 0 0;" href="http://feeds.feedburner.com/brianarmstrong/vTOG"><img src="http://feeds.feedburner.com/~fc/brianarmstrong/vTOG?bg=a1cefc&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>            
+          </li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div>
+  </div><!-- /navbar-inner -->
+</div>
+
+    </header>
+    <div id="main">
+      <div id="content">
+        <div class="row">
+  <div class="span8">
+    
   <header>
     
       <h1 class="entry-title">A Comparative Analysis of Keyword Extraction Techniques [Excerpt]</h1>
@@ -116,7 +126,23 @@
   </header>
 
 
-<div class="entry-content"><p align="left">With widespread digitization of printed materials and steady growth of &#8220;born-digital&#8221; resources, there arise certain questions about access and discoverability. One such question is whether the full-text of this content, produced by advanced optical character recognition (OCR) techniques, is sufficient as a descriptor of the content. Will the model of mass digitization and full-text searching enable users to find the information they need? Or will we need to continue employing the classification skills of highly qualified human beings in order to ensure information is discoverable? The latter model seems to have worked well for the library community, with trained indexers and catalogers summarizing documents according to established standards and widely used thesauri or controlled vocabularies. The predictability of these techniques has some obvious benefits, such as consistency across different systems, the ability to construct browse interfaces in addition to search ones, and reduction of common errors such as differences in case, punctuation, spelling, and so forth.  The process of human classification has thus proven to be quite effective in our endeavors to organize information.</p>
+  
+    <div style="float: right; padding-left: 15px; padding-botom: 15px; ">
+      <script type="text/javascript"><!--
+      google_ad_client = "ca-pub-7721655128098525";
+      /* Blog Main */
+      google_ad_slot = "7466725066";
+      google_ad_width = 336;
+      google_ad_height = 280;
+      //-->
+      </script>
+      <script type="text/javascript"
+      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+    </div>
+  
+  
+  <div class="entry-content"><p align="left">With widespread digitization of printed materials and steady growth of &#8220;born-digital&#8221; resources, there arise certain questions about access and discoverability. One such question is whether the full-text of this content, produced by advanced optical character recognition (OCR) techniques, is sufficient as a descriptor of the content. Will the model of mass digitization and full-text searching enable users to find the information they need? Or will we need to continue employing the classification skills of highly qualified human beings in order to ensure information is discoverable? The latter model seems to have worked well for the library community, with trained indexers and catalogers summarizing documents according to established standards and widely used thesauri or controlled vocabularies. The predictability of these techniques has some obvious benefits, such as consistency across different systems, the ability to construct browse interfaces in addition to search ones, and reduction of common errors such as differences in case, punctuation, spelling, and so forth.  The process of human classification has thus proven to be quite effective in our endeavors to organize information.</p>
 
 
 <p align="left">The question of whether we will continue to classify digital content in a similar manner ought to be asked. Is there any hope to keep up with the dizzying pace with which documents are digitized? Classification is a costly, time-consuming process, requiring highly trained individuals to consume a large amount of information and summarize it. If the goal is to continue digitizing and making accessible information at the current rate, it is improbable that human  catalogers and indexers will be able to keep up without sacrificing some of the quality that results from their considerable skills. Yet the goal of enhancing access and discoverability of digital content is one that ought to be pursued, and will likely not be realized through full-text searching alone. Indeed, why should we put so much time and effort into the process of digitization if it does not benefit our users?</p>
@@ -131,15 +157,29 @@
 
 </div>
 
+  
+    <script type="text/javascript"><!--
+    google_ad_client = "ca-pub-7721655128098525";
+    /* Blog Bottom */
+    google_ad_slot = "4562123819";
+    google_ad_width = 728;
+    google_ad_height = 90;
+    //-->
+    </script>
+    <script type="text/javascript"
+    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+  
 
-  <footer>
-    <p class="meta">
-      
+
+    <footer>
+      <p class="meta">
+        
   
 
 <span class="byline author vcard">Posted by <span class="fn">Mike Giarlo</span></span>
 
-      
+        
 
 
 
@@ -152,12 +192,13 @@
 
 
 <time datetime="2006-03-06T23:44:10-05:00" pubdate data-updated="true">Mar 6<span>th</span>, 2006</time>
+        
+
+
+      </p>
       
-
-
-    </p>
-    
-      <div class="sharing">
+        <div class="sharing">
+  <br/>
   
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mjgiarlo.github.com/blog/2006/03/06/a-comparative-analysis-of-keyword-extraction-techniques/" data-via="mjgiarlo" data-counturl="http://mjgiarlo.github.com/blog/2006/03/06/a-comparative-analysis-of-keyword-extraction-techniques/" >Tweet</a>
   
@@ -169,34 +210,36 @@
   
 </div>
 
+      
+      <p class="meta">
+        
+          <a class="basic-alignment left" href="/blog/2006/03/06/the-role-of-skepticism-in-human-information-behavior-a-cognitive-affective-analysis/" title="Previous Post: The role of skepticism in human-information behavior [excerpt]">&laquo; The role of skepticism in human-information behavior [excerpt]</a>
+        
+        
+          <a class="basic-alignment right" href="/blog/2006/03/08/unapi-revision-1-compliant/" title="Next Post: unAPI revision 1-compliant">unAPI revision 1-compliant &raquo;</a>
+        
+      </p>
+    </footer>
     
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2006/03/06/the-role-of-skepticism-in-human-information-behavior-a-cognitive-affective-analysis/" title="Previous Post: The role of skepticism in human-information behavior [excerpt]">&laquo; The role of skepticism in human-information behavior [excerpt]</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2006/03/08/unapi-revision-1-compliant/" title="Next Post: unAPI revision 1-compliant">unAPI revision 1-compliant &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
-
+    
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-
-<aside class="sidebar">
-  
+      </section>
     
+  </div>
+
+  
+  <div class="span4 sidebar">
+    <div class="well">
+      
+        
 <section>
-  <h1>Latest Tweets</h1>
+  <h2>Latest Tweets</h2>
   <ul id="tweets">
     <li class="loading">Status updating...</li>
   </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("mjgiarlo", 5, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
   
     <a href="http://twitter.com/mjgiarlo" class="twitter-follow-button" data-show-count="true">Follow @mjgiarlo</a>
   
@@ -204,18 +247,18 @@
 
 
 <section class="googleplus">
-  <h1>
+  <h2>
     <a href="https://plus.google.com/116359388875152424451?rel=author">
       <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
       Google+
     </a>
-  </h1>
+  </h2>
 </section>
 
 
 
 <section>
-  <h1>GitHub Repos</h1>
+  <h2>GitHub Repos</h2>
   <ul id="gh_repos">
     <li class="loading">Status updating...</li>
   </ul>
@@ -244,19 +287,24 @@
 </section>
 
 
-  
-</aside>
-
-
+      
     </div>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Mike Giarlo -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
 
-</footer>
+</div>
+
+
+      </div>
+    </div>
+    <footer class="footer"><p>
+  Copyright &copy; 2012 - Mike Giarlo -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -
   
+    <span class="credit">Theme by <a href="http://brianarmstrong.org">Brian Armstrong</a></span>
+  
+</p>
+</footer>
+    
 
 <script type="text/javascript">
       var disqus_shortname = 'technosophia';
@@ -294,6 +342,10 @@
 
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
   <script type="text/javascript">
     (function(){
       var twitterWidgets = document.createElement('script');
@@ -302,11 +354,13 @@
       twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
+    
+    $(document).ready(function(){
+      getTwitterFeed("mjgiarlo", 5, false);
+    });
   </script>
 
 
-
-
-
+  </div>
 </body>
 </html>
