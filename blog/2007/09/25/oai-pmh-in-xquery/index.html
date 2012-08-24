@@ -9,7 +9,7 @@
   <meta name="author" content="Mike Giarlo">
 
   
-  <meta name="description" content="OAI-PMH in XQuery Sep 25th, 2007 <!-- google_ad_client = "ca-pub-7721655128098525"; /* Blog Main */ google_ad_slot = "7466725066"; google_ad_width &hellip;">
+  <meta name="description" content="Thanks for the nod, Winona. Hopefully you folks will get some good use out of the XQuery-based OAI-PMH data provider I&#8217;ve been working on. I &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,8 +73,13 @@
       <div class="nav-collapse">
         <ul class="nav">
           <li><a href="/">Home</a></li>
-          <li><a href="/blog/archives">Blog</a></li>
+          <li><a href="/bio">Bio</a></li>
+          <li><a href="/vita">Vita</a></li>
           <li><a href="/projects">Projects</a></li>
+          <li><a href="/publications">Publications</a></li>
+          <li><a href="/presentations">Presentations</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/blog/archives">Archives</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
         
@@ -126,22 +131,6 @@
   </header>
 
 
-  
-    <div style="float: right; padding-left: 15px; padding-botom: 15px; ">
-      <script type="text/javascript"><!--
-      google_ad_client = "ca-pub-7721655128098525";
-      /* Blog Main */
-      google_ad_slot = "7466725066";
-      google_ad_width = 336;
-      google_ad_height = 280;
-      //-->
-      </script>
-      <script type="text/javascript"
-      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-      </script>
-    </div>
-  
-  
   <div class="entry-content"><p>Thanks for the nod, <a href="http://thedil.wordpress.com/2007/09/25/xquery-and-oai/" target="_blank">Winona</a>.  Hopefully you folks will get some good use out of the <a href="http://diglib2.princeton.edu/oss/wiki/xqOAI" target="_blank">XQuery-based OAI-PMH data provider</a> I&#8217;ve been working on.</p>
 
 <p>I just want to clarify that only one small bit of the code is specific to X-Hive, and that&#8217;s a call to an extension that gets last-modified dates from the X-Hive service.  We do not reliably store this information in the metadata itself, and so I needed to go this route.  Some folks do store this in MODS or elsewhere in descriptive or administrative metadata.  It should be a two-line change to short-circuit this behavior (xhive-exts:last-update() is only invoked in two places, I believe).</p>
@@ -150,20 +139,6 @@
 
 <p>I&#8217;ll be interested to hear more of UVM&#8217;s implementation and how I can make this thing more useful to others.</p>
 </div>
-
-  
-    <script type="text/javascript"><!--
-    google_ad_client = "ca-pub-7721655128098525";
-    /* Blog Bottom */
-    google_ad_slot = "4562123819";
-    google_ad_width = 728;
-    google_ad_height = 90;
-    //-->
-    </script>
-    <script type="text/javascript"
-    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
-  
 
 
     <footer>

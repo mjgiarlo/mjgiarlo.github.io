@@ -9,7 +9,7 @@
   <meta name="author" content="Mike Giarlo">
 
   
-  <meta name="description" content="Problems Joining a Windows 2003 Active Directory Domain Nov 30th, 2005 <!-- google_ad_client = "ca-pub-7721655128098525"; /* Blog Main */ &hellip;">
+  <meta name="description" content="One of the first tasks that has been assigned to me is the installation and configuration of a pair of network load-balanced Terminal Servers running &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,8 +73,13 @@
       <div class="nav-collapse">
         <ul class="nav">
           <li><a href="/">Home</a></li>
-          <li><a href="/blog/archives">Blog</a></li>
+          <li><a href="/bio">Bio</a></li>
+          <li><a href="/vita">Vita</a></li>
           <li><a href="/projects">Projects</a></li>
+          <li><a href="/publications">Publications</a></li>
+          <li><a href="/presentations">Presentations</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/blog/archives">Archives</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
         
@@ -126,22 +131,6 @@
   </header>
 
 
-  
-    <div style="float: right; padding-left: 15px; padding-botom: 15px; ">
-      <script type="text/javascript"><!--
-      google_ad_client = "ca-pub-7721655128098525";
-      /* Blog Main */
-      google_ad_slot = "7466725066";
-      google_ad_width = 336;
-      google_ad_height = 280;
-      //-->
-      </script>
-      <script type="text/javascript"
-      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-      </script>
-    </div>
-  
-  
   <div class="entry-content"><p>One of the first tasks that has been assigned to me is the installation and configuration of a pair of network load-balanced Terminal Servers running Windows Server 2003. The department has already cobbled together documentation on how to build servers within the locally developed and recognized best practices, and I am loath to deviate from these in my first month of employment. I got up to the point of joining the first TS node (&#8220;TS1&#8221;) to the AD domain pretty smoothly. When I attempted to move TS1 out of its workgroup and into the domain, I was prompted for a password (which is a good thing, and is to be expected).  When I attempted to use my domain admin account in the form &#8220;DOMAIN\account&#8221;, I was rudely greeted with an &#8220;unknown username or bad password&#8221; error.  When I tried to provide my credentials in the form of &#8220;account@domain.university.edu&#8221;, I received the unfamiliar &#8220;Element not found&#8221; message.</p>
 
 <p>After poking around for a few hours, I came up with the following fix:</p>
@@ -154,20 +143,6 @@
 
 <p>These steps might not work for you, as they were likely necessary in my environment due to networking and domain configuration particulars.</p>
 </div>
-
-  
-    <script type="text/javascript"><!--
-    google_ad_client = "ca-pub-7721655128098525";
-    /* Blog Bottom */
-    google_ad_slot = "4562123819";
-    google_ad_width = 728;
-    google_ad_height = 90;
-    //-->
-    </script>
-    <script type="text/javascript"
-    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
-  
 
 
     <footer>

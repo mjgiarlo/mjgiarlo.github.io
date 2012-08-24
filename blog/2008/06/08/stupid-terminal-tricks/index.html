@@ -9,7 +9,7 @@
   <meta name="author" content="Mike Giarlo">
 
   
-  <meta name="description" content="Stupid Terminal Tricks Jun 8th, 2008 <!-- google_ad_client = "ca-pub-7721655128098525"; /* Blog Main */ google_ad_slot = "7466725066"; &hellip;">
+  <meta name="description" content="Sometimes I find it useful to keep long-running processes in a session of screen.Â  And sometimes I launch one of said processes outside of screen, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,8 +73,13 @@
       <div class="nav-collapse">
         <ul class="nav">
           <li><a href="/">Home</a></li>
-          <li><a href="/blog/archives">Blog</a></li>
+          <li><a href="/bio">Bio</a></li>
+          <li><a href="/vita">Vita</a></li>
           <li><a href="/projects">Projects</a></li>
+          <li><a href="/publications">Publications</a></li>
+          <li><a href="/presentations">Presentations</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/blog/archives">Archives</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
         
@@ -126,40 +131,10 @@
   </header>
 
 
-  
-    <div style="float: right; padding-left: 15px; padding-botom: 15px; ">
-      <script type="text/javascript"><!--
-      google_ad_client = "ca-pub-7721655128098525";
-      /* Blog Main */
-      google_ad_slot = "7466725066";
-      google_ad_width = 336;
-      google_ad_height = 280;
-      //-->
-      </script>
-      <script type="text/javascript"
-      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-      </script>
-    </div>
-  
-  
   <div class="entry-content"><p>Sometimes I find it useful to keep long-running processes in a session of <a href="http://en.wikipedia.org/wiki/GNU_Screen" target="_blank">screen</a>.Â  And sometimes I launch one of said processes outside of screen, and then I yell something like &#8220;doh!&#8221; or an expletive, because, as I said, I do find screen useful.Â  Depending on how far the process has gotten, whether it was the sort of operation that would not run happily again, or how much cleanup a second run would require, I either kill the process and restart it or I suspend it with Ctrl+z and send it to the background with <code>bg %</code> so that it doesn&#8217;t die when I log off.Â  The latter is a decent option.Â  But, darn it, I like screen.</p>
 
 <p>Well, perhaps I&#8217;m the last to know, but there&#8217;s this neat little tool called <a href="http://pasky.or.cz/~pasky/dev/retty/" target="_blank">retty</a> that allows you to attach running processes to your terminal.Â  I installed it in Ubuntu Hardy the typical way (<code>sudo apt-get install retty</code>).Â  So, the next time I screw up, I&#8217;ll Ctrl+z, bg it, and then <code>screen retty {PID}</code>.Â  <i>Voila</i>!</p>
 </div>
-
-  
-    <script type="text/javascript"><!--
-    google_ad_client = "ca-pub-7721655128098525";
-    /* Blog Bottom */
-    google_ad_slot = "4562123819";
-    google_ad_width = 728;
-    google_ad_height = 90;
-    //-->
-    </script>
-    <script type="text/javascript"
-    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
-  
 
 
     <footer>

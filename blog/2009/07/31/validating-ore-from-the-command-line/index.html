@@ -9,7 +9,7 @@
   <meta name="author" content="Mike Giarlo">
 
   
-  <meta name="description" content="Validating ORE From the Command-line Jul 31st, 2009 <!-- google_ad_client = "ca-pub-7721655128098525"; /* Blog Main */ google_ad_slot = "7466725066 &hellip;">
+  <meta name="description" content="I&#8217;ve been periodically poking at getting Linked Data/RDF views hooked into the World Digital Library web application, following Ed Summers&# &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,8 +73,13 @@
       <div class="nav-collapse">
         <ul class="nav">
           <li><a href="/">Home</a></li>
-          <li><a href="/blog/archives">Blog</a></li>
+          <li><a href="/bio">Bio</a></li>
+          <li><a href="/vita">Vita</a></li>
           <li><a href="/projects">Projects</a></li>
+          <li><a href="/publications">Publications</a></li>
+          <li><a href="/presentations">Presentations</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/blog/archives">Archives</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
         
@@ -126,22 +131,6 @@
   </header>
 
 
-  
-    <div style="float: right; padding-left: 15px; padding-botom: 15px; ">
-      <script type="text/javascript"><!--
-      google_ad_client = "ca-pub-7721655128098525";
-      /* Blog Main */
-      google_ad_slot = "7466725066";
-      google_ad_width = 336;
-      google_ad_height = 280;
-      //-->
-      </script>
-      <script type="text/javascript"
-      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-      </script>
-    </div>
-  
-  
   <div class="entry-content"><p>I&#8217;ve been periodically poking at getting <a href="http://linkeddata.org/">Linked Data</a>/RDF views hooked into the <a href="http://www.wdl.org/">World Digital Library</a> web application, following <a href="http://inkdroid.org/journal/">Ed Summers</a>&#8217; <a href="http://lists.w3.org/Archives/Public/public-lod/2009May/0301.html">lead</a> from his work on <a href="http://chroniclingamerica.loc.gov/">Chronicling America</a>.  The RDF views also use the <a href="http://www.openarchives.org/ore/">OAI-ORE</a> vocabulary to express aggregations &#8211; in WDL, an item is an aggregation of its constituent files.  The goal is to provide a semantically rich and holistic representation of a WDL item (identifier, constituent files, metadata, translations, and so on).</p>
 
 <p>The ORE format is a new one for me so it&#8217;s hard to say whether the output of my dev branch is valid ORE or not.  Plus I&#8217;m a sucker for validators.  Turns out <a href="http://www.csc.liv.ac.uk/~azaroth/">Rob Sanderson</a> has developed a <a href="http://code.google.com/p/foresite-toolkit/">Python library for validating ORE</a>, and this little snippet is what I&#8217;ve been using to validate the ORE.  I didn&#8217;t put much effort into making it readable, so much as banging something functional out so I can meet deadlines, so mea culpa and all that.  But without further hemming and hawing, the code:</p>
@@ -232,20 +221,6 @@ print rem2.get_serialization(n3).data
 
 <p>You might pick up on some warts I have yet to fix, but there you go.</p>
 </div>
-
-  
-    <script type="text/javascript"><!--
-    google_ad_client = "ca-pub-7721655128098525";
-    /* Blog Bottom */
-    google_ad_slot = "4562123819";
-    google_ad_width = 728;
-    google_ad_height = 90;
-    //-->
-    </script>
-    <script type="text/javascript"
-    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
-  
 
 
     <footer>

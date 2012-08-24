@@ -9,7 +9,7 @@
   <meta name="author" content="Mike Giarlo">
 
   
-  <meta name="description" content="Windows Server 2003 Still Dependent Upon WINS / NetBIOS? Dec 7th, 2005 <!-- google_ad_client = "ca-pub-7721655128098525"; /* Blog Main */ &hellip;">
+  <meta name="description" content="Perhaps I am mistaken, but I thought one of the biggest purported benefits of the newest incarnation of Active Directory was its supposed reliance &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,8 +73,13 @@
       <div class="nav-collapse">
         <ul class="nav">
           <li><a href="/">Home</a></li>
-          <li><a href="/blog/archives">Blog</a></li>
+          <li><a href="/bio">Bio</a></li>
+          <li><a href="/vita">Vita</a></li>
           <li><a href="/projects">Projects</a></li>
+          <li><a href="/publications">Publications</a></li>
+          <li><a href="/presentations">Presentations</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/blog/archives">Archives</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
         
@@ -126,22 +131,6 @@
   </header>
 
 
-  
-    <div style="float: right; padding-left: 15px; padding-botom: 15px; ">
-      <script type="text/javascript"><!--
-      google_ad_client = "ca-pub-7721655128098525";
-      /* Blog Main */
-      google_ad_slot = "7466725066";
-      google_ad_width = 336;
-      google_ad_height = 280;
-      //-->
-      </script>
-      <script type="text/javascript"
-      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-      </script>
-    </div>
-  
-  
   <div class="entry-content"><p>Perhaps I am mistaken, but I thought one of the biggest purported benefits of the newest incarnation of Active Directory was its supposed reliance upon the more commonly used DNS system for computer name lookups rather the old WINS and NetBIOS lookup system. I&#8217;ve recently installed a new server running Windows Server 2003 Enterprise and hooked it into our Active Directory 2003 domain and configured it to run Terminal Services. Upon this assumption, I disabled NetBIOS in the TCP/IP stack and turned off the TCP/IP NetBIOS Helper service.</p>
 
 <p>When I connect to the server via Remote Desktop and login with a local administrative account, I get in just fine. When I specify my domain credentials, however, my connection is refused because Terminal Services apparently has problems reaching the RPC Server. Says it is unavailable. Turning back on the NetBT Helper service clears this up, but I did not think NetBIOS would be required for name resolution given AD integration with DNS. In the eventlog, TS shows the following error after the &#8220;RPC Server is unavailable&#8221; error: &#8220;Unable to obtain Terminal Server User Configuration&#8221;.</p>
@@ -154,20 +143,6 @@
 
 <p>ADDENDUM: Apparently our AD servers do not run their own DNS; the records are offloaded to the campus DNS system. Perhaps this is the culprit?</p>
 </div>
-
-  
-    <script type="text/javascript"><!--
-    google_ad_client = "ca-pub-7721655128098525";
-    /* Blog Bottom */
-    google_ad_slot = "4562123819";
-    google_ad_width = 728;
-    google_ad_height = 90;
-    //-->
-    </script>
-    <script type="text/javascript"
-    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
-  
 
 
     <footer>
