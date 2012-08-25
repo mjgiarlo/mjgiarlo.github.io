@@ -16,7 +16,7 @@ TODO
 1. ~~Redirect /michael/blog/ to /blog/~~
 1. ~~Pull over static resources (images, etc.)~~
 1. ~~Turn off sidebar on most pages~~
-1. Fix Twitter/Github updates
+1. ~~Disable Twitter/Github updates~~
 1. Make better use of Bootstrapisms
 1. Get FontAwesome icons working
 1. Describe past projects on projects page
