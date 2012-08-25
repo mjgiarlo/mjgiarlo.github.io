@@ -46,7 +46,7 @@ management needs &hellip;">
 
 </head>
 
-<body    data-spy="scroll">
+<body   class="no-sidebar"   data-spy="scroll">
 
   <div class="container">
     <header class="jumbotron subhead" id="overview">
@@ -132,7 +132,7 @@ management needs &hellip;">
     <div id="main">
       <div id="content">
         <div class="row">
-  <div class="span8">
+  <div class="span12">
     
       <div class="page-header">
         <h1>Projects</h1>
@@ -151,7 +151,7 @@ management needs &hellip;">
 <time datetime="2012-04-21T22:23:00-04:00" pubdate data-updated="true">Apr 21<span>st</span>, 2012</time></p>-->
       </div>
     
-    <h2>Current </h2>
+    <h2><span id="current">Current</span></h2>
 
 <ul>
 <li><a href="http://stewardship.psu.edu/">Penn State Digital Stewardship</a>: an
@@ -179,7 +179,7 @@ Archival Resource Key utils in Python</li>
 </ul>
 
 
-<h2>Past</h2>
+<h2><span id="past">Past</span></h2>
 
 <ul>
 <li><a href="http://databib.org/">Databib</a></li>
@@ -247,66 +247,6 @@ Archival Resource Key utils in Python</li>
     
   </div>
   
-  <div class="span4 sidebar">
-    <div class="well">
-      
-        
-<section>
-  <h2>Latest Tweets</h2>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-    <a href="http://twitter.com/mjgiarlo" class="twitter-follow-button" data-show-count="true">Follow @mjgiarlo</a>
-  
-</section>
-
-
-<section class="googleplus">
-  <h2>
-    <a href="https://plus.google.com/116359388875152424451?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h2>
-</section>
-
-
-
-<section>
-  <h2>GitHub Repos</h2>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/psu-stewardship">@psu-stewardship</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'psu-stewardship',
-            count: 5,
-            skip_forks: false,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-      
-    </div>
-  </div>
-
 </div>
 
       </div>
