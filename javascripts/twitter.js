@@ -57,7 +57,7 @@ function linkifyTweet(text, url) {
   return text
 }
 
-function showTwitterFeed(tweets, twitter_user) {
+  function showTwitterFeed(tweets, twitter_user) {
   var timeline = document.getElementById('tweets'),
       content = '';
 
