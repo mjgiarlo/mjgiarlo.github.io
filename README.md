@@ -18,10 +18,10 @@ TODO
 1. ~~Turn off sidebar on most pages~~
 1. ~~Disable Twitter/Github updates~~
 1. ~~Get FontAwesome icons working~~
-1. Make better use of Bootstrapisms
+1. ~~Make better use of Bootstrapisms~~
+1. ~~Make sure menus all work properly (linking to anchors)~~
+1. ~~Decide on bootswatch theme~~
+1. ~~Fix double icons (bootstrap + fontawesome)~~
 1. Describe past projects on projects page
 1. Break code/software out of projects page and move to own page
-1. Make sure menus all work properly (linking to anchors)
-1. Decide on bootswatch theme
-1. Fix double icons (bootstrap + fontawesome)
 1. Move domain name and create magic CNAME file
