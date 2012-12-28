@@ -51,8 +51,11 @@
 
 </head>
 
-<body   >
-  <header role="banner"><!--
+<body    data-spy="scroll">
+
+  <div class="container">
+    <header class="jumbotron subhead" id="overview">
+      <!--
 <div class="subscribe">
   <table>
     <tr>
@@ -71,8 +74,8 @@
 </div>
 -->
 
-</header>
-  <nav role="navigation"><div class="navbar navbar-inverse">
+
+      <div class="navbar navbar-inverse">
   <div class="navbar-inner">
     <a class="brand" href="/">Mike Giarlo</a>
     <div class="container" style="width: auto;">
@@ -135,12 +138,13 @@
     </div>
   </div><!-- /navbar-inner -->
 </div>
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article class="hentry" role="article">
-  
+
+    </header>
+    <div id="main">
+      <div id="content">
+        <div class="row">
+  <div class="span8">
+    
   <header>
     
       <h1 class="entry-title">Command-line Shuffle</h1>
@@ -198,14 +202,14 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
 </div>
 
 
-  <footer>
-    <p class="meta">
-      
+    <footer>
+      <p class="meta">
+        
   
 
 <span class="byline author vcard">Posted by <span class="fn">Mike Giarlo</span></span>
 
-      
+        
 
 
 
@@ -218,12 +222,12 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
 
 
 <time datetime="2009-09-26T16:50:05-04:00" pubdate data-updated="true">Sep 26<span>th</span>, 2009</time>
+        
+
+
+      </p>
       
-
-
-    </p>
-    
-      <div class="sharing">
+        <div class="sharing">
   
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mjgiarlo.github.com/blog/2009/09/26/command-line-shuffle/" data-via="mjgiarlo" data-counturl="http://mjgiarlo.github.com/blog/2009/09/26/command-line-shuffle/" >Tweet</a>
   
@@ -235,23 +239,31 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
   
 </div>
 
-    
-    <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2009/09/15/i2-survey-results/" title="Previous Post: I2: Survey results">&laquo; I2: Survey results</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2009/09/27/exploring-curation-micro-services/" title="Next Post: Exploring curation micro-services">Exploring curation micro-services &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
+      <p class="meta">
+        
+          <a class="basic-alignment left" href="/blog/2009/09/15/i2-survey-results/" title="Previous Post: I2: Survey results">&laquo; I2: Survey results</a>
+        
+        
+          <a class="basic-alignment right" href="/blog/2009/09/27/exploring-curation-micro-services/" title="Next Post: Exploring curation micro-services">Exploring curation micro-services &raquo;</a>
+        
+      </p>
+    </footer>
 
+    
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-
-<aside class="sidebar">
-  
+      </section>
     
+  </div>
+
+  
+  <div class="span4 sidebar">
+    <div class="well">
+      
+        
 <section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
@@ -310,19 +322,22 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
 </section>
 
 
-  
-</aside>
-
-
+      
     </div>
   </div>
-  <footer role="contentinfo"><p>
+
+</div>
+
+
+      </div>
+    </div>
+    <footer class="footer"><p>
   Copyright &copy; 2012 - Mike Giarlo -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -
   <span class="credit">Theme based on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://fortawesome.github.com/Font-Awesome/">FontAwesome</a>, <a href="http://bootswatch.com/">Bootswatch</a>, <a href="https://github.com/barmstrong/octopress-bootstrap">Octopress-Bootstrap</a>, &amp; <a href="http://matienzo.org">matienzo.org</a></span>
 </p>
 </footer>
-  
+    
 
 <script type="text/javascript">
       var disqus_shortname = 'technosophia';
@@ -380,5 +395,6 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
 
 
 
+  </div>
 </body>
 </html>
