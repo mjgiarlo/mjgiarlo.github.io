@@ -22,6 +22,6 @@ TODO
 1. ~~Make sure menus all work properly (linking to anchors)~~
 1. ~~Decide on bootswatch theme~~
 1. ~~Fix double icons (bootstrap + fontawesome)~~
+1. ~~Move domain name and create magic CNAME file~~
 1. Describe past projects on projects page
 1. Break code/software out of projects page and move to own page
-1. Move domain name and create magic CNAME file
