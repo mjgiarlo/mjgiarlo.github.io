@@ -1,1 +1,66 @@
-[class^="icon-"]{background:none}
+/*
+Syntax error: (url('/images/stripe-tile.png?1345838993') top left) is not a color for `lighten'
+        on line 16 of /home/mjg/workspace/mjgiarlo.github.com/sass/base/_theme.scss
+        from line 3 of /home/mjg/workspace/mjgiarlo.github.com/sass/_base.scss
+        from line 8 of /home/mjg/workspace/mjgiarlo.github.com/sass/screen.scss
+
+Backtrace:
+/home/mjg/workspace/mjgiarlo.github.com/sass/base/_theme.scss:16
+/home/mjg/workspace/mjgiarlo.github.com/sass/_base.scss:3
+/home/mjg/workspace/mjgiarlo.github.com/sass/screen.scss:8
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/script/funcall.rb:97:in `rescue in _perform'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/script/funcall.rb:76:in `_perform'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/script/node.rb:40:in `perform'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:244:in `visit_variable'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:146:in `block in visit_import'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:146:in `map'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:146:in `visit_import'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:146:in `block in visit_import'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:146:in `map'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:146:in `visit_import'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/tree/root_node.rb:20:in `render'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/engine.rb:300:in `_render'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/sass-3.1.20/lib/sass/engine.rb:247:in `render'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/bin/compass:23:in `load'
+/home/mjg/.rvm/gems/ruby-1.9.3-p125@octopress/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: (url('/images/stripe-tile.png?1345838993') top left) is not a color for `lighten'\A         on line 16 of /home/mjg/workspace/mjgiarlo.github.com/sass/base/_theme.scss\A         from line 3 of /home/mjg/workspace/mjgiarlo.github.com/sass/_base.scss\A         from line 8 of /home/mjg/workspace/mjgiarlo.github.com/sass/screen.scss"; }

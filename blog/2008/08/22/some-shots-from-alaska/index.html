@@ -18,17 +18,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mjgiarlo.github.com/blog/2008/08/22/some-shots-from-alaska">
-  <link href="/favicon.ico" rel="icon">
-
-  <link href="/assets/bootstrap/css/simplex.min.css" rel="stylesheet" type="text/css">
-  <!-- Fix for disappearing mobile navbar
-       http://stackoverflow.com/questions/10185384/twitter-bootstrap-responsive-navbar-broken-on-small-screens
-  -->
-  <link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-  <link href="/assets/bootstrap/css/custom.css" rel="stylesheet" type="text/css">
-  <link href="/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
-
+  <link rel="canonical" href="http://mjgiarlo.github.com/blog/2008/08/22/some-shots-from-alaska/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Mike Giarlo" type="application/atom+xml">
   <!-- _includes/custom/head.html -->
   <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css">
@@ -52,94 +47,39 @@
 
 </head>
 
-<body    data-spy="scroll">
+<body   >
+  <header role="banner">
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:mjgiarlo.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/bio">Bio</a></li>
+  <li><a href="/vita">Vita</a></li>
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/publications">Publications</a></li>
+  <li><a href="/presentations">Presentations</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+</ul>
 
-  <div class="container">
-    <header class="jumbotron subhead" id="overview">
-      <!--
-<div class="subscribe">
-  <table>
-    <tr>
-      <td><span>Get Updates: &nbsp;</span></td>
-      <td><a href="#" onclick="window.open('','FeedBurner','menubar=no,width=600,height=600,toolbar=no'); return false;" class="btn"><i class="icon-envelope"></i> By Email</a></td>
-      <td><a href="/atom.xml" class="btn"><i class="icon-cog"></i> By RSS</a></td>
-      <td><a href="http://twitter.com/mjgiarlo" class="btn"><i class="icon-twitter-sign"></i> On Twitter</a></td>
-    </tr>
-  </table>
-</div>
--->
-
-      <div class="navbar navbar-inverse">
-  <div class="navbar-inner">
-    <a class="brand" href="/">Mike Giarlo</a>
-    <div class="container" style="width: auto;">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <div class="nav-collapse">
-        <ul class="nav">
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About<b class="caret"></b></a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-              <li><a href="/bio">Bio</a></li>
-              <li><a href="/vita">Vita</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<b class="caret"></b></a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-              <li><a href="/projects#current">Current Projects</a></li>
-              <li><a href="/projects#past">Past Projects</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Works<b class="caret"></b></a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-              <li><a href="/publications"><i class="icon-book"></i> Publications</a></li>
-              <li><a href="/presentations"><i class="icon-bullhorn"></i> Presentations</a></li>
-              <li><a href="/code"><i class="icon-beaker"></i> Source Code</a></li>
-              <li><a href="http://facebook.com/lackoftalent"><i class="icon-music"></i> Sound Recordings</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blogs<b class="caret"></b></a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-              <li><a href="/blog">Technosophia</a></li>
-              <li><a href="/blog/archives">Technosophia Archives</a></li>
-              <li><a href="http://www.personal.psu.edu/mjg36/blogs/"><i class="icon-external-link"></i> Digital Library Architecture</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<b class="caret"></b></a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-              <li><a href="mailto:leftwing@alumni.rutgers.edu"><i class="icon-envelope-alt"></i> Email (personal)</a></li>
-              <li><a href="mailto:michael@psu.edu"><i class="icon-briefcase"></i> Email (work)</a></li>
-              <li><a href="callto://mgiarlo"><i class="icon-phone"></i> Skype</a></li>
-              <li><a href="http://twitter.com/mjgiarlo"><i class="icon-twitter"></i> Twitter</a></li>
-              <li><a href="http://github.com/mjgiarlo"><i class="icon-github"></i> GitHub</a></li>
-              <li><a href="http://linkedin.com/in/mjgiarlo"><i class="icon-linkedin"></i> LinkedIn</a></li>
-              <li><a href="http://gplus.to/mjgiarlo"><i class="icon-google-plus"></i> Google+</a></li>
-              <li><a href="http://facebook.com/mjgiarlo"><i class="icon-facebook"></i> Facebook</a></li>
-              <li><a href="/contact">More...</a></li>
-            </ul>
-          </li>
-        </ul>
-        
-          <form action="http://google.com/search" method="get" class="navbar-search pull-right">
-            <fieldset role="search">
-              <input type="hidden" name="q" value="site:mjgiarlo.github.com" />
-              <input type="text" name="q" results="0" placeholder="Search" class="search-query span2" />
-            </fieldset>
-          </form>
-        
-      </div><!-- /.nav-collapse -->
-    </div>
-  </div><!-- /navbar-inner -->
-</div>
-
-    </header>
-    <div id="main">
-      <div id="content">
-        <div class="row">
-  <div class="span8">
-    
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
   <header>
     
       <h1 class="entry-title">Some Shots From Alaska</h1>
@@ -165,20 +105,20 @@
   </header>
 
 
-  <div class="entry-content"><p>I don&#8217;t ordinarily post pictures around here but I am making an exception.Â  Elizabeth and I recently spent a week in Anchorage, AK, where my in-laws were gathered for a family reunion.Â  Eliz took a bunch of pictures and has uploaded a few to <a href="http://flickr.com/photos/geek_patrol/sets/72157606898511203/" target="_blank">Flickr</a>.</p>
+<div class="entry-content"><p>I don&#8217;t ordinarily post pictures around here but I am making an exception.Â  Elizabeth and I recently spent a week in Anchorage, AK, where my in-laws were gathered for a family reunion.Â  Eliz took a bunch of pictures and has uploaded a few to <a href="http://flickr.com/photos/geek_patrol/sets/72157606898511203/" target="_blank">Flickr</a>.</p>
 
 <p>Boy, but it is <a href="http://flickr.com/photos/geek_patrol/2787616673/sizes/l/in/set-72157606898511203/" target="_blank">gorgeous</a> up there.Â  A fellow sure could get used to all those <a href="http://flickr.com/photos/geek_patrol/2788465898/sizes/l/in/set-72157606898511203/" target="_blank">mountain vistas</a> and <a href="http://flickr.com/photos/geek_patrol/2788467506/sizes/l/in/set-72157606898511203/" target="_blank">free-range zucchinis</a> (?!).</p>
 </div>
 
 
-    <footer>
-      <p class="meta">
-        
+  <footer>
+    <p class="meta">
+      
   
 
 <span class="byline author vcard">Posted by <span class="fn">Mike Giarlo</span></span>
 
-        
+      
 
 
 
@@ -191,13 +131,12 @@
 
 
 <time datetime="2008-08-22T21:55:57-04:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2008</time>
-        
-
-
-      </p>
       
-        <div class="sharing">
-  <br/>
+
+
+    </p>
+    
+      <div class="sharing">
   
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mjgiarlo.github.com/blog/2008/08/22/some-shots-from-alaska/" data-via="mjgiarlo" data-counturl="http://mjgiarlo.github.com/blog/2008/08/22/some-shots-from-alaska/" >Tweet</a>
   
@@ -209,36 +148,34 @@
   
 </div>
 
-      
-      <p class="meta">
-        
-          <a class="basic-alignment left" href="/blog/2008/08/01/unescaping-html-in-python/" title="Previous Post: Unescaping HTML in Python">&laquo; Unescaping HTML in Python</a>
-        
-        
-          <a class="basic-alignment right" href="/blog/2008/09/08/drm-for-librarians/" title="Next Post: DRM for Librarians">DRM for Librarians &raquo;</a>
-        
-      </p>
-    </footer>
-
     
-      <section>
-        <h1>Comments</h1>
-        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2008/08/01/unescaping-html-in-python/" title="Previous Post: Unescaping HTML in Python">&laquo; Unescaping HTML in Python</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2008/09/08/drm-for-librarians/" title="Next Post: DRM for Librarians">DRM for Librarians &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
 </div>
-      </section>
-    
-  </div>
 
+<aside class="sidebar">
   
-  <div class="span4 sidebar">
-    <div class="well">
-      
-        
+    
 <section>
-  <h2>Latest Tweets</h2>
+  <h1>Latest Tweets</h1>
   <ul id="tweets">
     <li class="loading">Status updating...</li>
   </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("mjgiarlo", 5, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
   
     <a href="http://twitter.com/mjgiarlo" class="twitter-follow-button" data-show-count="true">Follow @mjgiarlo</a>
   
@@ -246,18 +183,18 @@
 
 
 <section class="googleplus">
-  <h2>
+  <h1>
     <a href="https://plus.google.com/116359388875152424451?rel=author">
       <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
       Google+
     </a>
-  </h2>
+  </h1>
 </section>
 
 
 
 <section>
-  <h2>GitHub Repos</h2>
+  <h1>GitHub Repos</h1>
   <ul id="gh_repos">
     <li class="loading">Status updating...</li>
   </ul>
@@ -286,23 +223,15 @@
 </section>
 
 
-      
+  
+</aside>
+
+
     </div>
   </div>
-
-</div>
-
-
-      </div>
-    </div>
-    <footer class="footer"><p>
-  Copyright &copy; 2012 - Mike Giarlo -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -
-  <span class="credit">Theme based
-  on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://fortawesome.github.com/Font-Awesome/">FontAwesome</a>, <a href="http://bootswatch.com/">Bootswatch</a>, <a href="https://github.com/barmstrong/octopress-bootstrap">Octopress-Bootstrap</a>, &amp; <a href="http://matienzo.org">matienzo.org</a></span>
-</p>
+  <footer role="contentinfo">
 </footer>
-    
+  
 
 <script type="text/javascript">
       var disqus_shortname = 'technosophia';
@@ -340,10 +269,6 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
   <script type="text/javascript">
     (function(){
       var twitterWidgets = document.createElement('script');
@@ -352,13 +277,10 @@
       twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
-    
-    $(document).ready(function(){
-      getTwitterFeed("mjgiarlo", 5, false);
-    });
   </script>
 
 
-  </div>
+
+
 </body>
 </html>
