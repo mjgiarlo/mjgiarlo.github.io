@@ -845,3 +845,6 @@ form.well {
      color: goldenrod;
 }
 
+.nav-pills > li > a:hover {
+    background-color:#ffffff;
+}
