@@ -4,7 +4,7 @@
   <title><![CDATA[Mike Giarlo]]></title>
   <link href="http://mjgiarlo.github.com/atom.xml" rel="self"/>
   <link href="http://mjgiarlo.github.com/"/>
-  <updated>2013-04-20T20:50:11-04:00</updated>
+  <updated>2013-07-09T21:03:25-07:00</updated>
   <id>http://mjgiarlo.github.com/</id>
   <author>
     <name><![CDATA[Mike Giarlo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[JSONovich: Now with code-folding!]]></title>
     <link href="http://mjgiarlo.github.com/blog/2010/05/19/jsonovich-now-with-code-folding/"/>
-    <updated>2010-05-19T20:21:51-04:00</updated>
+    <updated>2010-05-19T17:21:51-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2010/05/19/jsonovich-now-with-code-folding</id>
     <content type="html"><![CDATA[<p>Thanks to a clean patch from <a href="http://twitter.com/coates/status/14322361424">Sean Coates</a>, I&#8217;m releasing v1.5 of JSONovich.  It now supports code-folding.  Great hack, Sean!</p>
 ]]></content>
@@ -25,7 +25,7 @@
   <entry>
     <title type="html"><![CDATA[I2: Resource Description]]></title>
     <link href="http://mjgiarlo.github.com/blog/2010/05/19/i2-resource-description/"/>
-    <updated>2010-05-19T09:38:18-04:00</updated>
+    <updated>2010-05-19T06:38:18-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2010/05/19/i2-resource-description</id>
     <content type="html"><![CDATA[<p>I can hardly believe it&#8217;s been eight months since I last wrote about the <a href="http://lackoftalent.org/michael/blog/category/projects/niso-i2/">NISO I2</a> project.  A lot has changed since then ((I&#8217;ve moved and <a href="http://lackoftalent.org/michael/blog/2009/12/22/forking/">changed jobs</a>, in fact)).  I continue to work on I2 however; they won&#8217;t get rid of me that easily.</p>
 
@@ -61,7 +61,7 @@
   <entry>
     <title type="html"><![CDATA[JSONovich crawls into the future]]></title>
     <link href="http://mjgiarlo.github.com/blog/2010/01/24/jsonovich-crawls-into-the-future/"/>
-    <updated>2010-01-24T14:28:27-05:00</updated>
+    <updated>2010-01-24T11:28:27-08:00</updated>
     <id>http://mjgiarlo.github.com/blog/2010/01/24/jsonovich-crawls-into-the-future</id>
     <content type="html"><![CDATA[<p>For those of you who use JSONovich rather than, e.g., <a href="https://addons.mozilla.org/en-US/firefox/addon/10869">JSONView</a>, I&#8217;ve tweaked the plugin (now at version 1.3) to work with Firefox 3.6.</p>
 
@@ -71,9 +71,9 @@
   
   <entry>
     <title type="html"><![CDATA[Forking]]></title>
-    <link href="http://mjgiarlo.github.com/blog/2009/12/22/forking/"/>
-    <updated>2009-12-22T02:46:04-05:00</updated>
-    <id>http://mjgiarlo.github.com/blog/2009/12/22/forking</id>
+    <link href="http://mjgiarlo.github.com/blog/2009/12/21/forking/"/>
+    <updated>2009-12-21T23:46:04-08:00</updated>
+    <id>http://mjgiarlo.github.com/blog/2009/12/21/forking</id>
     <content type="html"><![CDATA[<p>I am not certain if this is a good idea or not, but I decided to set up a &#8220;work blog&#8221; as I set off on my <a href="http://twitter.com/mjgiarlo/status/4738074594">new path as a digital library architect</a>.  The lines between this blog and that blog are fuzzy &#8211; most lines are, in my eyes &#8211; so bear with me.  I&#8217;ve never been a prolific writer &#8211; it&#8217;s always a chore, an activity I simultaneously want to do more of, and do better, and also struggle mightily with.  (It&#8217;s the public school education?  HAR HAR!)   But even so, the posts here may slow yet more.  Or maybe that will be true of the new blog.  We shall see.</p>
 
 <p>I&#8217;ve found that microblogging has largely filled the blogging gap for me; I&#8217;m more comfortable, somehow, posting smaller, more easily digestible &#8220;thoughtlets&#8221; via <a href="http://twitter.com/mjgiarlo">Twitter</a>/<a href="http://identi.ca/mjgiarlo">identi.ca</a>/<a href="http://facebook.com/mjgiarlo">Facebook</a>.  Perhaps I&#8217;ve succumbed to attention deficit disorder, flitting from one tiny undeveloped idea to the next.  It&#8217;s probable but I digress.</p>
@@ -84,9 +84,9 @@
   
   <entry>
     <title type="html"><![CDATA[Exploring curation micro-services]]></title>
-    <link href="http://mjgiarlo.github.com/blog/2009/09/27/exploring-curation-micro-services/"/>
-    <updated>2009-09-27T00:00:29-04:00</updated>
-    <id>http://mjgiarlo.github.com/blog/2009/09/27/exploring-curation-micro-services</id>
+    <link href="http://mjgiarlo.github.com/blog/2009/09/26/exploring-curation-micro-services/"/>
+    <updated>2009-09-26T21:00:29-07:00</updated>
+    <id>http://mjgiarlo.github.com/blog/2009/09/26/exploring-curation-micro-services</id>
     <content type="html"><![CDATA[<p><img src="http://lackoftalent.org/images/micro_repo_thumb.png" alt="thumbnail of micro-repo tree" style="float: left"/>As far as I&#8217;m concerned, the most exciting developments this year in  repositories and digital curation have come out of the California Digital Library.  It has been impossible <a href="http://conferences.library.gatech.edu/or/or09/paper/view/95">not</a> <a href="http://uccsc2009.ucdavis.edu/preso/UCCSC-2009-CDL-PODS-v05.ppt">to</a> <a href="http://www.ijdc.net/index.php/ijdc/article/view/98">notice</a> <a href="https://meeting-reg.com/sunpasig/abstracts.php">their</a> <a href="http://www.digitalpreservation.gov/news/events/ndiipp_meetings/ndiipp09/docs/NDIIPP%20Partner%20Meeting%202009_Breakout%20Session%20Schedule.pdf">papers</a> <a href="http://www.ijdc.net/index.php/ijdc/article/view/108/84">and</a> <a href="http://www.cdlib.org/iPres/confsched.html">presentations</a>.  Put simply, their idea is that digital curation is enabled by &#8220;micro-services&#8221; built upon well-known abstractions such as the filesystem.  The benefits are obvious: filesystem tools are ubiquitous and cross-platform, and there are strong market forces to ensure the filesystem persists.  The idea is radically simple and straightforward, though many questions remain about such a paradigm.  I&#8217;ll return to those later.</p>
 
 <p>If you have not yet taken a look at CDL&#8217;s curation micro-service specifications, most of which may be printed on as few as one or two sheets of paper, see the <a href="http://www.cdlib.org/inside/diglib/">Digital Library Building Blocks</a>.</p>
@@ -121,7 +121,7 @@
   <entry>
     <title type="html"><![CDATA[Command-line shuffle]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/09/26/command-line-shuffle/"/>
-    <updated>2009-09-26T16:50:05-04:00</updated>
+    <updated>2009-09-26T13:50:05-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/09/26/command-line-shuffle</id>
     <content type="html"><![CDATA[<p>Being a nerd, I tend to like the command-line.  When I&#8217;m working on my laptop at home, I tend to like listening to music.  Before I discovered that <a href="http://en.wikipedia.org/wiki/MPlayer">mplayer</a> had a really convenient shuffle idiom, I would invoke it thusly (to listen to all my Pavement tracks in shuffle mode):</p>
 
@@ -158,7 +158,7 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
   <entry>
     <title type="html"><![CDATA[I2: Survey results]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/09/15/i2-survey-results/"/>
-    <updated>2009-09-15T08:29:55-04:00</updated>
+    <updated>2009-09-15T05:29:55-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/09/15/i2-survey-results</id>
     <content type="html"><![CDATA[<p>I <a href="http://lackoftalent.org/michael/blog/2009/06/20/i2-survey/">wrote</a> in June that the I2 subgroup surveyed &#8220;repository managers to determine the current practices and needs of the repository community regarding institutional identifiers. Results from the survey will inform a set of use cases that will be shared with the community, and that are expected to drive the development of a new standard for institutional identifiers.&#8221;</p>
 
@@ -173,7 +173,7 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
   <entry>
     <title type="html"><![CDATA[JSONovich emerges]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/08/24/jsonovich-emerges/"/>
-    <updated>2009-08-24T14:18:50-04:00</updated>
+    <updated>2009-08-24T11:18:50-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/08/24/jsonovich-emerges</id>
     <content type="html"><![CDATA[<p><a href="http://lackoftalent.org/michael/blog/json-in-firefox/">JSONovich</a> has now emerged from the Mozilla Add-ons <a href="http://lackoftalent.org/michael/blog/2008/12/23/jsonovich-in-the-sandbox/">sandbox</a> and is available to the masses: <a href="http://addons.mozilla.org/en-US/firefox/addon/10122">http://addons.mozilla.org/en-US/firefox/addon/10122</a>.</p>
 ]]></content>
@@ -182,7 +182,7 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
   <entry>
     <title type="html"><![CDATA[Linking World Digital Library Data]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/08/10/linking-world-digital-library-data/"/>
-    <updated>2009-08-10T18:44:29-04:00</updated>
+    <updated>2009-08-10T15:44:29-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/08/10/linking-world-digital-library-data</id>
     <content type="html"><![CDATA[<p>As I <a href="http://mjgiarlo.github.com/michael/blog/2009/07/31/validating-ore-from-the-command-line/">mentioned earlier</a>, I&#8217;ve been learning about linked data in the context of dropping it into the <a href="http://www.wdl.org">World Digital Library</a> project.  I am hopeful we&#8217;ll be able to deploy the RDF views ((Sadly, the URIs are uglyish due to some constraints from our caching configuration.  I figure we can redirect uglyish URIs to cool ones and make use of owl:sameAs if those constraints go away.)) before too long.  In advance of that, I thought it might be helpful to share a sample of what our RDF would look like.  The RDF below represents the WDL item for the U.S. Constitution.  I appreciate constructive criticism.</p>
 
@@ -279,7 +279,7 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
   <entry>
     <title type="html"><![CDATA[Is MARC a data model?]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/08/10/is-marc-a-data-model/"/>
-    <updated>2009-08-10T08:49:55-04:00</updated>
+    <updated>2009-08-10T05:49:55-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/08/10/is-marc-a-data-model</id>
     <content type="html"><![CDATA[<p>I posted a status update to <a href="http://twitter.com/mjgiarlo/statuses/3215173861">Twitter</a>, <a href="http://identi.ca/notice/7827179">identi.ca</a>, and <a href="http://facebook.com/mjgiarlo?story_fbid=255213260600">Facebook</a> late last night hoping to suss out two questions:<ol>
 <li>Is MARC a data model?</li>
@@ -372,7 +372,7 @@ find /mnt/upnp/MediaTomb/Audio/Artists/Pavement -name \*.mp3 | mplayer -playlist
   <entry>
     <title type="html"><![CDATA[Validating ORE from the Command-line]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/07/31/validating-ore-from-the-command-line/"/>
-    <updated>2009-07-31T14:52:54-04:00</updated>
+    <updated>2009-07-31T11:52:54-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/07/31/validating-ore-from-the-command-line</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been periodically poking at getting <a href="http://linkeddata.org/">Linked Data</a>/RDF views hooked into the <a href="http://www.wdl.org/">World Digital Library</a> web application, following <a href="http://inkdroid.org/journal/">Ed Summers</a>&#8217; <a href="http://lists.w3.org/Archives/Public/public-lod/2009May/0301.html">lead</a> from his work on <a href="http://chroniclingamerica.loc.gov/">Chronicling America</a>.  The RDF views also use the <a href="http://www.openarchives.org/ore/">OAI-ORE</a> vocabulary to express aggregations &#8211; in WDL, an item is an aggregation of its constituent files.  The goal is to provide a semantically rich and holistic representation of a WDL item (identifier, constituent files, metadata, translations, and so on).</p>
 
@@ -469,7 +469,7 @@ print rem2.get_serialization(n3).data
   <entry>
     <title type="html"><![CDATA[A Digital Object Defined]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/07/15/a-digital-object-defined/"/>
-    <updated>2009-07-15T20:31:52-04:00</updated>
+    <updated>2009-07-15T17:31:52-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/07/15/a-digital-object-defined</id>
     <content type="html"><![CDATA[<p>What happens to a digital object defined? ((Inspired by Langston Hughes&#8217;s &#8221;<a href="http://www.cswnet.com/~menamc/langston.htm">A Dream Deferred</a>&#8221; and a spirited <a href="http://twitter.com/dchud/status/2656720839">conversation</a> in the office today.))<br/></p>
 
@@ -500,7 +500,7 @@ like a heavy load.<br/></p>
   <entry>
     <title type="html"><![CDATA[WDL metadata mapping, and, parsing TEI in Python]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/07/13/wdl-metadata-mapping-and-parsing-tei-in-python/"/>
-    <updated>2009-07-13T18:27:46-04:00</updated>
+    <updated>2009-07-13T15:27:46-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/07/13/wdl-metadata-mapping-and-parsing-tei-in-python</id>
     <content type="html"><![CDATA[<h2>Context</h2>
 
@@ -598,7 +598,7 @@ u'[Memorandum to Dr. Botkin]: a machine readable transcription.'
   <entry>
     <title type="html"><![CDATA[I2: Survey ]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/06/20/i2-survey/"/>
-    <updated>2009-06-20T14:30:53-04:00</updated>
+    <updated>2009-06-20T11:30:53-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/06/20/i2-survey</id>
     <content type="html"><![CDATA[<p>[<a href="http://lackoftalent.org/michael/blog/category/niso-i2/">Series</a>]</p>
 
@@ -639,7 +639,7 @@ Please feel free to share this message with other interested parties.</p>
   <entry>
     <title type="html"><![CDATA[I2: Strawman]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/06/13/i2-strawman/"/>
-    <updated>2009-06-13T19:02:36-04:00</updated>
+    <updated>2009-06-13T16:02:36-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/06/13/i2-strawman</id>
     <content type="html"><![CDATA[<p style="text-align: left;"></p>
 
@@ -702,7 +702,7 @@ Please feel free to share this message with other interested parties.</p>
   <entry>
     <title type="html"><![CDATA[I2: Requirements]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/06/07/i2-requirements/"/>
-    <updated>2009-06-07T17:14:56-04:00</updated>
+    <updated>2009-06-07T14:14:56-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/06/07/i2-requirements</id>
     <content type="html"><![CDATA[<p>[<a href="http://lackoftalent.org/michael/blog/category/niso-i2/">Series</a>]</p>
 
@@ -736,7 +736,7 @@ Please feel free to share this message with other interested parties.</p>
   <entry>
     <title type="html"><![CDATA[I2: Background]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/05/19/i2-background/"/>
-    <updated>2009-05-19T15:16:19-04:00</updated>
+    <updated>2009-05-19T12:16:19-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/05/19/i2-background</id>
     <content type="html"><![CDATA[<p>[<a href="http://lackoftalent.org/michael/blog/category/niso-i2/">Series</a>]</p>
 
@@ -762,7 +762,7 @@ The I2 (Institutional Identifiers &#8211; pronounced &#8220;I 2&#8221;) working 
   <entry>
     <title type="html"><![CDATA[State of the Me]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/05/18/state-of-the-me/"/>
-    <updated>2009-05-18T20:37:16-04:00</updated>
+    <updated>2009-05-18T17:37:16-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/05/18/state-of-the-me</id>
     <content type="html"><![CDATA[<p>Has it really been two months?  Why, yes, it has.  Oh me, oh my.  I have tried to stick somewhat loosely to a schedule of writing here once a month ((Here I extend my hand and then imagine you, whomever you may be, smacking it ever so gently)), but alas, April came and went and I simply made no time to write.</p>
 
@@ -781,7 +781,7 @@ The I2 (Institutional Identifiers &#8211; pronounced &#8220;I 2&#8221;) working 
   <entry>
     <title type="html"><![CDATA[Ada Lovelace Day]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/03/24/ada-lovelace-day/"/>
-    <updated>2009-03-24T20:29:37-04:00</updated>
+    <updated>2009-03-24T17:29:37-07:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/03/24/ada-lovelace-day</id>
     <content type="html"><![CDATA[<p>I confess: prior to today, I had never heard of Ada Lovelace.  <a href="http://jodischneider.com/blog/2009/03/24/remembering-sarah-seastone/">A</a> <a href="http://rosalynmetz.com/ideas/2009/03/24/jodi-schneider-the-best-cheerleader-ever/">number</a> <a href="http://bibwild.wordpress.com/2009/03/24/ada-lovelace-day/">of</a> <a href="http://www.eifl.net/cps/sections/services/eifl-foss/foss-blog/2009_03_24_ada-lovelace-day-bess">bloggers</a> <a href="http://cavlec.yarinareth.net/2009/03/24/bess-sadler-library-geek/">whom</a> <a href="http://www.ibiblio.org/bess/?p=172">I</a> <a href="http://digitaleccentric.blogspot.com/2009/03/ada-lovelace-day.html">follow</a> <a href="http://www.semanticlibrary.net/2009/03/24/ada-lovelace-day/">wrote</a> about Ms. Lovelace today, which is apparently Ada Lovelace Day: &#8220;an international day of blogging to draw attention to women excelling in technology.&#8221;</p>
 
@@ -792,7 +792,7 @@ The I2 (Institutional Identifiers &#8211; pronounced &#8220;I 2&#8221;) working 
   <entry>
     <title type="html"><![CDATA[Rutgers SCILS: What's in a name?]]></title>
     <link href="http://mjgiarlo.github.com/blog/2009/02/12/rutgers-scils-whats-in-a-name/"/>
-    <updated>2009-02-12T09:41:44-05:00</updated>
+    <updated>2009-02-12T06:41:44-08:00</updated>
     <id>http://mjgiarlo.github.com/blog/2009/02/12/rutgers-scils-whats-in-a-name</id>
     <content type="html"><![CDATA[<p>Former colleague Trevor Dawes has written a thorough <a href="http://trevordawes.blogspot.com/2009/02/rutgers-sagacontinued.html">piece</a> about a name change proposed by the faculty of Rutgers&#8217; School of Communication, Information and Library Studies (SCILS).  They have voted on and approved a new name, School of Communication and Information, and it is now awaiting approval from the Board of Governors.</p>
 
