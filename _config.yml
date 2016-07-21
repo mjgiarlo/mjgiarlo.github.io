@@ -20,3 +20,11 @@ permalink: /blog/:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
+
+# Plugins
+gems:
+  - octopress-image-tag
+  - octopress-codeblock
+  - octopress-quote-tag
+  - octopress-codefence
+  - octopress-gist
