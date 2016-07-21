@@ -1,0 +1,14 @@
+--- 
+layout: post
+title: Access 2006 - Day One
+wordpress_id: 60
+wordpress_url: http://lackoftalent.org/michael/blog/2006/10/11/access-2006-day-one/
+date: 2006-10-11 20:08:57 -04:00
+---
+Day one of the <a target="_blank" href="http://www.access2006.uottawa.ca/">Access 2006 conference</a> is winding down.  Two groups of hackers (by trade or in spirit) gathered earlier today at <a target="_blank" href="http://www.access2006.uottawa.ca/?page_id=13">Hackfest and Ad Hockfest</a>, determined to work on a select few of the excellent <a target="_blank" href="http://hackfest.kicks-ass.net/home/suggestion">project suggestions</a>.  The experience was entirely new to me, but not uncomfortably so.  I was in a group (with <a target="_blank" href="http://www.wallandbinkley.com/quaedam/">pbinkley</a>, <a target="_blank" href="http://www.kevinclarke.info/weblog/">ksclarke</a>, tholbroo, and BigD) that worked on a Scriptaculous- and Cocoon-powered METS editor, a project similar to one I may be working on at Princeton.  The most rewarding aspect, though, was meeting fellow library technologists and hearing about the interesting, and sometimes interestingly uninteresting :), projects they're working on.
+
+Despite that, today was a bit of a bummer for me.  My wife's and my recent move from Seattle to New Jersey was exhausting, and I was not looking forward to spending a potential day of rest, between relocation and starting my new job, sitting on a bus for twelve hours.  I woke up with a painful headache that wouldn't go away, which rendered me basically useless until Hackfest was over and I took some pills back in my hotel room. My laptop was behaving badly when the day began, and I spent an hour or two trying to figure out why we Windows users couldn't connect to the wireless network.  My single-minded persistence paid off when I finally got it working, but in retrospect I probably could have spent that time more wisely (and just jacked in to the ethernet).  Anyhoo, enough belly-aching for now.
+
+I wound up skipping the opening reception tonight because of how crappy I felt, and instead found a cool Irish pub -- the <a target="_blank" href="http://www.auldedubliner.com/">Aulde Dubliner Pour House</a> -- a couple blocks away from my hotel.  It was exactly how I would have pictured an Irish pub in Canada.  Hockey was on every television; the Tragically Hip was playing loudly; and folks were quick to offer a friendly "Cheers!"  It was quite relaxing, thanks in some part to the Kilkenny Cream Ale.
+
+All in all, a good beginning to the conference in spite of my malaise.  I'm looking forward to reading other folks' accounts of their Access 2006 experiences over at <a target="_blank" href="http://www.access2006.uottawa.ca/planet.php">Planet Access</a>.

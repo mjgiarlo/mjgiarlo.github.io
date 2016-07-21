@@ -1,0 +1,33 @@
+--- 
+layout: post
+title: "I2: Survey "
+wordpress_id: 363
+wordpress_url: http://lackoftalent.org/michael/blog/?p=363
+date: 2009-06-20 14:30:53 -04:00
+---
+[<a href="http://lackoftalent.org/michael/blog/category/niso-i2/">Series</a>]
+
+Near the end of my <a href="http://lackoftalent.org/michael/blog/2009/06/13/i2-strawman/">strawman post</a>, I wrote:<blockquote>The I2 repositories subgroup will be sending out its survey on identifier use cases in the coming week.  It will be interesting to see if the requirements we have thus far identified still obtain in light of the data we collect from the survey. </blockquote>
+
+We completed the survey late last week and began distributing it.  Here's what we sent out:<blockquote><p>The NISO I2 Working Group is surveying repository managers to determine the current practices and needs of the repository community regarding institutional identifiers.  We value your time and your input in the process to create a standard for a new institutional identifier.  We hope that you will complete the survey which should take less than 15 minutes.  The survey will remain open through Monday, July 6th.</p>
+<p>
+Here is a link to the survey:
+<a href="http://www.surveymonkey.com/s.aspx?sm=RGQgZ3090DVrb3kFzr3P3Q_3d_3d">http://www.surveymonkey.com/s.aspx?sm=RGQgZ3090DVrb3kFzr3P3Q_3d_3d</a></p>
+<p>
+Please feel free to share this message with other interested parties.</p>
+</blockquote>
+
+First we used <a href="http://www.surveymonkey.com/">Survey Monkey</a> to send the survey link to approximately one-hundred repository managers that the subgroup identified.   Our process for identifying repository managers involved pulling together a list of prominent repositories from subgroup members, and then gathering more from <a href="http://www.opendoar.org/">OpenDOAR</a>, "an authoritative directory of academic open access repositories."  Then subgroup members were encouraged to share the survey link with colleagues, and post it far and wide via blogs, listservs, and <a href="http://twitter.com/mjgiarlo/status/2230486784">tweets</a>.  The listservs we targeted were: <a href="http://www.jiscmail.ac.uk/archives/jisc-repositories.html">JISC-REPOSITORIES</a>, <a href="http://metadatalibrarians.monarchos.com/">metadataLibrarians</a>, <a href="http://groups.google.com/group/digital-curation">digital-curation</a>, <a href="https://arl.org/Lists/SPARC-IR/">SPARC-IR</a>, <a href="http://mailman.anu.edu.au/mailman/listinfo/ir-net">ir-net</a>, <a href="http://www.lsoft.com/SCRIPTS/WL.EXE?SL1=REPOMAN-L&H=LISTSERV.INDIANA.EDU">REPOMAN-L</a>, <a href="http://larch.palinet.org/archives/palinet-ir-l.html">PALINET-IR-L</a>, <a href="http://mailman.mit.edu/mailman/listinfo/dspace-general">dspace-general</a>, <a href="https://lists.sourceforge.net/lists/listinfo/fedora-commons-users">fedora-commons-users</a>, <a href="http://dublincore.org/groups/identifiers/">DC-IDENTIFIERS</a>, and <a href="http://dewey.library.nd.edu/mailing-lists/code4lib/">code4lib</a>.
+
+I've already received a few responses and have gotten useful feedback.  Two of the hardest questions to answer so far have been: "What is an institutional identifier?" and "What is a repository?"
+<dl>
+<dt><strong>Institutional identifier</strong></dt>
+<dd><p>An institutional identifier is defined as a symbol or code that uniquely identifies an institution.  Domain-specific examples of existing identifiers include SAN, IPEDS, GLN, MARC Org Code, and ISIL.  Another example might be a Handle prefix or ARK name authority assigning number.</p></dd>
+<dt><strong>Repository</strong></dt>
+<dd><p>Institutional repositories and subject repositories like arxiv.org are clearly 'repositories', but beyond that it is a somewhat ill-defined term.  One might look to the <a href="http://www.cnri.reston.va.us/k-w.html">Kahn-Wilensky architecture</a>, or the <a href="http://public.ccsds.org/publications/archive/650x0b1.pdf">OAIS reference model (PDF)</a>, or even <a href="http://en.wikipedia.org/wiki/Digital_repository">Wikipedia</a> for definitions, but it's not clear that even the authorities agree on what constitutes a repository.</p><p>It's a system.  It's network-accessible and typically has a web interface of some sort.  Files and groups of files sometimes known as objects tend to be deposited in them, perhaps for some combination of management, access, or preservation.  Many run Fedora, DSpace, and ePrints, and factor heavily in scholarly communication.  Some are document-centric.  Some will accept anything.  To some, a learning management system may be a repo.  To others, a content management system may fit.</p>
+<p>My background is in academia so my own definition is somewhat based in that context, but I wouldn't say the term is necessarily limited to that context.  There are other NISO I2 scenarios for library workflows and electronic resources, so it's safe to assume that repository does not mean ILS or OPAC or ERP system.  My hope is that folks have their own working definitions of the term and can decide for themselves what it means.</p></dd>
+</dl>
+
+We've given folks a little over two weeks to respond to the survey, so the constant I2 drum-beating will quiet down for a while around here.  I am very interested in what sorts of responses we get from the survey.  Fun times!
+
+Oh, and perhaps it goes without saying, but if you're a repository owner, manager, expert, developer, or stakeholder with an interest in identifiers, please feel free to take the <a href="http://www.surveymonkey.com/s.aspx?sm=RGQgZ3090DVrb3kFzr3P3Q_3d_3d">survey</a>!

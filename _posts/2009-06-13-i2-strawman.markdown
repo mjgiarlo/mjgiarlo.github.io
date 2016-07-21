@@ -1,0 +1,41 @@
+--- 
+layout: post
+title: "I2: Strawman"
+wordpress_id: 346
+wordpress_url: http://lackoftalent.org/michael/blog/?p=346
+date: 2009-06-13 19:02:36 -04:00
+---
+<p style="text-align: left;"></p>
+<p style="text-align: left;">[<a href="http://lackoftalent.org/michael/blog/category/niso-i2/">Series</a>]</p>
+<p style="text-align: left;">In the prior I2 post, I wrote about the requirements the repositories subgroup has come up with for an institutional identifier standard (with the hope that our findings re: repositories could be generalized to other scenarios).</p>
+
+<div class="zemanta-img zemanta-action-dragged" style="margin: 1em; display: block; text-align: left;">
+<div><dl class="wp-caption alignright" style="width: 250px;"> <dt class="wp-caption-dt"><a href="http://www.flickr.com/photos/67968452@N00/3272712288"><img title="PhotonQ-Tim Berners Lee on Linked Data at TED" src="http://farm4.static.flickr.com/3449/3272712288_2ef843a4b7_m.jpg" alt="PhotonQ-Tim Berners Lee on Linked Data at TED" width="240" height="180" /></a></dt> <dd class="wp-caption-dd zemanta-img-attribution" style="font-size: 0.8em;">Image by <a href="http://www.flickr.com/photos/67968452@N00/3272712288">PhOtOnQuAnTiQuE</a> via Flickr</dd> </dl></div>
+</div>
+<p style="text-align: left;">My strawman proposal of sorts is to explore how well <a href="http://linkeddata.org/">linked data patterns</a> fit this problem space.  Linked data, briefly, is a way to expose and link data on the web in a more semantically meaningful way, and is often summarized using the four principles put forward by <a href="http://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>:</p>
+
+<blockquote style="text-align: left;">
+<ol>
+	<li>Use URIs as names for things</li>
+	<li>Use HTTP URIs so that people can look up those names.</li>
+	<li>When someone looks up a URI, provide useful information.</li>
+	<li>Include links to other URIs. so that they can discover more things.</li>
+</ol>
+</blockquote>
+<p style="text-align: left;">That's the crux of it.Â  Linked data takes well-known patterns on the web (linking, dereferencing, etc.) and applies them to data, which in this case could be metadata for identifying institutions.</p>
+<p style="text-align: left;">Let's examine each of the requirements and the applicability of linked data thereto.</p>
+
+<ol style="text-align: left;">
+	<li><em>Should be agnostic to type of institution, e.g., libraries, museums, personal collections, historical societies</em>: The web is already agnostic to type of institution.Â  HTTP URIs do not favor one type of institution over another.<br/></li>
+	<li><em>Should handle varying institutional granularity, e.g., institution-level, campus-level, division-level, unit-level</em>: HTTP <a href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URIs</a> are flexible in this regard.Â  Hierarchy, should one wish it to be surfaced in the identifier, may be encoded in either a DNS hostname or the path appended to the DNS name.Â  One can imagine a URI like "http://department.division.institution.tld/unit/subunit" or "http://institution.tld/campus/office/individual". <br/><br/>Hierarchy needn't be surfaced in the identifier if one favors opacity, in which case "http://registry.tld/xnjsdasd" would suffice as an identifier, and may instead be entirely reflected in the (RDF) representation returned by dereferencing the URI.<br/></li>
+	<li><em>Should handle linking among institutions and subordinate units</em>: Linked data handles linking via well-known HTTP mechanisms, referenced in the fourth principle of linked data.Â  Unlike the HTTP link, which has limited semantics, linked data links are semantically rich and extensible.<br/></li>
+	<li><em>Should express different sorts of relationships among these institutions and units</em>: The "useful information" in the third principle of linked data is typically provided by an RDF representation, which is itself a list of assertions.Â  These assertions, or triples, consist of subjects, predicates, and objects.Â  The ability to express the relationships in this requirement is limited only by the availability of vocabularies that contain sets of predicates and classes for subjects and objects.Â  Think of the predicates as elements defined within a metadata standard, e.g., <a href="http://dublincore.org/documents/dces/">Dublin Core</a> "creator", <a href="http://www.loc.gov/standards/mods/">MODS</a> "relatedItem", and so forth.Â  Vocabularies that contain these predicates and classes are growing and evolving daily, and should there not be a vocabulary that contains the relationship one wishes to express, it is fairly easy to create a custom vocabulary. <br/><br/>The ability to mix and match vocabularies provides an expressiveness that is often not found in document-based metadata formats and the flexibility to express radically different relationships on a per-industry or per-institution basis.Â  This latter point is important as the I2 group has identified both core metadata elements for identifying institutions of different types and additional elements for specific types of institutions.Â  Why re-invent a new metadata format or schema when all one needs to express may already be contained in others?<br/></li>
+	<li><em>Should relate to existing relevant identifiers and registries</em>: Same as requirement#4.Â  Linked data is all about expressing relationships between things, e.g., institutions, identifiers, registries, etc.<br/></li>
+	<li><em>Should be globally unique</em>: HTTP URIs are guaranteed to be globally unique by virtue of the distributed <a href="http://en.wikipedia.org/wiki/Domain_name_system">DNS</a> system and hierarchical naming within each HTTP service.<br/></li>
+	<li><em>Should be actionable</em>: HTTP URIs provide dereferenceability/actionability via the well-known HTTP protocol.<br/></li>
+	<li><em>Should enable retrieval of metadata sufficient to identify the institution, which may vary widely by institution</em>: HTTP URIs are actionable per requirement #7 and the metadata returned is flexible per requirement #4.<br/></li>
+	<li><em>Should accommodate changes as institutions come and go and re-organize and be able to relate defunct institutions to new ones</em>: Linked data patterns provide for redirecting from defunct representations (institutional identifiers) to new ones via HTTP redirects.Â  One may also add assertions to institutional metadata such as owl:sameAs, for instance, which says that the institution identified by the given URI is the same as another institution identified by another URI.<br/></li>
+</ol>
+This seems like a compelling path to follow for the I2 standard.
+
+The I2 repositories subgroup will be sending out its survey on identifier use cases in the coming week.Â  It will be interesting to see if the requirements we have thus far identified still obtain in light of the data we collect from the survey.Â  If so, I would like to explore the idea of linked data for institutional identifiers a bit more.

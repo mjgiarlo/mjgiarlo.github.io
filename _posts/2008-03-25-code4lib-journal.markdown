@@ -1,0 +1,18 @@
+--- 
+layout: post
+title: Code4Lib Journal
+wordpress_id: 120
+wordpress_url: http://lackoftalent.org/michael/blog/2008/03/25/code4lib-journal/
+date: 2008-03-25 10:53:15 -04:00
+---
+... meanwhile, the <a href="http://journal.code4lib.org/" target="_blank">Code4Lib Journal</a> has published its <a href="http://journal.code4lib.org/issues/issue2" target="_blank">second issue</a> and boy is it packed with articles; <a href="http://www.library.nd.edu/daiad/morgan/" target="_blank">Eric Lease Morgan</a>, Coordinating Editor of the issue, does a bang-up job on the <a href="http://journal.code4lib.org/articles/71" target="_blank">introduction</a> (though the title has effectively <a href="http://en.wikipedia.org/wiki/More_Than_a_Feeling" target="_blank">Bostonroll</a>'d me).
+<blockquote>Each article in this issue has a little bit of something for all who call themselves a librarian or work in a library. Each identifies some sort of library problem to be addressed, and offers one or more solutions. Many are complete with code snippets. After all, this is Code4Lib.
+
+For example, people in public service may be interested in Edward M. Corrado and Kathryn A. Frederickâ€™s review of database-driven <a href="http://journal.code4lib.org/articles/47">subject guide applications</a>. Kenneth Furuta and Michele Potter describe a simple <a href="http://journal.code4lib.org/articles/45">help system</a> that brings librarians running to the reference desk. Margaret Mellinger and Kim Griggs explain how library resources can be organized into <a href="http://journal.code4lib.org/articles/63">course pages</a> without the need of HTML knowledge and yet sport Web 2.0 features. Nancy Fried Foster, Nora Dimmock, and Alison Bersani shed light on <a href="http://journal.code4lib.org/articles/53">participatory design</a>.
+
+For those of us who enjoy cataloging and metadata issues, Jonathan Gorman outlines how he modified VUFind to exploit Wikipedia and cataloging <a href="http://journal.code4lib.org/articles/57">authority records</a> to enhance information about authors in a library catalog. Chris Freeland, Martin Kalfatovic, Jay Paige, and Marc Crozier illustrate a different use of <a href="http://journal.code4lib.org/articles/52">Library of Congress Subject Headings</a> by integrating place names with Google Maps. Carol Jean Godby, Devon Smith and Eric Childress describe a technique for <a href="http://journal.code4lib.org/articles/54">crosswalking</a> just about any metadata format into just about any other metadata format.
+
+For the systems librarian in you, Dan Scott and Kevin Beswick share how they used Linux live CDs customized as kiosk browsers to provide laptops as <a href="http://journal.code4lib.org/articles/49">â€˜quick lookupâ€™ stations</a> at their library. Andrew Darby takes advantage of the <a href="http://journal.code4lib.org/articles/46">Google Calendar API</a> to easily manage the display of library hours. Jody DeRidder exploits Google <a href="http://journal.code4lib.org/articles/43">sitemap technology</a> and static HTML pages to make content in the â€œdeep Webâ€ more accessible. We hope you find these articles useful, stimulating, and relevant to your daily working lives.</blockquote>
+I  am ashamed to admit that I have not yet finished the <a href="http://journal.code4lib.org/issues/issue1" target="_blank">first issue</a>, so I now have pages upon pages to read.  Ordinarily when I am behind on my reading I wind up letting bits fall by the wayside but the material largely looks too good to ignore.
+
+Congratulations to Editorial Committees past and present and to the <a href="http://code4lib.org/" target="_blank">community</a> on the whole!

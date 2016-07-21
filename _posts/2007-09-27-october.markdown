@@ -1,0 +1,16 @@
+--- 
+layout: post
+title: October
+wordpress_id: 105
+wordpress_url: http://lackoftalent.org/michael/blog/2007/09/27/october/
+date: 2007-09-27 13:17:34 -04:00
+---
+October has been a month of transition for the past several years.  
+
+I moved into my first apartment in <a href="http://en.wikipedia.org/wiki/New_Brunswick,_New_Jersey" target="_blank">New Brunswick, NJ</a> (my hometown) in 2001, shortly after the attacks of 9/11.  2003 saw me preparing for the MLIS program at Rutgers.  Elizabeth and I moved from New Jersey to Seattle in 2005 so that I could study <a href="http://www.compling.washington.edu/" target="_blank">computational linguistics</a> at the University of Washington.  (I burned out on school very quickly and decided, after the <a href="http://code4lib.org/2006/" target="_blank">Code4Lib 2006 conference</a>, that I could in fact make a career in library technology.)  We moved back to the New Jersey area in 2006 for my current position working on the <a href="http://diglib.princeton.edu/" target="_blank">digital library</a> at Princeton.
+
+It's been a great year.  My time at Princeton has been highly rewarding and we've taken full advantage of living closer to our family and friends.
+
+October is also my favorite month of the year (even when the Yankees <em>don't</em> win the World Series): the leaves turn pretty colors; the air takes on that early autumn crispness; and groves of apples are ripe for the picking on lazy weekend afternoons.  And this October, we have yet more changes on the horizon.  Elizabeth and I are moving to <a href="http://www.commuterpage.com/art/villages/clarendon2.htm" target="_blank">Arlington, VA</a> and I'll be starting at the Library of Congress on the 29th.  I'll be working with folks like <a href="http://onebiglibrary.net/" target="_blank">Dan</a> and <a href="http://www.inkdroid.org/journal/" target="_blank">Ed</a> on the repository development program, which supports a number of projects including <a href="http://www.loc.gov/chroniclingamerica/" target="_blank">Chronicling America</a> (National Digital Newspaper Program).
+
+It will be difficult to say goodbye to folks around here, but it's the right move for us at this time.  Ah, October.
