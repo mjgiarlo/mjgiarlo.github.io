@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Linking World Digital Library Data
 wordpress_id: 457
 wordpress_url: http://lackoftalent.org/michael/blog/?p=457

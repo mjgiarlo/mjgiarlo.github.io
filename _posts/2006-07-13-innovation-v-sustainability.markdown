@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Innovation v. Sustainability
 wordpress_id: 49
 wordpress_url: http://lackoftalent.org/michael/blog/2006/07/13/innovation-v-sustainability/

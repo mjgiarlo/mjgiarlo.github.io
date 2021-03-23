@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Digital preservation for archivists
 wordpress_id: 95
 wordpress_url: http://lackoftalent.org/michael/blog/2007/06/12/digital-preservation-for-archivists/

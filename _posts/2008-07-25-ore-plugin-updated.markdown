@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: ORE plugin updated
 wordpress_id: 135
 wordpress_url: http://lackoftalent.org/michael/blog/?p=135

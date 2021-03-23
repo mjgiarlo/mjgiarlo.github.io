@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "Object-oriented ontology: conceptual claptrap"
 wordpress_id: 52
 wordpress_url: http://lackoftalent.org/michael/blog/2006/08/12/object-oriented-ontology-conceptual-claptrap/

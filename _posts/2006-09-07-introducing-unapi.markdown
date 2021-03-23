@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Introducing unAPI
 wordpress_id: 55
 wordpress_url: http://lackoftalent.org/michael/blog/2006/09/07/introducing-unapi/

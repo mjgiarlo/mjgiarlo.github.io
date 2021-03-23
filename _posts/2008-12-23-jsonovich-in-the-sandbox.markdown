@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: JSONovich in the sandbox
 wordpress_id: 234
 wordpress_url: http://lackoftalent.org/michael/blog/?p=234

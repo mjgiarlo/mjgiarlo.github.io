@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "Translating 'pig' to 'pork' and vice versa: A metaphor for library technologists"
 wordpress_id: 23
 wordpress_url: http://lackoftalent.org/michael/blog/2006/03/04/translating-pig-to-pork-and-vice-versa-a-metaphor-for-library-technologists/

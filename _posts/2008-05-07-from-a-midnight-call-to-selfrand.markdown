@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: From a midnight call to self.rand()
 wordpress_id: 127
 wordpress_url: http://lackoftalent.org/michael/blog/?p=127

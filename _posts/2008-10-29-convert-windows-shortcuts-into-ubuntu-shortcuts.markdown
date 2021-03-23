@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Convert Windows shortcuts into Ubuntu shortcuts
 wordpress_id: 173
 wordpress_url: http://lackoftalent.org/michael/blog/?p=173

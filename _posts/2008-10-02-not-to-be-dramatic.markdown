@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Not to be dramatic
 wordpress_id: 161
 wordpress_url: http://lackoftalent.org/michael/blog/?p=161

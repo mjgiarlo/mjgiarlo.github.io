@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "\"Harvard and the Making of the Unabomber\""
 wordpress_id: 115
 wordpress_url: http://lackoftalent.org/michael/blog/2008/01/26/harvard-and-the-making-of-the-unabomber/

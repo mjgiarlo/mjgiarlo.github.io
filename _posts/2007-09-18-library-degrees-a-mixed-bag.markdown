@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Library degrees a mixed bag?
 wordpress_id: 103
 wordpress_url: http://lackoftalent.org/michael/blog/2007/09/18/library-degrees-a-mixed-bag/

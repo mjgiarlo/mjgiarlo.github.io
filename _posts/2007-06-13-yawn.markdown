@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Yawn
 wordpress_id: 96
 wordpress_url: http://lackoftalent.org/michael/blog/2007/06/13/yawn/

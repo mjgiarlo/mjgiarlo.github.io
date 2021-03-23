@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Visionary visualization... from Microsoft?
 wordpress_id: 90
 wordpress_url: http://lackoftalent.org/michael/blog/2007/05/30/visionary-visualization-from-microsoft/

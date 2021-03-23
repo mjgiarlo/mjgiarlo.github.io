@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Microsoft Office Viewers
 wordpress_id: 17
 wordpress_url: http://lackoftalent.org/michael/blog/2005/12/06/microsoft-office-viewers/

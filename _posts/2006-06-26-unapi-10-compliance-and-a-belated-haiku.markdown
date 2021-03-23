@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: unAPI 1.0 Compliance and a belated haiku!
 wordpress_id: 45
 wordpress_url: http://lackoftalent.org/michael/blog/2006/06/26/unapi-10-compliance-and-a-belated-haiku/

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Call for Proposals - code4lib 2009 conference
 wordpress_id: 164
 wordpress_url: http://lackoftalent.org/michael/blog/?p=164

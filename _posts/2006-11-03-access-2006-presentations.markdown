@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Access 2006 Presentations
 wordpress_id: 63
 wordpress_url: http://lackoftalent.org/michael/blog/2006/11/03/access-2006-presentations/

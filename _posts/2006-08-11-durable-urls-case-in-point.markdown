@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "Durable URLs: Case in Point"
 wordpress_id: 51
 wordpress_url: http://lackoftalent.org/michael/blog/2006/08/11/durable-urls-case-in-point/

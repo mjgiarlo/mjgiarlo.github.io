@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Useful Trac reports?
 wordpress_id: 71
 wordpress_url: http://lackoftalent.org/michael/blog/2007/01/16/useful-trac-reports/

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Self-archiving
 wordpress_id: 108
 wordpress_url: http://lackoftalent.org/michael/blog/2007/10/10/self-archiving/

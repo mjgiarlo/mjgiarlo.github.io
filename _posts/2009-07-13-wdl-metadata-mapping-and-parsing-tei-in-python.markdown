@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: WDL metadata mapping, and, parsing TEI in Python
 wordpress_id: 430
 wordpress_url: http://lackoftalent.org/michael/blog/?p=430

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Cataloging and institutional repositories
 wordpress_id: 288
 wordpress_url: http://lackoftalent.org/michael/blog/?p=288

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Unescaping HTML in Python
 wordpress_id: 140
 wordpress_url: http://lackoftalent.org/michael/blog/?p=140

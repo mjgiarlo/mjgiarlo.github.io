@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Technosophia has moved
 wordpress_id: 53
 wordpress_url: http://lackoftalent.org/michael/blog/2006/08/15/technosophia-has-moved/

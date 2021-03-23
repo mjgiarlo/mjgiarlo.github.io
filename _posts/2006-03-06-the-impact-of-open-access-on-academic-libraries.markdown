@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: The impact of open access on academic libraries [excerpt]
 wordpress_id: 25
 wordpress_url: http://lackoftalent.org/michael/blog/2006/03/06/the-impact-of-open-access-on-academic-libraries/

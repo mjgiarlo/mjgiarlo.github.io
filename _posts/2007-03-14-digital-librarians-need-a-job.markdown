@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "Digital librarians: Need a J.O.B.?"
 wordpress_id: 79
 wordpress_url: http://lackoftalent.org/michael/blog/2007/03/14/digital-librarians-need-a-job/

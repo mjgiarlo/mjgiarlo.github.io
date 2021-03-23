@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Google Maps JavaScript problem in IE
 wordpress_id: 13
 wordpress_url: http://lackoftalent.org/michael/blog/2005/12/02/google-maps-javascript-problem-in-ie/

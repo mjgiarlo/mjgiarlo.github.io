@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: unAPI revision 1-compliant
 wordpress_id: 29
 wordpress_url: http://lackoftalent.org/michael/blog/2006/03/08/unapi-revision-1-compliant/

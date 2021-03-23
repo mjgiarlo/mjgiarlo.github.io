@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Will Libraries Smell Like Teen Spirit?
 wordpress_id: 78
 wordpress_url: http://lackoftalent.org/michael/blog/2007/03/12/will-libraries-smell-like-teen-spirit/

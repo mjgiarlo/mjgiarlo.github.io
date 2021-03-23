@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Five extrabiblioblogospheric blogs
 wordpress_id: 81
 wordpress_url: http://lackoftalent.org/michael/blog/2007/03/21/five-extrabiblioblogospheric-blogs/

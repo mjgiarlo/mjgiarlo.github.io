@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "Managing Services: From Red Hat to Debian"
 wordpress_id: 31
 wordpress_url: http://lackoftalent.org/michael/blog/2006/04/19/managing-services-from-red-hat-to-debian/

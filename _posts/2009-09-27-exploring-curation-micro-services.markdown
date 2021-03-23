@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Exploring curation micro-services
 wordpress_id: 504
 wordpress_url: http://lackoftalent.org/michael/blog/?p=504

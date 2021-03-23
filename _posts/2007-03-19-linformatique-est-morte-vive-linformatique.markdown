@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: L'informatique est morte.  Vive l'informatique!
 wordpress_id: 80
 wordpress_url: http://lackoftalent.org/michael/blog/2007/03/19/linformatique-est-morte-vive-linformatique/

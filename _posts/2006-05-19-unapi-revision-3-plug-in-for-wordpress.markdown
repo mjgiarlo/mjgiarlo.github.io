@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: unAPI revision 3 plug-in for WordPress
 wordpress_id: 38
 wordpress_url: http://lackoftalent.org/michael/blog/2006/05/19/unapi-revision-3-plug-in-for-wordpress/

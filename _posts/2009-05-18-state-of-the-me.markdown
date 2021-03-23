@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: State of the Me
 wordpress_id: 314
 wordpress_url: http://lackoftalent.org/michael/blog/?p=314

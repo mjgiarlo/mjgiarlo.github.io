@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: DRM for Librarians
 wordpress_id: 148
 wordpress_url: http://lackoftalent.org/michael/blog/?p=148

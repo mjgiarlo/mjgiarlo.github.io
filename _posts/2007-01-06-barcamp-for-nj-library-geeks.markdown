@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Camp for NJ Library Geeks?
 wordpress_id: 67
 wordpress_url: http://lackoftalent.org/michael/blog/2007/01/06/barcamp-for-nj-library-geeks/

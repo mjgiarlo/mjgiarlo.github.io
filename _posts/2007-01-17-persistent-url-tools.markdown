@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Persistent URL Tools
 wordpress_id: 72
 wordpress_url: http://lackoftalent.org/michael/blog/2007/01/17/persistent-url-tools/

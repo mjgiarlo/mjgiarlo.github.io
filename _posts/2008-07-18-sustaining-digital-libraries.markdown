@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Sustaining digital libraries
 wordpress_id: 132
 wordpress_url: http://lackoftalent.org/michael/blog/?p=132

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Access-based Enumeration &amp; Windows Server 2003 R2
 wordpress_id: 19
 wordpress_url: http://lackoftalent.org/michael/blog/2005/12/08/access-based-enumeration-windows-server-2003-r2/

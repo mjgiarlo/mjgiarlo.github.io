@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: List of Free Software
 wordpress_id: 11
 wordpress_url: http://lackoftalent.org/michael/blog/2005/11/30/list-of-free-software/

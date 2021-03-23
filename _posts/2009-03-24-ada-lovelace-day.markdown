@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Ada Lovelace Day
 wordpress_id: 306
 wordpress_url: http://lackoftalent.org/michael/blog/?p=306

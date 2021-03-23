@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "[0 of 10] Why Ruby on Rails?"
 wordpress_id: 88
 wordpress_url: http://lackoftalent.org/michael/blog/2007/05/22/0-of-10-why-ruby-on-rails/

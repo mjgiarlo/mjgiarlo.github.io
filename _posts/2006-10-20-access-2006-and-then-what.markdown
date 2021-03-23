@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Access 2006 - ... and then what?
 wordpress_id: 61
 wordpress_url: http://lackoftalent.org/michael/blog/2006/10/20/access-2006-and-then-what/

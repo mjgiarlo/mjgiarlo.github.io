@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "Identifier Persistence: Fundamentals"
 wordpress_id: 92
 wordpress_url: http://lackoftalent.org/michael/blog/2007/06/05/identifier-persistence-fundamentals/

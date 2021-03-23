@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Greetings from NJLA!
 wordpress_id: 82
 wordpress_url: http://lackoftalent.org/michael/blog/2007/04/25/greetings-from-njla/

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: JSONovich emerges
 wordpress_id: 492
 wordpress_url: http://lackoftalent.org/michael/blog/?p=492

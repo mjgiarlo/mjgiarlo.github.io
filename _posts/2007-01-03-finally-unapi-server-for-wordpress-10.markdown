@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Finally, unAPI Server for WordPress 1.0
 wordpress_id: 66
 wordpress_url: http://lackoftalent.org/michael/blog/2007/01/03/finally-unapi-server-for-wordpress-10/

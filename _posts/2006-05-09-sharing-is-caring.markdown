@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Sharing is caring
 wordpress_id: 35
 wordpress_url: http://lackoftalent.org/michael/blog/2006/05/09/sharing-is-caring/

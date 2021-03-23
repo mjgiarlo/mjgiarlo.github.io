@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: A Digital Object Defined
 wordpress_id: 435
 wordpress_url: http://lackoftalent.org/michael/blog/?p=435

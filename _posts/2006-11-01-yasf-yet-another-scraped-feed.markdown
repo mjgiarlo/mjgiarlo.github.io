@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: RSS Feed for RLG DigiNews
 wordpress_id: 62
 wordpress_url: http://lackoftalent.org/michael/blog/2006/11/01/yasf-yet-another-scraped-feed/

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Library Camp NYC 2007
 wordpress_id: 101
 wordpress_url: http://lackoftalent.org/michael/blog/2007/08/18/library-camp-nyc-2007/

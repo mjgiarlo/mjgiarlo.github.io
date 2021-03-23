@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Edumacation and a call for ILS abstraction
 wordpress_id: 89
 wordpress_url: http://lackoftalent.org/michael/blog/2007/05/24/edumacation-and-a-call-for-ils-abstraction/

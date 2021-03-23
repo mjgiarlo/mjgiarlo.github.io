@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Automated System Recovery
 wordpress_id: 14
 wordpress_url: http://lackoftalent.org/michael/blog/2005/12/05/automated-system-recovery/

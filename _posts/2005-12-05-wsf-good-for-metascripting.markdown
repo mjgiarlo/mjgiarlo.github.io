@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: WSF - good for metascripting?
 wordpress_id: 15
 wordpress_url: http://lackoftalent.org/michael/blog/2005/12/05/wsf-good-for-metascripting/

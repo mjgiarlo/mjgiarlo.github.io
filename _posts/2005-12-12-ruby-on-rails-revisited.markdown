@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Ruby on Rails, Revisited
 wordpress_id: 21
 wordpress_url: http://lackoftalent.org/michael/blog/2005/12/12/ruby-on-rails-revisited/

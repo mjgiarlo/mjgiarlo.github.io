@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Five things you didn't know and are now worse off for hearing
 wordpress_id: 68
 wordpress_url: http://lackoftalent.org/michael/blog/2007/01/11/five-things-you-didnt-know-and-are-now-worse-off-for-hearing/

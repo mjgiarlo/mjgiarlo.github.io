@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Burn the Walled Gardens
 wordpress_id: 216
 wordpress_url: http://lackoftalent.org/michael/blog/?p=216

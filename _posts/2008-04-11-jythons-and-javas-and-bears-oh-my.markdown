@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Jythons and Javas and bears, oh my!
 wordpress_id: 122
 wordpress_url: http://lackoftalent.org/michael/blog/?p=122

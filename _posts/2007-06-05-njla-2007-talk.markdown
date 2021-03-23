@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: NJLA 2007 Talk
 wordpress_id: 93
 wordpress_url: http://lackoftalent.org/michael/blog/2007/06/05/njla-2007-talk/

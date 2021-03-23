@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Library Camp NYC
 wordpress_id: 84
 wordpress_url: http://lackoftalent.org/michael/blog/2007/05/15/library-camp-nyc/

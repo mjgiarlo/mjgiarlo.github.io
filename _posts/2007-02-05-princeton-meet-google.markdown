@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Princeton, meet Google
 wordpress_id: 76
 wordpress_url: http://lackoftalent.org/michael/blog/2007/02/05/princeton-meet-google/

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "I2: Resource Description"
 wordpress_id: 568
 wordpress_url: http://lackoftalent.org/michael/blog/?p=568

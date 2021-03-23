@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Why Fedora?  More answers to the Fedora users survey
 wordpress_id: 57
 wordpress_url: http://lackoftalent.org/michael/blog/2006/09/25/why-fedora-more-answers-to-the-fedora-users-survey/

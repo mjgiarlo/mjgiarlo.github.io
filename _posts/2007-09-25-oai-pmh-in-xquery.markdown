@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: OAI-PMH in XQuery
 wordpress_id: 104
 wordpress_url: http://lackoftalent.org/michael/blog/2007/09/25/oai-pmh-in-xquery/

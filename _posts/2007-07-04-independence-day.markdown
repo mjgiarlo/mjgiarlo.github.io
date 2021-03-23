@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Independence Day
 wordpress_id: 99
 wordpress_url: http://lackoftalent.org/michael/blog/2007/07/04/independence-day/

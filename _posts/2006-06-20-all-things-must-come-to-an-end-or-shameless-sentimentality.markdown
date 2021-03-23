@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: All Things Must Come To An End, or, Shameless Sentimentality
 wordpress_id: 43
 wordpress_url: http://lackoftalent.org/michael/blog/2006/06/20/all-things-must-come-to-an-end-or-shameless-sentimentality/

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "I2: Survey results"
 wordpress_id: 497
 wordpress_url: http://lackoftalent.org/michael/blog/?p=497

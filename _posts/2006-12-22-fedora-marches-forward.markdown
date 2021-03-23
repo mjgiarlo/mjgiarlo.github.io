@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Fedora marches forward
 wordpress_id: 65
 wordpress_url: http://lackoftalent.org/michael/blog/2006/12/22/fedora-marches-forward/

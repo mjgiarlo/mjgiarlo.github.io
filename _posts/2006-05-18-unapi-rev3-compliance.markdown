@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: unAPI-rev3 compliance
 wordpress_id: 37
 wordpress_url: http://lackoftalent.org/michael/blog/2006/05/18/unapi-rev3-compliance/

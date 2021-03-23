@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Plugin updates
 wordpress_id: 190
 wordpress_url: http://lackoftalent.org/michael/blog/?p=190

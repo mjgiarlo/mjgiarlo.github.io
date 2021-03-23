@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: A comparative analysis of keyword extraction techniques [excerpt]
 wordpress_id: 27
 wordpress_url: http://lackoftalent.org/michael/blog/2006/03/06/a-comparative-analysis-of-keyword-extraction-techniques/

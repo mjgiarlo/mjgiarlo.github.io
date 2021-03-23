@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Do what now?
 wordpress_id: 77
 wordpress_url: http://lackoftalent.org/michael/blog/2007/02/28/do-what-now/

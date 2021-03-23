@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: My Left Arm for a Teleporter
 wordpress_id: 110
 wordpress_url: http://lackoftalent.org/michael/blog/2007/10/19/my-left-arm-for-a-teleporter/

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Tweet tweet
 wordpress_id: 125
 wordpress_url: http://lackoftalent.org/michael/blog/?p=125

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "HOWTO: Get Twhirl 0.8.7 working on Ubuntu"
 wordpress_id: 222
 wordpress_url: http://lackoftalent.org/michael/blog/?p=222

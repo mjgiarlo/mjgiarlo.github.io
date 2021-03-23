@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Problems joining a Windows 2003 Active Directory domain
 wordpress_id: 9
 wordpress_url: http://lackoftalent.org/michael/blog/2005/11/30/problems-joining-a-windows-2003-active-directory-domain/

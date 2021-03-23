@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "Open source in libraries: Marching on"
 wordpress_id: 98
 wordpress_url: http://lackoftalent.org/michael/blog/2007/06/21/open-source-in-libraries-marching-on/

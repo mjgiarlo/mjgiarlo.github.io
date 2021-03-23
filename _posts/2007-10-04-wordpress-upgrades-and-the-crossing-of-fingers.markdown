@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: WordPress upgrades and the crossing of fingers
 wordpress_id: 106
 wordpress_url: http://lackoftalent.org/michael/blog/2007/10/04/wordpress-upgrades-and-the-crossing-of-fingers/

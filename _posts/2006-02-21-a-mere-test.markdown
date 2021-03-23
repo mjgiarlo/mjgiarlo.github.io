@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: A Mere Test
 wordpress_id: 3
 wordpress_url: http://lackoftalent.org/michael/blog/?p=3

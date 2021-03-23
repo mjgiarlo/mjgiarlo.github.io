@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Going to Princeton, code4lib++
 wordpress_id: 50
 wordpress_url: http://lackoftalent.org/michael/blog/2006/08/02/going-to-princeton-code4lib/

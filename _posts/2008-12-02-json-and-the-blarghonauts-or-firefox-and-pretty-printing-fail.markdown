@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: JSON and the Blarghonauts, or, Firefox and Pretty-Printing FAIL
 wordpress_id: 196
 wordpress_url: http://lackoftalent.org/michael/blog/?p=196

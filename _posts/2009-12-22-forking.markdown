@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Forking
 wordpress_id: 551
 wordpress_url: http://lackoftalent.org/michael/blog/?p=551

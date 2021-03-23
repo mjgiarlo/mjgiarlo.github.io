@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: OCLC report on students' perceptions of libraries
 wordpress_id: 39
 wordpress_url: http://lackoftalent.org/michael/blog/2006/05/31/oclc-report-on-students-perceptions-of-libraries/

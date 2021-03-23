@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: JSONovich update
 wordpress_id: 251
 wordpress_url: http://lackoftalent.org/michael/blog/?p=251

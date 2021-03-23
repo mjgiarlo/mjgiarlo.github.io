@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: RESTful Fedora?
 wordpress_id: 97
 wordpress_url: http://lackoftalent.org/michael/blog/2007/06/19/restful-fedora/

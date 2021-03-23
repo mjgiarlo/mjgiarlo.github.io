@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Is John McCain a socialist?
 wordpress_id: 167
 wordpress_url: http://lackoftalent.org/michael/blog/?p=167

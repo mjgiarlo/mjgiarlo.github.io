@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Jython scp
 wordpress_id: 124
 wordpress_url: http://lackoftalent.org/michael/blog/?p=124

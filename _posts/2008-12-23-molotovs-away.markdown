@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Molotovs away!
 wordpress_id: 243
 wordpress_url: http://lackoftalent.org/michael/blog/?p=243

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: New theme
 wordpress_id: 69
 wordpress_url: http://lackoftalent.org/michael/blog/2007/01/14/new-theme/

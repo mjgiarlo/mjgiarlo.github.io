@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Use cases for Handle identifiers?
 wordpress_id: 107
 wordpress_url: http://lackoftalent.org/michael/blog/2007/10/05/use-cases-for-handle-identifiers/

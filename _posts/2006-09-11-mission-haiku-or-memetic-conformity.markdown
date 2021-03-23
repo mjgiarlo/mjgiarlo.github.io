@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Mission haiku, or, memetic conformity
 wordpress_id: 56
 wordpress_url: http://lackoftalent.org/michael/blog/2006/09/11/mission-haiku-or-memetic-conformity/

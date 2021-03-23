@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: DSpace.war, what is it good for?
 wordpress_id: 32
 wordpress_url: http://lackoftalent.org/michael/blog/2006/04/20/dspacewar-what-is-it-good-for/

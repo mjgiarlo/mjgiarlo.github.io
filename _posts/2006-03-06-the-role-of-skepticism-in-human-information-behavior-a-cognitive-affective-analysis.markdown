@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: The role of skepticism in human-information behavior [excerpt]
 wordpress_id: 26
 wordpress_url: http://lackoftalent.org/michael/blog/2006/03/06/the-role-of-skepticism-in-human-information-behavior-a-cognitive-affective-analysis/

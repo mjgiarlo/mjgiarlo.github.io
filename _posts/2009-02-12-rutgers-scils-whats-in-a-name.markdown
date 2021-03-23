@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "Rutgers SCILS: What's in a name?"
 wordpress_id: 297
 wordpress_url: http://lackoftalent.org/michael/blog/?p=297

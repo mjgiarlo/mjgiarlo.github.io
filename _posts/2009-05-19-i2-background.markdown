@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "I2: Background"
 wordpress_id: 312
 wordpress_url: http://lackoftalent.org/michael/blog/?p=312

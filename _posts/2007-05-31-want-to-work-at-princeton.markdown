@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Want to work at Princeton?
 wordpress_id: 91
 wordpress_url: http://lackoftalent.org/michael/blog/2007/05/31/want-to-work-at-princeton/

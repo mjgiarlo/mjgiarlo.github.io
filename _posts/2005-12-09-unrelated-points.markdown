@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Unrelated points
 wordpress_id: 20
 wordpress_url: http://lackoftalent.org/michael/blog/2005/12/09/unrelated-points/

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Home and End keys - PuTTY - bash - Linux
 wordpress_id: 8
 wordpress_url: http://lackoftalent.org/michael/blog/2005/11/30/home-and-end-keys-putty-bash-linux/

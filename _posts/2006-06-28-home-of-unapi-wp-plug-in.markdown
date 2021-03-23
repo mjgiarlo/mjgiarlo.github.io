@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Home of unAPI WP plug-in
 wordpress_id: 47
 wordpress_url: http://lackoftalent.org/michael/blog/2006/06/28/home-of-unapi-wp-plug-in/

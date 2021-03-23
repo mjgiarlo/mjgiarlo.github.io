@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Hiccup-y Hardy Heron
 wordpress_id: 126
 wordpress_url: http://lackoftalent.org/michael/blog/?p=126

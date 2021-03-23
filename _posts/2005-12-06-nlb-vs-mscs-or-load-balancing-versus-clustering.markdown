@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: NLB vs. MSCS, or load-balancing versus clustering
 wordpress_id: 16
 wordpress_url: http://lackoftalent.org/michael/blog/2005/12/06/nlb-vs-mscs-or-load-balancing-versus-clustering/

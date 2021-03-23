@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: OAI-ORE ResourceMap for WordPress
 wordpress_id: 111
 wordpress_url: http://lackoftalent.org/michael/blog/2007/12/14/oai-ore-resourcemap-for-wordpress/

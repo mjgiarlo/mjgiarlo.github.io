@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Stupid terminal tricks
 wordpress_id: 128
 wordpress_url: http://lackoftalent.org/michael/blog/?p=128

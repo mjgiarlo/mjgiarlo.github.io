@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: OpenID plug-in for WordPress
 wordpress_id: 74
 wordpress_url: http://lackoftalent.org/michael/blog/2007/02/01/openid-plug-in-for-wordpress/

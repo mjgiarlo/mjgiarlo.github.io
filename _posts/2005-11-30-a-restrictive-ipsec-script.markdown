@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: A restrictive IPSec script
 wordpress_id: 10
 wordpress_url: http://lackoftalent.org/michael/blog/2005/11/30/a-restrictive-ipsec-script/

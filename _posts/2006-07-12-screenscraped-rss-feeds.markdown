@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Screenscraped RSS Feeds
 wordpress_id: 48
 wordpress_url: http://lackoftalent.org/michael/blog/2006/07/12/screenscraped-rss-feeds/

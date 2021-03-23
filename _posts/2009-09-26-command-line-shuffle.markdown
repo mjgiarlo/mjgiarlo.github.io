@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Command-line shuffle
 wordpress_id: 500
 wordpress_url: http://lackoftalent.org/michael/blog/?p=500

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: A founding father on the party system
 wordpress_id: 130
 wordpress_url: http://lackoftalent.org/michael/blog/?p=130

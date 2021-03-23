@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Is MARC a data model?
 wordpress_id: 452
 wordpress_url: http://lackoftalent.org/michael/blog/?p=452

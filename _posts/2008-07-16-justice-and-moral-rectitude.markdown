@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Justice and Moral Rectitude
 wordpress_id: 131
 wordpress_url: http://lackoftalent.org/michael/blog/?p=131

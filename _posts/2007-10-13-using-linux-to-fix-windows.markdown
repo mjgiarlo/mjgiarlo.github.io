@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Using Linux to fix Windows
 wordpress_id: 109
 wordpress_url: http://lackoftalent.org/michael/blog/2007/10/13/using-linux-to-fix-windows/

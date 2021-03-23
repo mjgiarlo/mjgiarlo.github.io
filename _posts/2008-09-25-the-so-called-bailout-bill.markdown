@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: The so-called "bailout bill"
 wordpress_id: 151
 wordpress_url: http://lackoftalent.org/michael/blog/?p=151

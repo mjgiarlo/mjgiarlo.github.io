@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Microsoft has the Power(set)
 wordpress_id: 129
 wordpress_url: http://lackoftalent.org/michael/blog/?p=129

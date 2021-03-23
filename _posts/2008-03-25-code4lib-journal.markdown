@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Code4Lib Journal
 wordpress_id: 120
 wordpress_url: http://lackoftalent.org/michael/blog/2008/03/25/code4lib-journal/

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: JSONovich crawls into the future
 wordpress_id: 561
 wordpress_url: http://lackoftalent.org/michael/blog/?p=561

@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Validating ORE from the Command-line
 wordpress_id: 440
 wordpress_url: http://lackoftalent.org/michael/blog/?p=440

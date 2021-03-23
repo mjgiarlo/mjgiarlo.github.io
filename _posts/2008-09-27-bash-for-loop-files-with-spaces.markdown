@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Bash, For loop, Files with spaces
 wordpress_id: 154
 wordpress_url: http://lackoftalent.org/michael/blog/?p=154

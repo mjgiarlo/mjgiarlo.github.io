@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Rails Deployment
 wordpress_id: 121
 wordpress_url: http://lackoftalent.org/michael/blog/2008/03/26/rails-deployment/

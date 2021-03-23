@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Feed for First Monday
 wordpress_id: 58
 wordpress_url: http://lackoftalent.org/michael/blog/2006/09/30/feed-for-first-monday/

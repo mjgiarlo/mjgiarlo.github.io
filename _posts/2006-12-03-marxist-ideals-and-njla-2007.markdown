@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Marxist ideals and NJLA 2007
 wordpress_id: 64
 wordpress_url: http://lackoftalent.org/michael/blog/2006/12/03/marxist-ideals-and-njla-2007/

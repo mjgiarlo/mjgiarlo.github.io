@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Putting a face to a name
 wordpress_id: 33
 wordpress_url: http://lackoftalent.org/michael/blog/2006/04/25/putting-a-face-to-a-name/

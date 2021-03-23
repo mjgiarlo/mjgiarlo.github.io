@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: A farewell to Falwell
 wordpress_id: 85
 wordpress_url: http://lackoftalent.org/michael/blog/2007/05/16/a-farewell-to-falwell/

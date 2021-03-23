@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Windows Server 2003 still dependent upon WINS / NetBIOS?
 wordpress_id: 18
 wordpress_url: http://lackoftalent.org/michael/blog/2005/12/07/windows-server-2003-still-dependent-upon-wins-netbios/

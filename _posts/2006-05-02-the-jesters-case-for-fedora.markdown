@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: The Jester's Case for Fedora
 wordpress_id: 34
 wordpress_url: http://lackoftalent.org/michael/blog/2006/05/02/the-jesters-case-for-fedora/

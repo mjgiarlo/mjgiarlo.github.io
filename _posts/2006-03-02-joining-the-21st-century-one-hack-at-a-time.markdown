@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: unAPI, COinS-PMH, OpenSearch support
 wordpress_id: 22
 wordpress_url: http://lackoftalent.org/michael/blog/2006/03/02/joining-the-21st-century-one-hack-at-a-time/

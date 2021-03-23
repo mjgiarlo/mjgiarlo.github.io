@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: And what rough beast
 wordpress_id: 277
 wordpress_url: http://lackoftalent.org/michael/blog/?p=277

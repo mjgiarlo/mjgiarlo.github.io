@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: The MLS and library technology
 wordpress_id: 100
 wordpress_url: http://lackoftalent.org/michael/blog/2007/07/22/the-mls-and-library-technology/

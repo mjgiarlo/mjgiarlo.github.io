@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Lynx and HTTPS/SSL on Ubuntu (8.10)
 wordpress_id: 269
 wordpress_url: http://lackoftalent.org/michael/blog/?p=269

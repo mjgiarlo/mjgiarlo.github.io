@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Some shots from Alaska
 wordpress_id: 142
 wordpress_url: http://lackoftalent.org/michael/blog/?p=142

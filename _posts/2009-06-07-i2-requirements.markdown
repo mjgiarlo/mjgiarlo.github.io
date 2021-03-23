@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "I2: Requirements"
 wordpress_id: 327
 wordpress_url: http://lackoftalent.org/michael/blog/?p=327

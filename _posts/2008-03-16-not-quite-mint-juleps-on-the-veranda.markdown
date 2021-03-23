@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: Not quite mint juleps on the veranda
 wordpress_id: 119
 wordpress_url: http://lackoftalent.org/michael/blog/2008/03/16/not-quite-mint-juleps-on-the-veranda/

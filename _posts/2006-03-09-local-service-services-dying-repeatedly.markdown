@@ -1,5 +1,5 @@
 --- 
-layout: post
+
 title: "\"Local Service\" Services Dying Repeatedly?"
 wordpress_id: 30
 wordpress_url: http://lackoftalent.org/michael/blog/2006/03/09/local-service-services-dying-repeatedly/
