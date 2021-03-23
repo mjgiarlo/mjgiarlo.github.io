@@ -14,13 +14,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mike Giarlo
+name: Mike Giarlo
 email: leftwing@alumni.rutgers.edu
 description: Mike Giarlo On The Web
 twitter_username: mjgiarlo
 github_username: mjgiarlo
+facebook:
+  username: mjgiarlo
 minimal_mistakes_skin: default
 search: true
+search_full_content: true
 url: 'https://mike.giarlo.name'
+repository: 'mjgiarlo/mjgiarlo.github.io'
 
 # Build settings
 markdown: kramdown
@@ -56,9 +61,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Mike Giarlo"
-  avatar : "/assets/images/2021_mjgiarlo.jpg"
-  bio    : "Mike Giarlo is a senior software engineer & architect who works for academic and research libraries."
+  name: "Mike Giarlo"
+  avatar: "/assets/images/2021_mjgiarlo.jpg"
+  bio: "Mike Giarlo is a senior software engineer for academic and research libraries"
+  location: 'Seattle, WA, US'
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -70,7 +76,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mjgiarlo"
     - label: "Email"
-      icon: "fab fa-fw fa-at"
+      icon: "fab fa-fw fa-envelope"
       url: "mailto:leftwing@alumni.rutgers.edu"
 
 footer:
@@ -82,7 +88,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mjgiarlo"
     - label: "Email"
-      icon: "fab fa-fw fa-at"
+      icon: "fab fa-fw fa-envelope"
       url: "mailto:leftwing@alumni.rutgers.edu"
 
 defaults:
@@ -93,10 +99,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -111,3 +118,13 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+social:
+  type: Person
+  links:
+    - 'http://twitter.com/mjgiarlo'
+    - 'http://github.com/mjgiarlo'
+    - 'http://instagram.com/mjgiarlo'
+    - 'http://www.linkedin.com/in/mjgiarlo'
+    - 'http://facebook.com/mjgiarlo'
+    - 'http://orcid.org/0000-0002-2100-6108'
