@@ -1,12 +1,9 @@
 ---
-layout: page
 title: "Presentations"
-date: 2012-04-21 22:23
-comments: true
-sharing: true
-sidebar: false
-footer: true
+permalink: /presentations/
+date: 2013-12-01 22:23
 ---
+
 <dl class="dl-horizontal">
 <dt><span class="label label-important">November 2013</span></dt><dd> Panelist, <a href="http://www.diglib.org/forums/2013forum/">Digital Library Federation Fall Forum</a>, A Hydra Community Story: What Makes a Successful Digital Library? [<a href="http://www.diglib.org/forums/2013forum/schedule/69-2/">Abstract</a>]</dd>
 <dt><span class="label label-important">November 2013</span></dt><dd> Poster, <a href="http://www.diglib.org/forums/2013forum/">Digital Library Federation Fall Forum</a>, ScholarSphere and Community</dd>

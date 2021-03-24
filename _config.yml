@@ -63,33 +63,52 @@ plugins:
 author:
   name: "Mike Giarlo"
   avatar: "/assets/images/2021_mjgiarlo.jpg"
-  bio: "Mike Giarlo is a senior software engineer for academic and research libraries"
+  bio: "Mike Giarlo is a coder for libraries"
   location: 'Seattle, WA, US'
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://mike.giarlo.name"
+    - label: "Email"
+      icon: "fas fa-fw fa-at"
+      url: "mailto:leftwing@alumni.rutgers.edu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/mjgiarlo"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://code4lib.social/@mjgiarlo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mjgiarlo"
-    - label: "Email"
-      icon: "fab fa-fw fa-envelope"
-      url: "mailto:leftwing@alumni.rutgers.edu"
+    - label: "Keybase"
+      icon: "fab fa-fw fa-keybase"
+      url: "https://keybase.io/mjgiarlo"
+    - label: "ORCiD"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-2100-6108"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mjgiarlo"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/mjgiarlo/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/mjgiarlo"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mjgiarlo"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mjgiarlo"
-    - label: "Email"
-      icon: "fab fa-fw fa-envelope"
-      url: "mailto:leftwing@alumni.rutgers.edu"
+
+# footer:
+#   links:
+#     - label: "Email"
+#       icon: "fas fa-fw fa-at"
+#       url: "mailto:leftwing@alumni.rutgers.edu"
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/mjgiarlo"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/mjgiarlo"
+#     - label: "LinkedIn"
+#       icon: "fab fa-fw fa-linkedin"
+#       url: "https://www.linkedin.com/in/mjgiarlo"
 
 defaults:
   # _posts
@@ -111,6 +130,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: true
+      show_date: true
 
 category_archive:
   type: liquid

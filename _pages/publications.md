@@ -1,11 +1,7 @@
 ---
-layout: page
 title: "Publications"
-date: 2012-04-21 22:28
-comments: true
-sharing: true
-sidebar: false
-footer: true
+permalink: /publications/
+date: 2013-12-21 22:28
 ---
 <p>Giarlo, M.J. &amp; Hswe, P. (2013). Community Spotlight:  ScholarSphere. <em>Digital Library Federation Community Spotlight</em>. [<a href="http://www.diglib.org/archives/5288">Full-text</a>]</p>
 <p>Giarlo, M.J. (2013). Academic Libraries as Data Quality Hubs. <em>Journal of Librarianship and Scholarly Communication, 1(3)</em>. [<a href="http://jlsc-pub.org/jlsc/vol1/iss3/5/">Full-text</a>]</p>

@@ -1,14 +1,9 @@
 ---
-layout: page
 title: "Projects"
+permalink: /projects/
 date: 2012-04-21 22:23
-comments: true
-sharing: true
-sidebar: false
-footer: true
 ---
-
-## <span id="current">Current</span>
+## Current
 
 <dl class="dl-horizontal">
 <dt><a href="http://stewardship.psu.edu/">Digital Stewardship</a></dt>
@@ -38,7 +33,7 @@ footer: true
 </dl>
 
 
-## <span id="past">Past</span>
+## Past
 
 * [Hacking Science](http://sites.psu.edu/hackingscience/)
 * [active-fedora](https://github.com/psu-stewardship/active_fedora)
@@ -61,4 +56,3 @@ footer: true
 * [LinkPURL (WordPress)](http://wordpress.org/extend/plugins/linkpurl/)
 * [OpenWMS](http://rucore.libraries.rutgers.edu/open/projects/openwms/)
 * [NJ Digital Highway](http://www.njdigitalhighway.org/)
-
