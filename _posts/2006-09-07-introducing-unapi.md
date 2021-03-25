@@ -1,8 +1,8 @@
---- 
+---
 
 title: Introducing unAPI
 wordpress_id: 55
-wordpress_url: http://lackoftalent.org/michael/blog/2006/09/07/introducing-unapi/
+wordpress_url: https://mike.giarlo.name/blog/2006/09/07/introducing-unapi/
 date: 2006-09-07 13:09:25 -04:00
 ---
 What is unAPI?  Why should you care about it?

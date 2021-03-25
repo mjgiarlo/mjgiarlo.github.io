@@ -1,8 +1,8 @@
---- 
+---
 
 title: List of Free Software
 wordpress_id: 11
-wordpress_url: http://lackoftalent.org/michael/blog/2005/11/30/list-of-free-software/
+wordpress_url: https://mike.giarlo.name/blog/2005/11/30/list-of-free-software/
 date: 2005-11-30 19:52:00 -05:00
 ---
 Here's a list of all the free software I'm running on my Windows XP workstation, or least the subset that I deem noteworthy. Rather than annotate the list, which would be far too helpful, I will merely provide links.

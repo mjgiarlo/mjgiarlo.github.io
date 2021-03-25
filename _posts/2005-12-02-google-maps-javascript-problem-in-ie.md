@@ -1,8 +1,8 @@
---- 
+---
 
 title: Google Maps JavaScript problem in IE
 wordpress_id: 13
-wordpress_url: http://lackoftalent.org/michael/blog/2005/12/02/google-maps-javascript-problem-in-ie/
+wordpress_url: https://mike.giarlo.name/blog/2005/12/02/google-maps-javascript-problem-in-ie/
 date: 2005-12-02 22:51:00 -05:00
 ---
 Internet Explorer likes to throw the "Operation Aborted" error when trying to hook into the Google Maps API via JavaScript, at least when the JavaScript is placed where it is supposed to, i.e., a reference to the Google Maps JavaScript in the page HEAD and the actual rendering of the map within the DIV tag.
@@ -21,7 +21,7 @@ The JavaScript that actually renders the map within the DIV tag, <em>cleverly</e
 <blockquote><code>
 &lt;/BODY&gt;
 &lt;script type="text/javascript"&gt;
-//&lt;![CDATA[Â 
+//&lt;![CDATA[Â
 
 var map = new GMap(document.getElementById("map"));
 map.setMapType(G_HYBRID_TYPE);

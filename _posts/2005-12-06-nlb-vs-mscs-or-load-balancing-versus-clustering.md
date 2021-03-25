@@ -1,8 +1,8 @@
---- 
+---
 
 title: NLB vs. MSCS, or load-balancing versus clustering
 wordpress_id: 16
-wordpress_url: http://lackoftalent.org/michael/blog/2005/12/06/nlb-vs-mscs-or-load-balancing-versus-clustering/
+wordpress_url: https://mike.giarlo.name/blog/2005/12/06/nlb-vs-mscs-or-load-balancing-versus-clustering/
 date: 2005-12-06 17:04:00 -05:00
 ---
 Not quite sure you grasp the subtleties of difference between load-balancing (NLB) and server clustering (MSCS)? After all, both are technologies that allow distinct server nodes to be externally visible via a virtual server, and support failover. The fundamental similarities might overshadow their concisely stated difference:

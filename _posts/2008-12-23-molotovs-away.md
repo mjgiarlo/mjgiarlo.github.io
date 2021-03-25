@@ -1,11 +1,11 @@
---- 
+---
 
 title: Molotovs away!
 wordpress_id: 243
-wordpress_url: http://lackoftalent.org/michael/blog/?p=243
+wordpress_url: https://mike.giarlo.name/blog/?p=243
 date: 2008-12-23 23:29:50 -05:00
 ---
-Lest I be criticized for unfairly calling out former employers in my recent <a href="/michael/blog/2008/12/15/burn-the-walled-gardens/">Burn the Walled Gardens rant</a>, I share news that the Rutgers University Libraries have boldly ventured into the world of open source software: <a href="http://rucore.libraries.rutgers.edu/open/" target="_blank">RUcore Open Source Development</a>.  Huzzah!  Thanks to the molotov-hurling <a href="http://www.sdellis.com/" target="_blank">Shaun Ellis</a>, a peacenik/code monkey/musician extraordinaire, for all of his work and for bringing this to my attention.
+Lest I be criticized for unfairly calling out former employers in my recent <a href="/blog/2008/12/15/burn-the-walled-gardens/">Burn the Walled Gardens rant</a>, I share news that the Rutgers University Libraries have boldly ventured into the world of open source software: <a href="http://rucore.libraries.rutgers.edu/open/" target="_blank">RUcore Open Source Development</a>.  Huzzah!  Thanks to the molotov-hurling <a href="http://www.sdellis.com/" target="_blank">Shaun Ellis</a>, a peacenik/code monkey/musician extraordinaire, for all of his work and for bringing this to my attention.
 
 On the RUcore open source page you can get a list of ongoing projects, a release schedule, and a rationale for their licensing decisions (i.e., choosing <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL 3</a>).
 

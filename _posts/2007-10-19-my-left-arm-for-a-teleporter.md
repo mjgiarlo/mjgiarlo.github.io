@@ -1,8 +1,8 @@
---- 
+---
 
 title: My Left Arm for a Teleporter
 wordpress_id: 110
-wordpress_url: http://lackoftalent.org/michael/blog/2007/10/19/my-left-arm-for-a-teleporter/
+wordpress_url: https://mike.giarlo.name/blog/2007/10/19/my-left-arm-for-a-teleporter/
 date: 2007-10-19 02:06:22 -04:00
 ---
 Moving Day has come.  In approximately six-and-one-half hours, movers will show up at my front door to take my crap -- which seems to have multiplied, making me wonder if dark closets are particularly romantic environments for inanimate objects -- and haul it down to <a href="http://www.commuterpage.com/ART/villages/clarendon2.htm" target="_blank">Virginia</a>.  How did we accumulate so much crap?  Why can we put a man on the moon, and a <a href="http://en.wikipedia.org/wiki/Monkeys_in_space" target="_blank">monkey into space</a>, and yet we still can't teleport matter?  But I digress.

@@ -1,8 +1,8 @@
---- 
+---
 
 title: The impact of open access on academic libraries [excerpt]
 wordpress_id: 25
-wordpress_url: http://lackoftalent.org/michael/blog/2006/03/06/the-impact-of-open-access-on-academic-libraries/
+wordpress_url: https://mike.giarlo.name/blog/2006/03/06/the-impact-of-open-access-on-academic-libraries/
 date: 2006-03-06 23:12:38 -05:00
 ---
 <p align="left">Broadly defined, open access makes scholarly materials accessible to users at no cost. More specifically, the term is used to describe a model of scholarly communication in which users may freely view, download, copy, and print scholarly articles, books, conference proceedings, squibs, and so forth. Such a model is in stark contrast to existing models of scholarly communication in that many of the most widely-used peer-reviewed journals are accessible to libraries primarily through expensive bulk package plans, forcing libraries to pay top-dollar for the resources their faculties require. In so doing, libraries add to their collections a number of rarely-used journals of minimal impact and value simply because they were bundled in with the journals they could not do without: a model not unlike those provided by the local cable company â€“ i.e., if one wants the Food Network, one is also saddled with the Golf Channel.</p>
@@ -17,4 +17,4 @@ date: 2006-03-06 23:12:38 -05:00
 <p align="left">It is observed in this paper that all flavors and forms of open access impact the roles filled by academic libraries, but it is worth noting that these may vary. For instance, while the green model of open access will undoubtedly benefit scholars by globally providing scholarly material at no cost, with no access restrictions, other benefits such as budget relief may not be realized (Crawford, 2005b). In fact, it may strain budgets that are already being stretched by commercial journals.</p>
 <p align="left">The scope of this paper is limited to academic libraries primarily because of the close relationship they have with university faculties, i.e., those who both contribute the most to scholarly journals, and have strong needs for access to same. Many of the impacts discussed in this paper might also apply to public, school, and special libraries, but the scope is limited due to the proximity academic libraries have to the world of scholarly communication.</p>
 <p align="left">It is not the intention of the author to paint a simple, rosy picture of the issues surrounding open access, nor to advocate a radical, wholesale shift thereto. Rather, it is suggested only that the issues surrounding open access be brought out into the open and discussed. While there are reasons academic libraries might be cautious about modifying the ways they support scholarly communication, there are myriad reasons to consider how they might best serve their communities with open access.</p>
-...  Read <a title="The Impact of open Access on Academic Libraries" href="/michael/papers/532.pdf" target="_blank">the paper</a> in its entirety.
+...  Read <a title="The Impact of open Access on Academic Libraries" href="/papers/532.pdf" target="_blank">the paper</a> in its entirety.

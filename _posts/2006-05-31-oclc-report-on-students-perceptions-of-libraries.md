@@ -1,12 +1,12 @@
---- 
+---
 
 title: OCLC report on students' perceptions of libraries
 wordpress_id: 39
-wordpress_url: http://lackoftalent.org/michael/blog/2006/05/31/oclc-report-on-students-perceptions-of-libraries/
+wordpress_url: https://mike.giarlo.name/blog/2006/05/31/oclc-report-on-students-perceptions-of-libraries/
 date: 2006-05-31 13:43:01 -04:00
 ---
 From <a href="http://www.oclc.org/reports/perceptionscollege.htm">http://www.oclc.org/reports/perceptionscollege.htm</a>Â --
-<blockquote><strong>College Studentsâ€™ Perceptions of Libraries and Information Resources</strong> examines the information-seeking habits and preferences of international college students. This report is a companion piece to the December 2005 OCLC <a href="http://www.lackoftalent.org/michael/blog/wp-admin/2005perceptions.htm"><em>Perceptions of Libraries and Information Resources</em></a> report.
+<blockquote><strong>College Studentsâ€™ Perceptions of Libraries and Information Resources</strong> examines the information-seeking habits and preferences of international college students. This report is a companion piece to the December 2005 OCLC <a href="https://mike.giarlo.name/blog/wp-admin/2005perceptions.htm"><em>Perceptions of Libraries and Information Resources</em></a> report.
 
 The 396 college students who participated in the survey range in age from 15 to 57 and are either undergraduate or graduate students. The college students were from all of the six countries included in the survey (Australia, Canada, India, Singapore, United Kingdom and the United States). Responses from U.S. 14- to 17-year-old participants have also been included to provide contrast and comparison with the college students, as these young people are potential college attendees.
 

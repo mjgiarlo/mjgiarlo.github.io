@@ -1,11 +1,11 @@
---- 
+---
 
 title: Linking World Digital Library Data
 wordpress_id: 457
-wordpress_url: http://lackoftalent.org/michael/blog/?p=457
+wordpress_url: https://mike.giarlo.name/blog/?p=457
 date: 2009-08-10 18:44:29 -04:00
 ---
-As I <a href="/michael/blog/2009/07/31/validating-ore-from-the-command-line/">mentioned earlier</a>, I've been learning about linked data in the context of dropping it into the <a href="http://www.wdl.org">World Digital Library</a> project.  I am hopeful we'll be able to deploy the RDF views ((Sadly, the URIs are uglyish due to some constraints from our caching configuration.  I figure we can redirect uglyish URIs to cool ones and make use of owl:sameAs if those constraints go away.)) before too long.  In advance of that, I thought it might be helpful to share a sample of what our RDF would look like.  The RDF below represents the WDL item for the U.S. Constitution.  I appreciate constructive criticism.
+As I <a href="/blog/2009/07/31/validating-ore-from-the-command-line/">mentioned earlier</a>, I've been learning about linked data in the context of dropping it into the <a href="http://www.wdl.org">World Digital Library</a> project.  I am hopeful we'll be able to deploy the RDF views[^1] before too long.  In advance of that, I thought it might be helpful to share a sample of what our RDF would look like.  The RDF below represents the WDL item for the U.S. Constitution.  I appreciate constructive criticism.
 
 A few things to note:
 <ul>
@@ -13,9 +13,9 @@ A few things to note:
 <li>Item types are from the <a href="http://bibliontology.com/">Bibliographic Ontology</a>.</li>
 <li>Most of the properties are from the <a href="http://dublincore.org/documents/dces/">Dublin Core Metadata Element Set</a> ontology, especially used where literals are objects rather than resources identified by URI. </li>
 <li>Where possible I dug up or found URIs and used the <a href="http://dublincore.org/documents/dcmi-terms/">Dublin Core Metadata Terms</a> ontology.</li>
-<li>An item is modeled as an aggregation of its constituent files, as defined in <a href="http://www.openarchives.org/ore/">OAI-ORE</a>.  The notion here is that an ORE aggregation of an item, as expressed in a resource map which is discoverable via a link header in each item detail page, is a "whole" item, including all of its files ((<em>sans</em> certain low-quality derivatives such as small thumbnails and tiles for the zoom interface)), metadata, and translations.</li>
+<li>An item is modeled as an aggregation of its constituent files, as defined in <a href="http://www.openarchives.org/ore/">OAI-ORE</a>.  The notion here is that an ORE aggregation of an item, as expressed in a resource map which is discoverable via a link header in each item detail page, is a "whole" item, including all of its files[^2], metadata, and translations.</li>
 <li>I'm also making light use of the <a href="http://www.semanticdesktop.org/ontologies/nfo/">NEPOMUK File Ontology</a> to express that constituent files are files, and to be explicit about file sizes so that folks know in advance of retrieving it how large files are.</li>
-<li>Links out to <a href="http://purl.org/NET/decimalised#">DDC</a> (Decimalised Database of Concepts), <a href="http://www.lingvoj.org/">Lingvoj</a>, <a href="http://dbpedia.org/">DBpedia</a>, and <a href="http://id.loc.gov/authorities/">Library of Congress Authorities &amp; Vocabularies</a> (e.g., LC Subject Headings) are included where possible.  ((I was poking through the DBpedia output for <a href="http://www.geonames.org/">Geonames</a> URIs as well, but my method was way too slow and clunky, so that's disabled for the time being.  Clients can always follow their noses from the DBpedia output.)) I'd be especially stoked to hear of other vocabs I might link to.  The more linked the data, the better.</li>
+<li>Links out to <a href="http://purl.org/NET/decimalised#">DDC</a> (Decimalised Database of Concepts), <a href="http://www.lingvoj.org/">Lingvoj</a>, <a href="http://dbpedia.org/">DBpedia</a>, and <a href="http://id.loc.gov/authorities/">Library of Congress Authorities &amp; Vocabularies</a> (e.g., LC Subject Headings) are included where possible[^3]. I'd be especially stoked to hear of other vocabs I might link to.  The more linked the data, the better.</li>
 <li>The output below is Turtle for readability, but the application will offer up RDF/XML.</li>
 </ul>
 
@@ -88,3 +88,7 @@ The data after the jump:
     rdfs:seeAlso <http://hdl.loc.gov/loc.wdl/dna.2708> .
 
 </pre>
+
+[^1]: Sadly, the URIs are uglyish due to some constraints from our caching configuration.  I figure we can redirect uglyish URIs to cool ones and make use of `owl:sameAs`` if those constraints go away.
+[^2]: *sans* certain low-quality derivatives such as small thumbnails and tiles for the zoom interface
+[^3]: I was poking through the DBpedia output for <a href="http://www.geonames.org/">Geonames</a> URIs as well, but my method was way too slow and clunky, so that's disabled for the time being.  Clients can always follow their noses from the DBpedia output.

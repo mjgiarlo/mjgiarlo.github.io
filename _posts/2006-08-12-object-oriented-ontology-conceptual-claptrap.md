@@ -1,8 +1,8 @@
---- 
+---
 
 title: "Object-oriented ontology: conceptual claptrap"
 wordpress_id: 52
-wordpress_url: http://lackoftalent.org/michael/blog/2006/08/12/object-oriented-ontology-conceptual-claptrap/
+wordpress_url: https://mike.giarlo.name/blog/2006/08/12/object-oriented-ontology-conceptual-claptrap/
 date: 2006-08-12 16:04:19 -04:00
 ---
 I have idly been considering the ontologies proposed by <a target="_blank" href="http://en.wikipedia.org/wiki/Frege">Gottlob Frege</a> in <em>The Thought</em>, and revisited in <a target="_blank" href="http://en.wikipedia.org/wiki/Karl_Popper">Karl Popper</a>'s <em>Objective Knowledge,</em> in which there are three distinct realms of existence.  Moreover, I wonder how envisioning such ontologies from an object-oriented perspective might provide a structured way of thinking about existence without need of dualistic theories.

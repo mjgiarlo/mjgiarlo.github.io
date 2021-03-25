@@ -1,8 +1,8 @@
---- 
+---
 
 title: "\"Harvard and the Making of the Unabomber\""
 wordpress_id: 115
-wordpress_url: http://lackoftalent.org/michael/blog/2008/01/26/harvard-and-the-making-of-the-unabomber/
+wordpress_url: https://mike.giarlo.name/blog/2008/01/26/harvard-and-the-making-of-the-unabomber/
 date: 2008-01-26 01:28:54 -05:00
 ---
 Oh frabjous day!  I noted with great excitement the following post from "Digital Eccentric," <a href="http://digitaleccentric.blogspot.com/2008/01/theatlanticcom.html" target="_blank">Leslie Johnston:</a>

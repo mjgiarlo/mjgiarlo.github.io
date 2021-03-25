@@ -1,11 +1,11 @@
---- 
+---
 
 title: Jythons and Javas and bears, oh my!
 wordpress_id: 122
-wordpress_url: http://lackoftalent.org/michael/blog/?p=122
+wordpress_url: https://mike.giarlo.name/blog/?p=122
 date: 2008-04-11 21:41:52 -04:00
 ---
-It's hard to believe but I've been at the <a href="http://lackoftalent.org/michael/blog/2007/09/27/october/" target="_blank">new job</a> for six months already, a full half-year come the 29th.  Some days it seems like I've been here forever; others like I'm still a rank newb.   I haven't written terribly much about what I've been up to (but I assure you I've been busy).  Let me rectify that.
+It's hard to believe but I've been at the <a href="https://mike.giarlo.name/blog/2007/09/27/october/" target="_blank">new job</a> for six months already, a full half-year come the 29th.  Some days it seems like I've been here forever; others like I'm still a rank newb.   I haven't written terribly much about what I've been up to (but I assure you I've been busy).  Let me rectify that.
 <h2><strong>The Transfer Problem</strong></h2>
 Two of the projects I've been working on relate to a fairly general problem that we like to call "transfer," which revolves around, well, transferring files to and fro.  Sounds simple.  <em>Is</em> simple.  That is, until you start thinking about preservation and accounting for a highly heterogeneous network with idiosyncratic nodes, esoteric storage software, and differential firewall rules.  And that's where it gets interesting (and problematic). <!--more-->The transferring itself, or copying of files from one location to another which we call "transport," is the easiest part.  We like to use common tools in our environment.  It makes life easy.  And so good ol' <a href="http://en.wikipedia.org/wiki/Secure_copy" target="_blank">scp</a> seems like an obvious choice to handle the job.
 

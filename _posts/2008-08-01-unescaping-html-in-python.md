@@ -1,8 +1,8 @@
---- 
+---
 
 title: Unescaping HTML in Python
 wordpress_id: 140
-wordpress_url: http://lackoftalent.org/michael/blog/?p=140
+wordpress_url: https://mike.giarlo.name/blog/?p=140
 date: 2008-08-01 14:56:42 -04:00
 ---
 Dear Future Me,

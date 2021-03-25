@@ -1,8 +1,8 @@
---- 
+---
 
 title: "Translating 'pig' to 'pork' and vice versa: A metaphor for library technologists"
 wordpress_id: 23
-wordpress_url: http://lackoftalent.org/michael/blog/2006/03/04/translating-pig-to-pork-and-vice-versa-a-metaphor-for-library-technologists/
+wordpress_url: https://mike.giarlo.name/blog/2006/03/04/translating-pig-to-pork-and-vice-versa-a-metaphor-for-library-technologists/
 date: 2006-03-04 15:31:11 -05:00
 ---
 I've been slowly making my way through Melvyn Bragg's "The Adventure of English," which tells the story of the English language [1]. I read a bit the other night that I found rather fascinating, highlighting the symbiotic relationship between culture and language. Moreover, I found therein a perhaps sloppy metaphor for the unique role that library technologists play. Here's an excerpt from the section about how the English language persisted, perhaps even thrived, despite the threat posed to it by the Normans who had recently come to power in England:

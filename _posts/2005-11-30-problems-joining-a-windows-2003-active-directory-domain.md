@@ -1,8 +1,8 @@
---- 
+---
 
 title: Problems joining a Windows 2003 Active Directory domain
 wordpress_id: 9
-wordpress_url: http://lackoftalent.org/michael/blog/2005/11/30/problems-joining-a-windows-2003-active-directory-domain/
+wordpress_url: https://mike.giarlo.name/blog/2005/11/30/problems-joining-a-windows-2003-active-directory-domain/
 date: 2005-11-30 17:57:00 -05:00
 ---
 One of the first tasks that has been assigned to me is the installation and configuration of a pair of network load-balanced Terminal Servers running Windows Server 2003. The department has already cobbled together documentation on how to build servers within the locally developed and recognized best practices, and I am loath to deviate from these in my first month of employment. I got up to the point of joining the first TS node ("TS1") to the AD domain pretty smoothly. When I attempted to move TS1 out of its workgroup and into the domain, I was prompted for a password (which is a good thing, and is to be expected).  When I attempted to use my domain admin account in the form "DOMAIN\account", I was rudely greeted with an "unknown username or bad password" error.  When I tried to provide my credentials in the form of "account@domain.university.edu", I received the unfamiliar "Element not found" message.

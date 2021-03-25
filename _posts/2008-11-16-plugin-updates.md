@@ -1,8 +1,8 @@
---- 
+---
 
 title: Plugin updates
 wordpress_id: 190
-wordpress_url: http://lackoftalent.org/michael/blog/?p=190
+wordpress_url: https://mike.giarlo.name/blog/?p=190
 date: 2008-11-16 17:40:09 -05:00
 ---
 I finally pushed out some embarrassingly outdated WordPress plugin updates a few moments ago.

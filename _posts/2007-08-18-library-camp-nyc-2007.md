@@ -1,11 +1,11 @@
---- 
+---
 
 title: Library Camp NYC 2007
 wordpress_id: 101
-wordpress_url: http://lackoftalent.org/michael/blog/2007/08/18/library-camp-nyc-2007/
+wordpress_url: https://mike.giarlo.name/blog/2007/08/18/library-camp-nyc-2007/
 date: 2007-08-18 23:16:16 -04:00
 ---
-I proposed an <a href="http://www.lackoftalent.org/michael/blog/2007/01/06/barcamp-for-nj-library-geeks/" target="_blank">NJ Library BarCamp</a> some months ago, not realizing that efforts were already under way to do the same in <a href="http://librarycampnyc.wikispaces.com/" target="_blank">NYC</a>.  In retrospect, I'm glad I didn't do anything to get things moving; I wouldn't have pulled things together nearly as well as the NYC folks did.  The event was excellent.  It was my first camp, and I'd definitely try another.  A big thanks to <a href="http://www.teachinglibrarian.org/weblog/blogger.html" target="_blank">Stephen Francoeur</a> <em>et al.</em>
+I proposed an <a href="https://mike.giarlo.name/blog/2007/01/06/barcamp-for-nj-library-geeks/" target="_blank">NJ Library BarCamp</a> some months ago, not realizing that efforts were already under way to do the same in <a href="http://librarycampnyc.wikispaces.com/" target="_blank">NYC</a>.  In retrospect, I'm glad I didn't do anything to get things moving; I wouldn't have pulled things together nearly as well as the NYC folks did.  The event was excellent.  It was my first camp, and I'd definitely try another.  A big thanks to <a href="http://www.teachinglibrarian.org/weblog/blogger.html" target="_blank">Stephen Francoeur</a> <em>et al.</em>
 
 Here are the three sessions I attended, with links to the "official" wiki pages for summaries:
 <ul>

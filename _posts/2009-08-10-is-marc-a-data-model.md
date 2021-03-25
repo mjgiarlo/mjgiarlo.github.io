@@ -1,8 +1,8 @@
---- 
+---
 
 title: Is MARC a data model?
 wordpress_id: 452
-wordpress_url: http://lackoftalent.org/michael/blog/?p=452
+wordpress_url: https://mike.giarlo.name/blog/?p=452
 date: 2009-08-10 08:49:55 -04:00
 ---
 I posted a status update to <a href="http://twitter.com/mjgiarlo/statuses/3215173861">Twitter</a>, <a href="http://identi.ca/notice/7827179">identi.ca</a>, and <a href="http://facebook.com/mjgiarlo?story_fbid=255213260600">Facebook</a> late last night hoping to suss out two questions:<ol>
@@ -54,4 +54,3 @@ So, based on all the responses I've gotten (on Facebook, on Twitter, around the 
 </ul>
 
 I'd be pleased if the discussion continued.  If nothing else, it really satisfies my curiosity and gets my brain going (which is useful on a Monday morning).
-

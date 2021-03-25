@@ -1,8 +1,8 @@
---- 
+---
 
 title: The so-called "bailout bill"
 wordpress_id: 151
-wordpress_url: http://lackoftalent.org/michael/blog/?p=151
+wordpress_url: https://mike.giarlo.name/blog/?p=151
 date: 2008-09-25 09:35:25 -04:00
 ---
 Dear elected representatives,

@@ -1,8 +1,8 @@
---- 
+---
 
 title: Command-line shuffle
 wordpress_id: 500
-wordpress_url: http://lackoftalent.org/michael/blog/?p=500
+wordpress_url: https://mike.giarlo.name/blog/?p=500
 date: 2009-09-26 16:50:05 -04:00
 ---
 Being a nerd, I tend to like the command-line.  When I'm working on my laptop at home, I tend to like listening to music.  Before I discovered that <a href="http://en.wikipedia.org/wiki/MPlayer">mplayer</a> had a really convenient shuffle idiom, I would invoke it thusly (to listen to all my Pavement tracks in shuffle mode):

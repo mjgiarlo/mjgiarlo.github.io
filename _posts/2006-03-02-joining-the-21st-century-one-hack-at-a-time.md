@@ -1,16 +1,16 @@
---- 
+---
 
 title: unAPI, COinS-PMH, OpenSearch support
 wordpress_id: 22
-wordpress_url: http://lackoftalent.org/michael/blog/2006/03/02/joining-the-21st-century-one-hack-at-a-time/
+wordpress_url: https://mike.giarlo.name/blog/2006/03/02/joining-the-21st-century-one-hack-at-a-time/
 date: 2006-03-02 00:29:50 -05:00
 ---
-I've decided to use this blog partly to write about work-related points of interest but also to futz around with blogging technologies and such.Â 
+I've decided to use this blog partly to write about work-related points of interest but also to futz around with blogging technologies and such.Â
 
 Thanks to a couple of very helpful posts and some neat WordPress hacks
 
-<a href="http://www.wallandbinkley.com/quaedam/?p=59">http://www.wallandbinkley.com/quaedam/?p=59</a>Â 
-<a href="http://www.wallandbinkley.com/quaedam/?p=50">http://www.wallandbinkley.com/quaedam/?p=50</a>Â 
+<a href="http://www.wallandbinkley.com/quaedam/?p=59">http://www.wallandbinkley.com/quaedam/?p=59</a>Â
+<a href="http://www.wallandbinkley.com/quaedam/?p=50">http://www.wallandbinkley.com/quaedam/?p=50</a>Â
 
 Technosophia is now unAPI-1.0- and COinS-PMH-compliant!Â  Under each post there are shortcut links to view the Dublin Core, MODS, and other unAPI formats (should I add them in at a later date).
 

@@ -1,11 +1,11 @@
---- 
+---
 
 title: JSONovich update
 wordpress_id: 251
-wordpress_url: http://lackoftalent.org/michael/blog/?p=251
+wordpress_url: https://mike.giarlo.name/blog/?p=251
 date: 2008-12-29 21:00:32 -05:00
 ---
-<a href="/michael/blog/json-in-firefox">JSONovich</a> is now up to version 0.6.  Recent revisions have added the following functionality:
+<a href="/blog/json-in-firefox">JSONovich</a> is now up to version 0.6.  Recent revisions have added the following functionality:
 <ul>
   <li>Reads in JSON and converts to UTF-8 for some naive Unicode handling</li>
   <li>Wraps long lines at the right edge of the window</li>

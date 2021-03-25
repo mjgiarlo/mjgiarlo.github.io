@@ -1,8 +1,8 @@
---- 
+---
 
 title: Some shots from Alaska
 wordpress_id: 142
-wordpress_url: http://lackoftalent.org/michael/blog/?p=142
+wordpress_url: https://mike.giarlo.name/blog/?p=142
 date: 2008-08-22 21:55:57 -04:00
 ---
 I don't ordinarily post pictures around here but I am making an exception.Â  Elizabeth and I recently spent a week in Anchorage, AK, where my in-laws were gathered for a family reunion.Â  Eliz took a bunch of pictures and has uploaded a few to <a href="http://flickr.com/photos/geek_patrol/sets/72157606898511203/" target="_blank">Flickr</a>.

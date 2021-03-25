@@ -1,8 +1,8 @@
---- 
+---
 
 title: A restrictive IPSec script
 wordpress_id: 10
-wordpress_url: http://lackoftalent.org/michael/blog/2005/11/30/a-restrictive-ipsec-script/
+wordpress_url: https://mike.giarlo.name/blog/2005/11/30/a-restrictive-ipsec-script/
 date: 2005-11-30 18:12:00 -05:00
 ---
 What do you do when you've got a server to install and you're too lazy to burn a CD with all the latest service packs and hotfixes? I suppose you could attach the server to the Internet and head over to Microsoft's <a href="http://windowsupdate.microsoft.com/">Windows Update</a> website. But then you would be committing a grievous <em>faux pas</em> among systems people. Only connect an unpatched machine to the Internet if you wish to have it 0wN3d in seconds flat.

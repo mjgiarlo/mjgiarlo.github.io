@@ -1,8 +1,8 @@
---- 
+---
 
 title: Using Linux to fix Windows
 wordpress_id: 109
-wordpress_url: http://lackoftalent.org/michael/blog/2007/10/13/using-linux-to-fix-windows/
+wordpress_url: https://mike.giarlo.name/blog/2007/10/13/using-linux-to-fix-windows/
 date: 2007-10-13 16:30:00 -04:00
 ---
 The hard drive on my laptop is slowly failing and a combination of being busy, lazy, and cheap is preventing me from replacing it.  About once every two weeks over the past couple months, one of the Windows registry files becomes corrupted and the XP disk is unable to repair it.  And the HD fails basic manufacturer-provided diagnostics.  But I'm stubborn.  So I've been routinely resuscitating this box and I decided to post the process I use.

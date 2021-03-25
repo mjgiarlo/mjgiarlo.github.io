@@ -2,11 +2,11 @@
 title: "Ingest is a barrier to ingest"
 date: 2011-02-11 11:35:51 -07:00
 ---
-Last week I attended the latest iteration of one of my favorite conferences, [Code4Lib 2011](https://web.archive.org/web/20160703033323/http://code4lib.org/conference/2011), which included a full-day [CURATEcamp](https://web.archive.org/web/20160703033323/http://curatecamp.org/) hackfest as a pre-conference session (sponsored by the [Digital Library Federation](https://web.archive.org/web/20160703033323/http://www.clir.org/dlf.html)).  Rather than writing up a full report of the event -- no one really reads those, right? -- I wanted to comment on a conversation from the hackfest.
+Last week I attended the latest iteration of one of my favorite conferences, [Code4Lib 2011](http://code4lib.org/conference/2011), which included a full-day [CURATEcamp](http://curatecamp.org/) hackfest as a pre-conference session (sponsored by the [Digital Library Federation](http://www.clir.org/dlf.html)).  Rather than writing up a full report of the event -- no one really reads those, right? -- I wanted to comment on a conversation from the hackfest.
 
 A group gathered to discuss digital forensics, specifically in the context of forensics work done pre-ingest.  I've heard other folks talk about pre-ingest processes and so I wondered aloud: what does it say about our repositories, and the ingest process, that we do so much pre-ingest?  The consensus was that the ingest process is frequently expensive.  A subgroup split off to explore this.
 
-The ingest process is a topic I'm keenly interested in since we (Penn State's [digital stewardship program](https://web.archive.org/web/20160703033323/http://stewardship.psu.edu/)) are in the middle of building a prototype ingest application ("[CAPS](https://web.archive.org/web/20160703033323/http://github.com/MaxFisher/caps)").  If we can learn some lessons from our peers about how to make ingest easier and faster, the timing is right to build on these lessons and make novel, more interesting mistakes rather than boring, well-known ones.
+The ingest process is a topic I'm keenly interested in since we (Penn State's [digital stewardship program](http://stewardship.psu.edu/)) are in the middle of building a prototype ingest application ("[CAPS](http://github.com/DanCoughlin/caps)").  If we can learn some lessons from our peers about how to make ingest easier and faster, the timing is right to build on these lessons and make novel, more interesting mistakes rather than boring, well-known ones.
 
 Here are the barriers to ingest that were identified:
 

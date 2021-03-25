@@ -1,8 +1,8 @@
---- 
+---
 
 title: "Open source in libraries: Marching on"
 wordpress_id: 98
-wordpress_url: http://lackoftalent.org/michael/blog/2007/06/21/open-source-in-libraries-marching-on/
+wordpress_url: https://mike.giarlo.name/blog/2007/06/21/open-source-in-libraries-marching-on/
 date: 2007-06-21 11:44:58 -04:00
 ---
 A couple of interesting stories regarding open source library projects have come out during the past few days.

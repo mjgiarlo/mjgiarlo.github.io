@@ -1,8 +1,8 @@
---- 
+---
 
 title: Visionary visualization... from Microsoft?
 wordpress_id: 90
-wordpress_url: http://lackoftalent.org/michael/blog/2007/05/30/visionary-visualization-from-microsoft/
+wordpress_url: https://mike.giarlo.name/blog/2007/05/30/visionary-visualization-from-microsoft/
 date: 2007-05-30 20:17:13 -04:00
 ---
 Maybe I'm late to the party -- nods to <a href="http://www.blyberg.net/2007/05/30/yes-to-all-yes-to-all/" target="_blank">John Blyberg</a> and <a href="http://www.dynamicorange.com/blog/archives/interaction-design/microsoft_in_on.html" target="_blank">Rob Styles</a> -- but damn(!), does Microsoft have some exciting visualization projects or what?
@@ -14,11 +14,11 @@ Microsoft Surface represents a fundamental change in the way we interact with di
 With Surface, we can actually grab data with our hands, and move information between objects with natural gestures and touch.
 
 Surface features a 30-inch tabletop display whose unique abilities allow for several people to work independently or simultaneously. All with out using a mouse or a keyboard.
-</blockquote>Don't take my word for it; go watch a <a target="_blank" href="http://zdnet.com.com/1606-2_2-6186146.html?tag=nl.e589">demonstration video</a> and be amazed.  
+</blockquote>Don't take my word for it; go watch a <a target="_blank" href="http://zdnet.com.com/1606-2_2-6186146.html?tag=nl.e589">demonstration video</a> and be amazed.
 
 But wait, open the video in another window, and keep reading before you lose interest in my uninteresting prose.
 
-I noticed among the recently released <a href="http://www.ted.com/talks" target="_blank">TED talks</a> a brilliant short <a href="http://www.ted.com/index.php/talks/view/id/129" target="_blank">presentation</a> by Microsoft's Blaise Aguera y Arcas on their <a href="http://labs.live.com/photosynth/" target="_blank">Photosynth</a> project.  My first impression was just the visual joy of the photo browse / pan / zoom interface.  It's impressive in its own right.  But what really tickles me about Photosynth is that it "takes a large collection of photos of a place or an object, analyzes them for similarities, and displays them in a reconstructed three-dimensional space."  
+I noticed among the recently released <a href="http://www.ted.com/talks" target="_blank">TED talks</a> a brilliant short <a href="http://www.ted.com/index.php/talks/view/id/129" target="_blank">presentation</a> by Microsoft's Blaise Aguera y Arcas on their <a href="http://labs.live.com/photosynth/" target="_blank">Photosynth</a> project.  My first impression was just the visual joy of the photo browse / pan / zoom interface.  It's impressive in its own right.  But what really tickles me about Photosynth is that it "takes a large collection of photos of a place or an object, analyzes them for similarities, and displays them in a reconstructed three-dimensional space."
 
 For example, throw it at http://www.flickr.com/photos/tags/seattlepubliclibrary/ and it will construct a collage-like view of the Seattle Public Library.  Zoom in and you'll see images at that level of zoom.  Pan in three dimensions and (assuming there are enough photos to support the various views) you can virtually be in front of SPL.  See for yourself:
 

@@ -1,8 +1,8 @@
---- 
+---
 
 title: Windows Server 2003 still dependent upon WINS / NetBIOS?
 wordpress_id: 18
-wordpress_url: http://lackoftalent.org/michael/blog/2005/12/07/windows-server-2003-still-dependent-upon-wins-netbios/
+wordpress_url: https://mike.giarlo.name/blog/2005/12/07/windows-server-2003-still-dependent-upon-wins-netbios/
 date: 2005-12-07 18:09:00 -05:00
 ---
 Perhaps I am mistaken, but I thought one of the biggest purported benefits of the newest incarnation of Active Directory was its supposed reliance upon the more commonly used DNS system for computer name lookups rather the old WINS and NetBIOS lookup system. I've recently installed a new server running Windows Server 2003 Enterprise and hooked it into our Active Directory 2003 domain and configured it to run Terminal Services. Upon this assumption, I disabled NetBIOS in the TCP/IP stack and turned off the TCP/IP NetBIOS Helper service.

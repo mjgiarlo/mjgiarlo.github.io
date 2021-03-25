@@ -1,11 +1,11 @@
---- 
+---
 
 title: Five extrabiblioblogospheric blogs
 wordpress_id: 81
-wordpress_url: http://lackoftalent.org/michael/blog/2007/03/21/five-extrabiblioblogospheric-blogs/
+wordpress_url: https://mike.giarlo.name/blog/2007/03/21/five-extrabiblioblogospheric-blogs/
 date: 2007-03-21 00:56:14 -04:00
 ---
-<a href="http://freerangelibrarian.com/2007/03/five_nonbiblioblogs.php" target="_blank">A</a> <a href="http://cavlec.yarinareth.net/archives/2007/03/20/five-non-libraryian-blogs/" target="_blank">number</a> <a href="http://meredith.wolfwater.com/wordpress/index.php/2007/03/20/you-mean-there-are-non-library-blogs/" target="_blank">of</a> <a href="http://digitaleccentric.blogspot.com/2007/03/blogversity.html" target="_blank">folks</a> have responded to the Liminal Librarian's original <a href="http://www.lisjobs.com/liminal/2007/03/blogversity-attempt-at-meme.html" target="_blank">meme</a> asking for a sampling of five non-library blogs folks read.  
+<a href="http://freerangelibrarian.com/2007/03/five_nonbiblioblogs.php" target="_blank">A</a> <a href="http://cavlec.yarinareth.net/archives/2007/03/20/five-non-libraryian-blogs/" target="_blank">number</a> <a href="http://meredith.wolfwater.com/wordpress/index.php/2007/03/20/you-mean-there-are-non-library-blogs/" target="_blank">of</a> <a href="http://digitaleccentric.blogspot.com/2007/03/blogversity.html" target="_blank">folks</a> have responded to the Liminal Librarian's original <a href="http://www.lisjobs.com/liminal/2007/03/blogversity-attempt-at-meme.html" target="_blank">meme</a> asking for a sampling of five non-library blogs folks read.
 
 Here are some of mine:
 
@@ -16,10 +16,3 @@ Here are some of mine:
 	<li><a href="http://seattletimes.nwsource.com/html/home/" target="_blank">The Seattle Times</a> - Okay, it's not really a blog, but I do read it in my aggregator.  And what can I say?  I can't let go.  I still feel like Seattle is my home.</li>
 	<li><a href="http://www.thestranger.com/blog/" target="_blank">Slog</a> (NSFW) - The Slog is the blog of Seattle's alternative weekly newspaper, The Stranger.  It's an odd combination of gutter humor, satire, social commentary, political rants, and philosophical bombast.  Where else can you read about deep-fried, beer-battered, bacon-wrapped, spray-cheese-filled hotdogs, analysis of the Alaskan Way viaduct vote, the recent Garrison Keillor flap, and the latest eating establishments in Capitol Hill (Seattle, not D.C.)?</li>
 </ol>
-
-
-
-
-
-
-

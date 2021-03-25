@@ -1,8 +1,8 @@
---- 
+---
 
 title: Screenscraped RSS Feeds
 wordpress_id: 48
-wordpress_url: http://lackoftalent.org/michael/blog/2006/07/12/screenscraped-rss-feeds/
+wordpress_url: https://mike.giarlo.name/blog/2006/07/12/screenscraped-rss-feeds/
 date: 2006-07-12 23:02:23 -04:00
 ---
 I confess; I'm a fan of graphic novels, many of which are published by DC imprints <a target="_blank" href="http://www.dccomics.com/vertigo/">Vertigo</a> and <a target="_blank" href="http://www.dccomics.com/wildstorm/">WildStorm</a>.  Wanting to keep up with the newest titles without having to make weekly stops to the <a target="_blank" href="http://www.zanaducomics.com/z2.html">local comic shop</a> -- which is a nifty shop, but why get up off your butt to do something if you don't have to? -- I went a-searchin' for some RSS feeds and found naught.  There may be some out there, and I'd be happy to hear of them.

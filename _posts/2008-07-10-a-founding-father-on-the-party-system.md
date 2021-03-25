@@ -1,8 +1,8 @@
---- 
+---
 
 title: A founding father on the party system
 wordpress_id: 130
-wordpress_url: http://lackoftalent.org/michael/blog/?p=130
+wordpress_url: https://mike.giarlo.name/blog/?p=130
 date: 2008-07-10 21:15:56 -04:00
 ---
 <blockquote>20 I have already intimated to you the danger of parties in the state, with particular reference to the founding of them on geographical discriminations. Let me now take a more comprehensive view, and <strong>warn you in the most solemn manner against the baneful effects of the spirit of party</strong>, generally.

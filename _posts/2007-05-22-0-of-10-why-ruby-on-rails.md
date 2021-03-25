@@ -1,8 +1,8 @@
---- 
+---
 
 title: "[0 of 10] Why Ruby on Rails?"
 wordpress_id: 88
-wordpress_url: http://lackoftalent.org/michael/blog/2007/05/22/0-of-10-why-ruby-on-rails/
+wordpress_url: https://mike.giarlo.name/blog/2007/05/22/0-of-10-why-ruby-on-rails/
 date: 2007-05-22 00:23:16 -04:00
 ---
 It would be an understatement to say I've been enthusiastic about Ruby on Rails for a while now.  Okay, I am downright fanatic -- just look at that shrine to <a href="http://en.wikipedia.org/wiki/DHH" target="_blank">DHH</a> in my closet; it's plain to see that I've drunk the (ruby red) Kool-Aid.

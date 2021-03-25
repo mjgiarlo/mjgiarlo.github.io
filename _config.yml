@@ -65,7 +65,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Mike Giarlo"
+  # name: "Mike Giarlo" # comment out to avoid repetition of name in sidebar
   avatar: "/assets/images/2021_mjgiarlo.jpg"
   bio: "Mike Giarlo is a coder for libraries"
   location: 'Seattle, WA, US'

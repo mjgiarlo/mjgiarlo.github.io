@@ -1,8 +1,8 @@
---- 
+---
 
 title: Five things you didn't know and are now worse off for hearing
 wordpress_id: 68
-wordpress_url: http://lackoftalent.org/michael/blog/2007/01/11/five-things-you-didnt-know-and-are-now-worse-off-for-hearing/
+wordpress_url: https://mike.giarlo.name/blog/2007/01/11/five-things-you-didnt-know-and-are-now-worse-off-for-hearing/
 date: 2007-01-11 20:21:35 -05:00
 ---
 The "<a href="http://liszen.com/index.html?cx=007111056751095715160%3A3qdthmlca-m&q=five+things&cof=FORID%3A9" target="_blank">five things</a>" virus has been going around a bunch during the past month or two.Â  While I wasn't specifically tagged by anyone, I'm foisting my own five things upon the biblioblogosphere (and, oh,Â how I loathe that word).Â  I'm not aÂ terribly interesting person, so it was a struggle to come up with five things.Â  I tend not to share muchÂ personal information here, but I'd like to break that habit for now, since this approach is at loggerheads with my relatively open-bookish nature.Â  Disclaimers aside, <em>voici</em>!
@@ -15,4 +15,4 @@ The "<a href="http://liszen.com/index.html?cx=007111056751095715160%3A3qdthmlca-
 </ol>
 Aren't you glad you read along?
 
-Â 
+Â

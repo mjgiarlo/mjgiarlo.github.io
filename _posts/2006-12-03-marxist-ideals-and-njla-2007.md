@@ -1,8 +1,8 @@
---- 
+---
 
 title: Marxist ideals and NJLA 2007
 wordpress_id: 64
-wordpress_url: http://lackoftalent.org/michael/blog/2006/12/03/marxist-ideals-and-njla-2007/
+wordpress_url: https://mike.giarlo.name/blog/2006/12/03/marxist-ideals-and-njla-2007/
 date: 2006-12-03 21:56:26 -05:00
 ---
 The magnanimous folks who are planning the <a target="_blank" href="http://www.njla.org/conference/2007/">2007 NJLA conference</a> have invited little ol' me to give a presentation on unAPI in April.  I'm excited about the opportunity to evangelize about all of the interesting work and ideas out there in LibraryLand and beyond, and I have subsequently, and humbly, requested to expand the scope of my talk.  Fortunately, they have agreed, and I'm sharing the title and abstract here to gather impressions.

@@ -1,8 +1,8 @@
---- 
+---
 
 title: Fedora marches forward
 wordpress_id: 65
-wordpress_url: http://lackoftalent.org/michael/blog/2006/12/22/fedora-marches-forward/
+wordpress_url: https://mike.giarlo.name/blog/2006/12/22/fedora-marches-forward/
 date: 2006-12-22 18:31:51 -05:00
 ---
 I was pleased to see the note that Sandy Payette sent to the fedora-users mailing list earlier today, updating the community on the <a target="_blank" href="http://comm.nsdl.org/pipermail/fedora-users/2006-December/002330.html">Fedora 2.2 release date</a>.  Version 2.2 is going to include a bunch of features, some of which have been long-awaited and are quite, well, sexy.  Some of the highlights:

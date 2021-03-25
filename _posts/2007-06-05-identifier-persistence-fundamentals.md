@@ -1,8 +1,8 @@
---- 
+---
 
 title: "Identifier Persistence: Fundamentals"
 wordpress_id: 92
-wordpress_url: http://lackoftalent.org/michael/blog/2007/06/05/identifier-persistence-fundamentals/
+wordpress_url: https://mike.giarlo.name/blog/2007/06/05/identifier-persistence-fundamentals/
 date: 2007-06-05 16:34:33 -04:00
 ---
 A friend and former colleague asked if I would comment on a chapter in her upcoming book on digital rights management and I agreed.  The chapter is about identification and authenticity of web resources.  Throughout my review of the chapter, I kept coming back to a couple of very basic notions that underlie any effort to provide persistent identifiers for web resources.  These notions are, to my mind, central to identifier persistence, and any other concerns rely upon this foundation:

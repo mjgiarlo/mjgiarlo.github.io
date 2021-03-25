@@ -1,8 +1,8 @@
---- 
+---
 
 title: Microsoft has the Power(set)
 wordpress_id: 129
-wordpress_url: http://lackoftalent.org/michael/blog/?p=129
+wordpress_url: https://mike.giarlo.name/blog/?p=129
 date: 2008-07-01 20:42:35 -04:00
 ---
 Powerset's Sr. Product Manager <a href="http://www.powerset.com/blog/articles/2008/07/01/microsoft-to-acquire-powerset" target="_blank">writes</a>:

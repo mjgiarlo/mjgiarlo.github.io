@@ -1,8 +1,8 @@
---- 
+---
 
 title: Hiccup-y Hardy Heron
 wordpress_id: 126
-wordpress_url: http://lackoftalent.org/michael/blog/?p=126
+wordpress_url: https://mike.giarlo.name/blog/?p=126
 date: 2008-04-29 14:40:20 -04:00
 ---
 In spite of how irksome I find "oh hai i upgrayded!" posts, I'm about to be guilty of same.

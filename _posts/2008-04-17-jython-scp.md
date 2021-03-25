@@ -1,11 +1,11 @@
---- 
+---
 
 title: Jython scp
 wordpress_id: 124
-wordpress_url: http://lackoftalent.org/michael/blog/?p=124
+wordpress_url: https://mike.giarlo.name/blog/?p=124
 date: 2008-04-17 16:08:42 -04:00
 ---
-In spite of some <a href="http://lackoftalent.org/michael/blog/2008/04/11/jythons-and-javas-and-bears-oh-my/" target="_blank">open questions</a>, I've been making some progress on my Jython-based transport tool.  Right now it's pretty dumb and simple: it copies files to and fro via scp.
+In spite of some <a href="https://mike.giarlo.name/blog/2008/04/11/jythons-and-javas-and-bears-oh-my/" target="_blank">open questions</a>, I've been making some progress on my Jython-based transport tool.  Right now it's pretty dumb and simple: it copies files to and fro via scp.
 
 Being a newb at both Java and Jython made finding the right libraries a bit of a challenge, and so I'm posting some code here for folks in the same boat.  It's not particularly pretty due to 1) wanting to get something working very quickly, and 2) weird errors when I try to make things prettier (such as getting rid of the hard-coded bits), but I'll resolve these soon.
 <!--more-->

@@ -1,8 +1,8 @@
---- 
+---
 
 title: "Digital librarians: Need a J.O.B.?"
 wordpress_id: 79
-wordpress_url: http://lackoftalent.org/michael/blog/2007/03/14/digital-librarians-need-a-job/
+wordpress_url: https://mike.giarlo.name/blog/2007/03/14/digital-librarians-need-a-job/
 date: 2007-03-14 17:40:39 -04:00
 ---
 Peter Binkley wrote a while back about the crop of neat <a href="http://www.wallandbinkley.com/quaedam/?p=102">digital librarian-y jobs</a> that'd been popping up.  There've been a bunch more lately:
@@ -24,6 +24,6 @@ Peter Binkley wrote a while back about the crop of neat <a href="http://www.wall
 
 </ul>
 
-It's great to see academic libraries diving head-first into digital collections / library initiatives, and doing so with dedicated staff.  
+It's great to see academic libraries diving head-first into digital collections / library initiatives, and doing so with dedicated staff.
 
-Some of these positions look like great options for folks like myself who've been bouncing around the digital libraries world for a few years now and are starting to think about taking on greater responsibility within an organization.  I know you're out there, folks.  Consider applying! 
+Some of these positions look like great options for folks like myself who've been bouncing around the digital libraries world for a few years now and are starting to think about taking on greater responsibility within an organization.  I know you're out there, folks.  Consider applying!

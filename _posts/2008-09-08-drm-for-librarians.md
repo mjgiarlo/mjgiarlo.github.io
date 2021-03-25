@@ -1,8 +1,8 @@
---- 
+---
 
 title: DRM for Librarians
 wordpress_id: 148
-wordpress_url: http://lackoftalent.org/michael/blog/?p=148
+wordpress_url: https://mike.giarlo.name/blog/?p=148
 date: 2008-09-08 08:15:34 -04:00
 ---
 I know precious little about rights management.Â  And what I do know I have gleaned from the occasional Slashdot post or Wired article.Â  Former colleague Grace Agnew, Associate University Librarian for Digital Library Systems at Rutgers University, has put the wraps on a book about digital rights management targeted at librarians, <a href="http://www.amazon.com/Digital-Management-Librarians-Technology-Practise/dp/other-editions/1843341824" target="_blank">Digital Rights Management: A Librarian's Guide to Technology and Practice</a> (also available in paperback):

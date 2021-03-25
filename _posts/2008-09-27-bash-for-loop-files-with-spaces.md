@@ -1,8 +1,8 @@
---- 
+---
 
 title: Bash, For loop, Files with spaces
 wordpress_id: 154
-wordpress_url: http://lackoftalent.org/michael/blog/?p=154
+wordpress_url: https://mike.giarlo.name/blog/?p=154
 date: 2008-09-27 15:08:53 -04:00
 ---
 Dear Future Me,

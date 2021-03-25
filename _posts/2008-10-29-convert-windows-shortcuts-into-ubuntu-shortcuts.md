@@ -1,15 +1,15 @@
---- 
+---
 
 title: Convert Windows shortcuts into Ubuntu shortcuts
 wordpress_id: 173
-wordpress_url: http://lackoftalent.org/michael/blog/?p=173
+wordpress_url: https://mike.giarlo.name/blog/?p=173
 date: 2008-10-29 19:40:43 -04:00
 ---
 [<strong>Update</strong>: Feel free to grab the code via bzr with <code>bzr branch http://lackoftalent.org/bzr/shortcut_converter</code>.]
 
 Here's another entry in the "dumb little scripts that work for me and may or may not be helpful to other folks" department...
 
-I use both Windows and Ubuntu at home, gradually transitioning from the former to the latter.  I've accumulated a bunch of Windows URL shortcuts, mostly things I wanted to read once so instead of bookmarking them, I dragged their links to my desktop.  This creates .URL files which are simple little plain-text two-liners.  It turns out that on Ubuntu, and probably similar *nix systems, web shortcuts are also simple little plain-text files.  These files have the .desktop extension (though you won't see the extension by looking at the desktop).  
+I use both Windows and Ubuntu at home, gradually transitioning from the former to the latter.  I've accumulated a bunch of Windows URL shortcuts, mostly things I wanted to read once so instead of bookmarking them, I dragged their links to my desktop.  This creates .URL files which are simple little plain-text two-liners.  It turns out that on Ubuntu, and probably similar *nix systems, web shortcuts are also simple little plain-text files.  These files have the .desktop extension (though you won't see the extension by looking at the desktop).
 
 I wanted a way to convert my .URL files to .desktop files so that I can just toss them on my Ubuntu desktop and double-click them the same way I would if I were on Windows.  This cruddy little Python script does the trick.
 
@@ -17,7 +17,7 @@ I wanted a way to convert my .URL files to .desktop files so that I can just tos
 #!/usr/bin/env python
 # shortcut_converter.py
 
-from __future__ import with_statement 
+from __future__ import with_statement
 import os.path
 import sys
 
@@ -31,7 +31,7 @@ Icon=gnome-fs-bookmark
 """
 
 def convert(f):
-    """ Takes a full filepath to a .URL file, converts it to a .desktop file 
+    """ Takes a full filepath to a .URL file, converts it to a .desktop file
         in the same directory """
     print "Converting %s" % f
     (filepath, filename) = os.path.split(f)

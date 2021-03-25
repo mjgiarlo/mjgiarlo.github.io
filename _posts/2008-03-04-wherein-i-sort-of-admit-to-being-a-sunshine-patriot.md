@@ -1,8 +1,8 @@
---- 
+---
 
 title: Wherein I sort of admit to being a sunshine patriot
 wordpress_id: 117
-wordpress_url: http://lackoftalent.org/michael/blog/2008/03/04/wherein-i-sort-of-admit-to-being-a-sunshine-patriot/
+wordpress_url: https://mike.giarlo.name/blog/2008/03/04/wherein-i-sort-of-admit-to-being-a-sunshine-patriot/
 date: 2008-03-04 23:09:00 -05:00
 ---
 

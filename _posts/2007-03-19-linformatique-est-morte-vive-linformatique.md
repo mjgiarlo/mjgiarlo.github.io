@@ -1,8 +1,8 @@
---- 
+---
 
 title: L'informatique est morte.  Vive l'informatique!
 wordpress_id: 80
-wordpress_url: http://lackoftalent.org/michael/blog/2007/03/19/linformatique-est-morte-vive-linformatique/
+wordpress_url: https://mike.giarlo.name/blog/2007/03/19/linformatique-est-morte-vive-linformatique/
 date: 2007-03-19 17:24:00 -04:00
 ---
 Is the discipline of computer science on its last legs?  Neil McBride, a lecturer in the School of Computing at De Montfort University, advocates for great change in <a href="http://www.bcs.org/server.php?show=ConWebDoc.9662" target="_blank">The death of computing</a>.  Citing greatly reduced CS enrollment figures in the UK, US, and Australia, and the growing disconnect between industry and academia, McBride argues that computer scientists need to reform the field from within or risk further marginalization and ultimate irrelevance.  Though I can sympathize with his desire to revitalize the discipline, and I understand how perception of computer science might have suffered from the dot-com bust, his message amounts to more than mere doomsaying and pointless nostalgia.

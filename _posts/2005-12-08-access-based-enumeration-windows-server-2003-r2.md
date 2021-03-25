@@ -1,8 +1,8 @@
---- 
+---
 
 title: Access-based Enumeration &amp; Windows Server 2003 R2
 wordpress_id: 19
-wordpress_url: http://lackoftalent.org/michael/blog/2005/12/08/access-based-enumeration-windows-server-2003-r2/
+wordpress_url: https://mike.giarlo.name/blog/2005/12/08/access-based-enumeration-windows-server-2003-r2/
 date: 2005-12-08 19:30:00 -05:00
 ---
 As of the SP1 release, Windows Server 2003 now supports access-based enumeration of file shares. Basically, files and folders to which users lack access will not be visible within file shares. No more double-clicking shared resources only to be greeted with "Access denied." This is quite a nice feature, and one which is long overdue.

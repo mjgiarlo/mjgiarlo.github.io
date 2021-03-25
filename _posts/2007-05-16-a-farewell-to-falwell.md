@@ -1,11 +1,11 @@
---- 
+---
 
 title: A farewell to Falwell
 wordpress_id: 85
-wordpress_url: http://lackoftalent.org/michael/blog/2007/05/16/a-farewell-to-falwell/
+wordpress_url: https://mike.giarlo.name/blog/2007/05/16/a-farewell-to-falwell/
 date: 2007-05-16 01:07:05 -04:00
 ---
-I decided a while back that I would use this space exclusively for library- and technology-related bits, that I should not clutter it with more personal or political matters.  That decision has probably saved me a lot of embarrassment.  But it's also kept me from updating more often than I would like, and forced filters upon me that give a one-dimensional view of what I'm about.  Underlying the decision was a certain trepidation and strange sense of professional propriety -- what would colleagues and potential employers think of me if I just spilled my guts out here?  
+I decided a while back that I would use this space exclusively for library- and technology-related bits, that I should not clutter it with more personal or political matters.  That decision has probably saved me a lot of embarrassment.  But it's also kept me from updating more often than I would like, and forced filters upon me that give a one-dimensional view of what I'm about.  Underlying the decision was a certain trepidation and strange sense of professional propriety -- what would colleagues and potential employers think of me if I just spilled my guts out here?
 
 I'm starting to question that decision.  Other well-known biblio-bloggers do it -- I'm looking at <a href="http://cavlec.yarinareth.net/" target="_blank">Dorothea</a> and <a href="http://freerangelibrarian.com/" target="_blank">Karen</a> -- though I'm in the league below the bush league compared to them. But sometimes, dammit, I just want to be me.
 

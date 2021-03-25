@@ -1,15 +1,15 @@
---- 
+---
 
 title: Innovation v. Sustainability
 wordpress_id: 49
-wordpress_url: http://lackoftalent.org/michael/blog/2006/07/13/innovation-v-sustainability/
+wordpress_url: https://mike.giarlo.name/blog/2006/07/13/innovation-v-sustainability/
 date: 2006-07-13 16:01:33 -04:00
 ---
-As a community of librarians and technologists, we like to talk about innovation.Â Â A lot:Â We like it; we support it; we do it; we reward it; we expect it; we value it; and weÂ <em>need</em> it.Â 
+As a community of librarians and technologists, we like to talk about innovation.Â Â A lot:Â We like it; we support it; we do it; we reward it; we expect it; we value it; and weÂ <em>need</em> it.Â
 
-The obvious and crucial question to my mind is how an organization might support innovationÂ without sacrificing sustainability, or alternatively value sustainability without hampering innovation.Â 
+The obvious and crucial question to my mind is how an organization might support innovationÂ without sacrificing sustainability, or alternatively value sustainability without hampering innovation.Â
 
-This harks back to an earlier discussion at MPOW about using native XML databases as a storage back-end for XML web services - technologically, it's a trivial decision, but how many different databases are we supposed to support?Â  The same question can be asked for programming languages, metadata schemas, operating systems, repositories, file formats, and so forth.Â 
+This harks back to an earlier discussion at MPOW about using native XML databases as a storage back-end for XML web services - technologically, it's a trivial decision, but how many different databases are we supposed to support?Â  The same question can be asked for programming languages, metadata schemas, operating systems, repositories, file formats, and so forth.Â
 
 Here are my assumptions:
 <ol>

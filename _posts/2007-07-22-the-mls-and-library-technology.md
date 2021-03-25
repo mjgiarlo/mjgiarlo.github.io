@@ -1,11 +1,11 @@
---- 
+---
 
 title: The MLS and library technology
 wordpress_id: 100
-wordpress_url: http://lackoftalent.org/michael/blog/2007/07/22/the-mls-and-library-technology/
+wordpress_url: https://mike.giarlo.name/blog/2007/07/22/the-mls-and-library-technology/
 date: 2007-07-22 17:30:18 -04:00
 ---
-<a href="http://www.librarywebchic.net/wordpress/2007/07/18/why-require-an-mls-for-library-technologists/" target="_blank">Karen Coombs</a> responds to <a href="http://dilettantes.code4lib.org/2007/07/09/union-card/" target="_blank">Ross Singer</a>, re: requiring an MLS degree in library technology positions. 
+<a href="http://www.librarywebchic.net/wordpress/2007/07/18/why-require-an-mls-for-library-technologists/" target="_blank">Karen Coombs</a> responds to <a href="http://dilettantes.code4lib.org/2007/07/09/union-card/" target="_blank">Ross Singer</a>, re: requiring an MLS degree in library technology positions.
 
 I'm torn on the issue, as an erstwhile systems analyst who went through library school primarily for letters after my name.  I've seen both sides of the divide and have seen IT positions that might have benefited from the MLS --  a particular non-MLS comes to mind who had no sense of which battles were winnable and ultimately wound up leaving -- and also seen jobs with a totally unnecessary MLS requirement that accomplished little other than watering down the candidate pool.
 

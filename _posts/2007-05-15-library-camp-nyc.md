@@ -1,11 +1,11 @@
---- 
+---
 
 title: Library Camp NYC
 wordpress_id: 84
-wordpress_url: http://lackoftalent.org/michael/blog/2007/05/15/library-camp-nyc/
+wordpress_url: https://mike.giarlo.name/blog/2007/05/15/library-camp-nyc/
 date: 2007-05-15 17:07:37 -04:00
 ---
-I kicked around the idea of having a <a href="http://www.lackoftalent.org/michael/blog/2007/01/06/barcamp-for-nj-library-geeks/" target="_blank">Library Camp NJ</a> a few months ago.  Response wasn't fantastic but, then again, I didn't try very hard to spread the word, and perhaps I am not the best champion for the cause.  In the meantime, Baruch College in Manhattan will be sponsoring <a href="http://librarycampnyc.wikispaces.com/" target="_blank">Library Camp NYC</a> this August.  
+I kicked around the idea of having a <a href="https://mike.giarlo.name/blog/2007/01/06/barcamp-for-nj-library-geeks/" target="_blank">Library Camp NJ</a> a few months ago.  Response wasn't fantastic but, then again, I didn't try very hard to spread the word, and perhaps I am not the best champion for the cause.  In the meantime, Baruch College in Manhattan will be sponsoring <a href="http://librarycampnyc.wikispaces.com/" target="_blank">Library Camp NYC</a> this August.
 
 I certainly plan on attending if I can get approval to take that day off and may even be talking about this or that if I can come up with an appropriate topic -- Ruby on Rails might be too narrow or technical.  Those of you who are relatively local to NYC should read more about it and consider coming.
 <blockquote>

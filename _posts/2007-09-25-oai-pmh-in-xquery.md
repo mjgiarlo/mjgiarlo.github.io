@@ -1,8 +1,8 @@
---- 
+---
 
 title: OAI-PMH in XQuery
 wordpress_id: 104
-wordpress_url: http://lackoftalent.org/michael/blog/2007/09/25/oai-pmh-in-xquery/
+wordpress_url: https://mike.giarlo.name/blog/2007/09/25/oai-pmh-in-xquery/
 date: 2007-09-25 13:48:44 -04:00
 ---
 Thanks for the nod, <a href="http://thedil.wordpress.com/2007/09/25/xquery-and-oai/" target="_blank">Winona</a>.  Hopefully you folks will get some good use out of the <a href="http://diglib2.princeton.edu/oss/wiki/xqOAI" target="_blank">XQuery-based OAI-PMH data provider</a> I've been working on.

@@ -1,8 +1,8 @@
---- 
+---
 
 title: Code4Lib Journal
 wordpress_id: 120
-wordpress_url: http://lackoftalent.org/michael/blog/2008/03/25/code4lib-journal/
+wordpress_url: https://mike.giarlo.name/blog/2008/03/25/code4lib-journal/
 date: 2008-03-25 10:53:15 -04:00
 ---
 ... meanwhile, the <a href="http://journal.code4lib.org/" target="_blank">Code4Lib Journal</a> has published its <a href="http://journal.code4lib.org/issues/issue2" target="_blank">second issue</a> and boy is it packed with articles; <a href="http://www.library.nd.edu/daiad/morgan/" target="_blank">Eric Lease Morgan</a>, Coordinating Editor of the issue, does a bang-up job on the <a href="http://journal.code4lib.org/articles/71" target="_blank">introduction</a> (though the title has effectively <a href="http://en.wikipedia.org/wiki/More_Than_a_Feeling" target="_blank">Bostonroll</a>'d me).

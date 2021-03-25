@@ -1,8 +1,8 @@
---- 
+---
 
 title: Justice and Moral Rectitude
 wordpress_id: 131
-wordpress_url: http://lackoftalent.org/michael/blog/?p=131
+wordpress_url: https://mike.giarlo.name/blog/?p=131
 date: 2008-07-16 22:59:39 -04:00
 ---
 I have been meaning to write up some of my thoughts from the <a href="http://www.revolutionmarch.com/" target="_blank">Revolution March</a> and Rally and more generally on my evolving impression of the phenomenon that is the "Ron Paul Revolution," with which I have been involved to some small extent and fascinated to a larger extent.Â  I don't have the time or clarity for that just this moment.Â  But one of the things on my mind, spurred in part by <a href="http://www.campaignforliberty.com/blog/?p=183" target="_blank">Tom Woods's speech</a> at the Rally and his new book, <a href="http://www.amazon.com/Who-Killed-Constitution-American-Liberty/dp/0307405753" target="_blank">"Who Killed the Constitution?"</a>, is the tension that sometimes exists between "doing the right thing" and following the law as it was meant to be interpreted.<a href="http://www.amazon.com/Who-Killed-Constitution-American-Liberty/dp/0307405753" target="_blank">

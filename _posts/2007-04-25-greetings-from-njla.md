@@ -1,8 +1,8 @@
---- 
+---
 
 title: Greetings from NJLA!
 wordpress_id: 82
-wordpress_url: http://lackoftalent.org/michael/blog/2007/04/25/greetings-from-njla/
+wordpress_url: https://mike.giarlo.name/blog/2007/04/25/greetings-from-njla/
 date: 2007-04-25 15:56:39 -04:00
 ---
 <img src="/michael/images/njla2007.png" alt="NJLA 2007 Conference" />

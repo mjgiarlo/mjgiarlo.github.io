@@ -1,8 +1,8 @@
---- 
+---
 
 title: Is John McCain a socialist?
 wordpress_id: 167
-wordpress_url: http://lackoftalent.org/michael/blog/?p=167
+wordpress_url: https://mike.giarlo.name/blog/?p=167
 date: 2008-10-24 18:11:16 -04:00
 ---
 Central to the McCain/Palin campaign's rhetoric lately has been the allegation that Barack Obama is a socialist (which, sadly, is something of a four-letter word).  Their evidence: Obama's encounter with the now famous "Joe the Plumber," wherein Obama explained to Joe that the point of his economic plan, and by extension the progressive tax and the liberal welfare state, was to help bring up those "behind" Joe.  Obama's misstep was using the (honest) phrase, "spread the wealth around."  McCain has used this soundbite to justify labeling Obama with the scarlet letter 'S.'

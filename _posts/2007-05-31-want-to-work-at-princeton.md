@@ -1,8 +1,8 @@
---- 
+---
 
 title: Want to work at Princeton?
 wordpress_id: 91
-wordpress_url: http://lackoftalent.org/michael/blog/2007/05/31/want-to-work-at-princeton/
+wordpress_url: https://mike.giarlo.name/blog/2007/05/31/want-to-work-at-princeton/
 date: 2007-05-31 22:16:12 -04:00
 ---
 I was stoked to see our <a href="http://library.princeton.edu/hr/positions/JobLibDigitalInitiativesCoord.html" target="_blank">Digital Initiatives Coordinator</a> position posted earlier today.  We have been without a full-time <a href="http://en.wikipedia.org/wiki/Military_rank#Field_or_Senior_officers" target="_blank">field officer</a> for nearly eight months, though <a href="http://weblog.kevinclarke.info/" target="_blank">Kevin Clarke</a> (lead programmer) has served with distinction -- and with nary a complaint!  (Well, okay, there may have been some complaints, but he always had a smile on his face.)

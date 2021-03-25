@@ -1,8 +1,8 @@
---- 
+---
 
 title: Edumacation and a call for ILS abstraction
 wordpress_id: 89
-wordpress_url: http://lackoftalent.org/michael/blog/2007/05/24/edumacation-and-a-call-for-ils-abstraction/
+wordpress_url: https://mike.giarlo.name/blog/2007/05/24/edumacation-and-a-call-for-ils-abstraction/
 date: 2007-05-24 01:19:36 -04:00
 ---
 First, I'm stoked to be getting copies of the following books over the course of the next few weeks:

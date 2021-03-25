@@ -1,8 +1,8 @@
---- 
+---
 
 title: Not quite mint juleps on the veranda
 wordpress_id: 119
-wordpress_url: http://lackoftalent.org/michael/blog/2008/03/16/not-quite-mint-juleps-on-the-veranda/
+wordpress_url: https://mike.giarlo.name/blog/2008/03/16/not-quite-mint-juleps-on-the-veranda/
 date: 2008-03-16 20:04:27 -04:00
 ---
 That I very nearly called this post "Southern comfort" reveals me as a long-time yankee from the urban northeast.Â  No, I suppose Arlington, Virginia isn't quite the south -- certainly not culturally -- but you can see why I'd say so if you consider that I once thought any place south of <a href="http://en.wikipedia.org/wiki/Interstate_195_(New_Jersey)" title="Interstate 195 (New Jersey)" target="_blank">195</a> may as well have been Deliverance country.Â  Ah, the old provincialisms.Â   And to further deconstruct this ridiculous metaphor, my entire apartment is probably smaller than a veranda.

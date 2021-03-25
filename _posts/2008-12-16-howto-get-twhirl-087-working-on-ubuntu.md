@@ -1,8 +1,8 @@
---- 
+---
 
 title: "HOWTO: Get Twhirl 0.8.7 working on Ubuntu"
 wordpress_id: 222
-wordpress_url: http://lackoftalent.org/michael/blog/?p=222
+wordpress_url: https://mike.giarlo.name/blog/?p=222
 date: 2008-12-16 15:22:49 -05:00
 ---
 I use the Adobe AIR-based <a href="http://twhirl.org/">Twhirl</a> as a <a href="http://twitter.com/">Twitter</a> and <a href="http://identi.ca/">identi.ca</a> client on my Ubuntu box.  Twitter recently made some changes to their authentication API, apparently, which prevented Twhirl from connecting as of version 0.8.6.  The fine folks over at Twhirl pushed out 0.8.7 in a jiffy but it included some AIR 1.5 dependencies.  The problem was that Adobe AIR for Linux only comes in 1.0 and 1.1 versions.

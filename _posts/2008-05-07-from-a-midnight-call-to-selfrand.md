@@ -1,8 +1,8 @@
---- 
+---
 
 title: From a midnight call to self.rand()
 wordpress_id: 127
-wordpress_url: http://lackoftalent.org/michael/blog/?p=127
+wordpress_url: https://mike.giarlo.name/blog/?p=127
 date: 2008-05-07 23:52:55 -04:00
 ---
 I lament the greatest/crappiest dorkcore band (n)ever to have existed, Illegal Operation, with the stellar line-up of Major Crash on drums, General P. Fault on bass, and Colonel Dump on guitar.

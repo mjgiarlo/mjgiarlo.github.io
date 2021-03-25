@@ -1,11 +1,11 @@
---- 
+---
 
 title: Validating ORE from the Command-line
 wordpress_id: 440
-wordpress_url: http://lackoftalent.org/michael/blog/?p=440
+wordpress_url: https://mike.giarlo.name/blog/?p=440
 date: 2009-07-31 14:52:54 -04:00
 ---
-I've been periodically poking at getting <a href="http://linkeddata.org/">Linked Data</a>/RDF views hooked into the <a href="http://www.wdl.org/">World Digital Library</a> web application, following <a href="http://inkdroid.org/journal/">Ed Summers</a>' <a href="http://lists.w3.org/Archives/Public/public-lod/2009May/0301.html">lead</a> from his work on <a href="http://chroniclingamerica.loc.gov/">Chronicling America</a>.  The RDF views also use the <a href="http://www.openarchives.org/ore/">OAI-ORE</a> vocabulary to express aggregations -- in WDL, an item is an aggregation of its constituent files.  The goal is to provide a semantically rich and holistic representation of a WDL item (identifier, constituent files, metadata, translations, and so on). 
+I've been periodically poking at getting <a href="http://linkeddata.org/">Linked Data</a>/RDF views hooked into the <a href="http://www.wdl.org/">World Digital Library</a> web application, following <a href="http://inkdroid.org/journal/">Ed Summers</a>' <a href="http://lists.w3.org/Archives/Public/public-lod/2009May/0301.html">lead</a> from his work on <a href="http://chroniclingamerica.loc.gov/">Chronicling America</a>.  The RDF views also use the <a href="http://www.openarchives.org/ore/">OAI-ORE</a> vocabulary to express aggregations -- in WDL, an item is an aggregation of its constituent files.  The goal is to provide a semantically rich and holistic representation of a WDL item (identifier, constituent files, metadata, translations, and so on).
 
 The ORE format is a new one for me so it's hard to say whether the output of my dev branch is valid ORE or not.  Plus I'm a sucker for validators.  Turns out <a href="http://www.csc.liv.ac.uk/~azaroth/">Rob Sanderson</a> has developed a <a href="http://code.google.com/p/foresite-toolkit/">Python library for validating ORE</a>, and this little snippet is what I've been using to validate the ORE.  I didn't put much effort into making it readable, so much as banging something functional out so I can meet deadlines, so mea culpa and all that.  But without further hemming and hawing, the code:
 
@@ -43,7 +43,7 @@ And the output:
      dc:format "text/rdf+n3";
      dcterms:created "2009-07-31T14:23:31Z";
      dcterms:modified "2009-07-31T14:23:31Z";
-     ore:describes _29:id. 
+     ore:describes _29:id.
 
  _29:id a bibo:Image,
          ore:Aggregation;
@@ -74,21 +74,21 @@ And the output:
      ore:aggregates <http://localhost/static/c/1/reference/04326u_thumb_item.gif>,
          <http://localhost/static/c/1/service/04326u.tif>;
      ore:isDescribedBy <http://localhost/en/item/1/item.rdf>;
-     rdfs:seeAlso <http://hdl.loc.gov/loc.wdl/dlc.1>. 
+     rdfs:seeAlso <http://hdl.loc.gov/loc.wdl/dlc.1>.
 
  <http://localhost/static/c/1/reference/04326u_thumb_item.gif> a _27:FileDataObject;
      dcterms:format "image/gif";
-     _27:fileSize "34531"^^<http://www.w3.org/2001/XMLSchema#long>. 
+     _27:fileSize "34531"^^<http://www.w3.org/2001/XMLSchema#long>.
 
  <http://localhost/static/c/1/service/04326u.tif> a _27:FileDataObject;
      dcterms:format "image/tiff";
-     _27:fileSize "1301614"^^<http://www.w3.org/2001/XMLSchema#long>. 
+     _27:fileSize "1301614"^^<http://www.w3.org/2001/XMLSchema#long>.
 
  ore:Aggregation rdfs1:isDefinedBy <http://www.openarchives.org/ore/terms/>;
-     rdfs1:label "Aggregation". 
+     rdfs1:label "Aggregation".
 
  ore:ResourceMap rdfs1:isDefinedBy <http://www.openarchives.org/ore/terms/>;
-     rdfs1:label "ResourceMap". 
+     rdfs1:label "ResourceMap".
 </pre>
 
 You might pick up on some warts I have yet to fix, but there you go.

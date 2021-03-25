@@ -1,8 +1,8 @@
---- 
+---
 
 title: Useful Trac reports?
 wordpress_id: 71
-wordpress_url: http://lackoftalent.org/michael/blog/2007/01/16/useful-trac-reports/
+wordpress_url: https://mike.giarlo.name/blog/2007/01/16/useful-trac-reports/
 date: 2007-01-16 17:54:55 -05:00
 ---
 I had to create some Trac reports a while back, and figured I would share them with the world wide (time)waste.

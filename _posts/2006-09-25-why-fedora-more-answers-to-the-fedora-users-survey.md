@@ -1,8 +1,8 @@
---- 
+---
 
 title: Why Fedora?  More answers to the Fedora users survey
 wordpress_id: 57
-wordpress_url: http://lackoftalent.org/michael/blog/2006/09/25/why-fedora-more-answers-to-the-fedora-users-survey/
+wordpress_url: https://mike.giarlo.name/blog/2006/09/25/why-fedora-more-answers-to-the-fedora-users-survey/
 date: 2006-09-25 16:58:30 -04:00
 ---
 I noticed this <a target="_blank" href="http://dltj.org/2006/09/fedora-users-interview-survey/">response to the Fedora users survey </a>on Peter Murray's blog, and figured I'd post a response. Since my previous employer did not use Fedora, and I haven't begun my new job yet, I'll be posting about our use of Fedora at Rutgers, The State University of New Jersey.

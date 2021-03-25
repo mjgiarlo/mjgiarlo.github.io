@@ -1,8 +1,8 @@
---- 
+---
 
 title: Sustaining digital libraries
 wordpress_id: 132
-wordpress_url: http://lackoftalent.org/michael/blog/?p=132
+wordpress_url: https://mike.giarlo.name/blog/?p=132
 date: 2008-07-18 08:43:37 -04:00
 ---
 About a month ago, I read on my <a href="http://digitaleccentric.blogspot.com/2008/06/strategies-for-sustaining-digital.html" target="_blank">colleague's blog</a> that the Emory University Digital Library published a new <a href="http://digital.library.emory.edu/SSDL" target="_blank">book on sustaining digital libraries</a>.Â  I've finally started reading it and figured I would post a note here.
