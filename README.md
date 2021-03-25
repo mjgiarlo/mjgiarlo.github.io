@@ -8,8 +8,10 @@
 * ~~Fix fontawesome email icons in sidebar and footer~~
 * ~~Fix page layouts and consider moving to _pages framework and to markdown~~
 * ~~Fix pagination warning~~
-* Import Penn State diglib blog posts
-  * https://web.archive.org/web/20160703033316/http://www.personal.psu.edu/mjg36/blogs/blog/
+* ~~Import Penn State diglib blog posts~~
+* Check for dead links in pages and posts (psu.edu, archive.org, lackoftalent, etc.)
+* Check image links in microservices post
+* Replace old-style footnotes with kramdown footnotes
 * Update vita
 * Update presentations
 * Update publications
