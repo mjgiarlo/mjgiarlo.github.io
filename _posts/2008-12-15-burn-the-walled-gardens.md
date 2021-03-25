@@ -11,7 +11,7 @@ Librarians are among the strongest proponents of open source software. Paradoxic
 </blockquote>
 If you're at a library doing open source software, or if you <em>think</em> you're doing open source software, or if you're considering jumping into the fray, you would do yourself, your institution, your users, and the open source community (whatever the heck that is) a great, great service by reading this column.  Srsly.
 
-I've worked in academic libraries where open source was given lip service the likes of which Jimmie Walker would envy and yet, well, show me the code already!
+I've worked in academic libraries where open source was given lip service, and yet, well, show me the code already!
 
 See, here's the thing, if you're doing open source, or <em>think</em> you're doing open source, it is necessary that you release code to the public under an <a href="http://www.opensource.org/licenses">open source license</a>.  The public includes your institution, your partner institutions, all of academia, random hackers in East Kaboomistan, and everyone else; if you make code available to partners only, that's not open source; that's multi-institutional closed source.  It's a walled garden with teleportation devices leading to other walled gardens.  And we're tired of hearing about your damned azaleas.  We want to see them, and take cuts from them, and grow our own, and contribute some back to you.
 
