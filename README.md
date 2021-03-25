@@ -16,6 +16,7 @@
   * ~~/michael/~~
 * ~~Check image links in microservices post~~
 * ~~Replace old-style footnotes with kramdown footnotes~~
+* Review blog posts for editorial improvements
 * Update vita
 * Update presentations
 * Update publications
