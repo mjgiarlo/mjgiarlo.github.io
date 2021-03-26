@@ -21,3 +21,8 @@
 * Update presentations
 * Update publications
 * Update projects
+* Add new GitHub Action for linting/CI (html-proofer)
+  * E.g., https://mrpowerscripts.com/github-pages-circleci-jekyll-paginate-v2/
+  * Also, markdown linter? (see https://github.com/emmahsax/emmahsax.github.io/blob/db02643aa797b3f71ef548c27842f7c8c43fe821/.github/workflows/main.yml)
+* Update to Jekyll 4?
+  * https://jekyllrb.com/docs/upgrading/3-to-4/
