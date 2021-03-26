@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+      xmlns:owl="http://www.w3.org/2002/07/owl#"
+      xmlns:bio="http://purl.org/vocab/bio/0.1/"
+      xmlns:dbpedia="http://dbpedia.org/resource/"
+      version="XHTML+RDFa 1.0" xml:lang="en">
+  <head>
+    <title property="dc:title">Michael J. Giarlo's Identity Page</title>
+
+    <base href="https://mike.giarlo.name/" />
+
+    <!-- Descriptive metadata -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <meta name="author" content="Michael J. Giarlo" />
+    <meta name="description" content="Web home of Michael J. Giarlo" />
+    <meta name="keywords" content="Giarlo, Michael J. Giarlo, digital library artisan, hacker, librarian, digital library architect" />
+    <meta name="title" content="Michael J. Giarlo" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/stylesheets/jquery-ui-1.8.custom.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" media="screen,print,tv,handheld" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mike.giarlo.name/" />
+
+    <!-- OpenID Delegation -->
+    <link rel="openid.server" href="http://www.myopenid.com/server" />
+    <link rel="openid.delegate" href="http://mjgiarlo.myopenid.com/" />
+    <link rel="openid2.provider" href="http://www.myopenid.com/server" />
+    <link rel="openid2.local_id" href="http://mjgiarlo.myopenid.com" />
+    <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=mjgiarlo.myopenid.com" />
+
+    <!-- Google Buzz integration -->
+    <link rel="me" type="text/html" href="http://www.google.com/profiles/michael.giarlo" />
+
+    <!-- FOAF page assertions -->
+    <link rel="foaf:primaryTopic foaf:maker" rev="foaf:homepage" href="#id" />
+
+    <!-- jQuery and jQueryUI -->
+    <script src="/javascripts/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/jquery-ui-1.8.custom.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- Tabbed display -->
+    <script type="text/javascript">
+      $(function() {
+	  $("#tabs").tabs();
+      });
+    </script>
+
+    <!-- FOAF visualization scripts -->
+    <script src="/javascripts/jquery.inspect.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/jquery.json-2.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/jquery.rdfquery.core.min-1.0.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/jquery.rdfquery.rdfa.min-1.0.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/raphael-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/graffle.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/graph.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/foafvis.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+
+  <body about="#id" typeof="foaf:Person">
+
+    <div id="tabs">
+
+      <ul>
+	<li><a href="#main">Main</a></li>
+	<li><a href="#graph" id="ganchor">Graph <span class="beta">Beta!</span></a></li>
+      </ul>
+
+      <div id="main">
+
+	<h1 property="foaf:name rdfs:label">Michael J. Giarlo</h1>
+
+	<div id="depiction" rel="foaf:depiction">
+	  <img src="/assets/images/2021_mjgiarlo.jpg" alt="My big head :: September 2020" />
+	</div>
+
+	<div id="byline">
+	  <span property="bio:olb" datatype="">Dad, Hacker; Librarian; Digital Library Architect at <a rel="foaf:workplaceHomepage" href="http://www.psu.edu">Penn State</a>; Generalist; Skeptic; Heterodox; <a href="http://facebook.com/lackoftalent">Lacker of Talent</a>; Homebrewer; Autodidact; Ne'er-do-well</span>
+	</div>
+
+	<div id="pages">
+	  <h3>Pages</h3>
+	  <ul>
+	    <li><a href="https://mike.giarlo.name/" rel="foaf:openid foaf:homepage"> About me</a></li>
+	    <li><a href="/bio/" rel="foaf:workInfoHomepage">Biography</a></li>
+	    <li><a rel="foaf:weblog me" href="/blog/">Personal blog</a></li>
+	    <li><a rel="foaf:publications" href="/vita/#publications">Publications</a></li>
+	    <li><a href="/vita/">Curriculum Vitae</a></li>
+	    <li><a href="http://sas.rutgers.edu/" rel="foaf:schoolHomepage">Undergraduate studies</a></li>
+	    <li><a href="http://www.scils.rutgers.edu/" rel="foaf:schoolHomepage">Graduate studies (Library/Information Science)</a></li>
+	    <li><a href="http://www.compling.washington.edu/" rel="foaf:schoolHomepage">Graduate studies (Computational Linguistics)</a></li>
+	  </ul>
+	</div>
+
+	<div id="contact">
+	  <h3>Contact</h3>
+	  <ul>
+	    <li><a rel="foaf:mbox" href="mailto:leftwing@alumni.rutgers.edu">Permanent e-mail address</a></li>
+	    <li><a rel="foaf:mbox" href="mailto:mjgiarlo@stanford.edu">Work e-mail address</a></li>
+	    <li><a rel="foaf:jabberID" href="xmpp:michael.giarlo@gmail.com">Jabber account</a></li>
+	    <li>Skype: <span property="foaf:skypeID">mgiarlo</span></li>
+	    <li>AIM: <span property="foaf:aimChatID">Leftwing42</span></li>
+	    <li>Yahoo!: <span property="foaf:yahooChatID">mjg_work</span></li>
+	    <li>IRC/Freenode: <span property="foaf:nick">mjgiarlo</span></li>
+	  </ul>
+	</div>
+
+	<div id="accounts" rel="foaf:holdsAccount me">
+	  <h3>Social Networking</h3>
+	  <ul>
+	    <li><a href="http://mjgiarlo.posterous.com/">Posterous</a></li>
+	    <li><a href="http://facebook.com/mjgiarlo">Facebook</a></li>
+	    <li><a href="http://twitter.com/mjgiarlo">Twitter</a></li>
+	    <li><a href="http://gplus.to/mjgiarlo">Google+</a></li>
+	    <li><a href="http://www.google.com/profiles/michael.giarlo#buzz">Google Buzz</a></li>
+	    <li><a href="http://www.flickr.com/photos/technosophia">Flickr</a></li>
+	    <li><a href="http://www.rdio.com/people/mjgiarlo">rdio</a></li>
+	    <li><a href="http://friendfeed.com/mjgiarlo">FriendFeed</a></li>
+	    <li><a href="http://foursquare.com/user/mjgiarlo">Foursquare</a></li>
+	    <li><a href="http://gowalla.com/users/mjgiarlo">Gowalla</a></li>
+	    <li><a href="http://untappd.com/user/mjgiarlo">Untappd</a></li>
+	    <li><a href="http://www.goodreads.com/mjgiarlo">GoodReads</a></li>
+	    <li><a href="http://librarything.com/profile/mjgiarlo">LibraryThing</a></li>
+	    <li><a href="http://zotero.org/mjgiarlo">Zotero</a></li>
+	    <li><a href="http://www.linkedin.com/in/mjgiarlo">LinkedIn</a></li>
+	    <li><a href="http://identi.ca/mjgiarlo">Identi.ca</a></li>
+	    <li><a href="http://github.com/mjgiarlo">Github</a></li>
+	    <li><a href="http://code.google.com/u/michael.giarlo/">Google Code</a></li>
+	    <li><a href="http://bitbucket.org/mjgiarlo">Bitbucket</a></li>
+	    <li><a href="http://launchpad.net/~mjgiarlo">Launchpad</a></li>
+	    <li><a href="http://pinterest.com/mjgiarlo">Pinterest</a></li>
+	    <li><a href="http://delicious.com/technosophia">Delicious</a></li>
+	    <li><a href="http://www.last.fm/user/leftwing/">Last.FM</a></li>
+	    <li><a href="http://www.youtube.com/user/technosophia">YouTube</a></li>
+	    <li><a href="http://technorati.com/people/mjgiarlo">Technorati</a></li>
+	  </ul>
+	</div>
+
+	<div id="projects">
+	  <h3>Current Projects</h3>
+	  <ul rel="foaf:currentProject">
+	    <li><a href="http://stewardship.psu.edu/">
+		Penn State Content Stewardship Program
+	    </a></li>
+	    <li><a href="http://curatecamp.org/">CURATEcamp</a></li>
+	    <li><a href="http://www.niso.org/workrooms/i2">NISO Institutional Identifiers</a></li>
+	    <li><a href="https://github.com/DanCoughlin/caps">Curation
+	    Architecture Prototype Services (CAPS)</a></li>
+	    <li><a href="https://github.com/acdha/restful-bag-server">RESTful
+	    BagIt replication</a></li>
+	    <li><a href="https://github.com/mjgiarlo/pairtree">Pairtree
+	    python library</a></li>
+	    <li><a href="https://github.com/mjgiarlo/arkpy">ARK python library</a></li>
+	  </ul>
+	  <h3>Past Projects</h3>
+	  <ul rel="foaf:pastProject">
+	    <li><a href="https://mike.giarlo.name/blog/json-in-firefox/">JSONovich</a></li>
+	    <li><a href="http://www.wdl.org/">World Digital Library</a></li>
+	    <li><a href="http://github.com/mjgiarlo/dflat">DFlat</a></li>
+	    <li><a href="http://github.com/mjgiarlo/namaste">Namaste</a></li>
+	    <li><a href="https://mike.giarlo.name/blog/ore-wordpress-plug-in/">OAI-ORE WordPress plugin</a></li>
+	    <li><a href="https://mike.giarlo.name/blog/unapi-wordpress-plug-in/">unAPI WordPress plugin</a></li>
+	    <li><a href="https://mike.giarlo.name/blog/persistent-url-bookmarker/">LinkPurl plugins for Firefox and WordPress</a></li>
+	    <li><a href="http://code.google.com/p/noidman/">Noidman/Noid.rb/Arkham</a></li>
+	    <li><a href="http://code.google.com/p/xqoai/">xqOAI</a></li>
+	    <li><a href="http://rucore.libraries.rutgers.edu/open/projects/openwms/">OpenWMS</a></li>
+	    <li><a href="http://www.njdigitalhighway.org/">NJ Digital Highway</a></li>
+	  </ul>
+	</div>
+
+	<div id="miscellaneous" class="hidden">
+	  <h3>Tidbits</h3>
+	  <ul>
+	    <li>Residence: <span rel="foaf:based_near"><span resource="[dbpedia:State_College,_Pennsylvania]">State College, PA</span></span></li>
+	    <li>Birthday: <span rel="foaf:birthday">December 16th</span></li>
+	  </ul>
+	</div>
+
+	<div id="conferences" rel="swc:attendeeAt" class="hidden">
+	  <h3>Conferences</h3>
+	  <ul>
+	    <li><a href="http://code4lib.org/conference/2006#conference">Code4Lib 2006</a></li>
+	    <li><a href="http://code4lib.org/conference/2007#conference">Code4Lib 2007</a></li>
+	    <li><a href="http://code4lib.org/conference/2008#conference">Code4Lib 2008</a></li>
+	    <li><a href="http://code4lib.org/conference/2009#conference">Code4Lib 2009</a></li>
+	    <li><a href="http://code4lib.org/node/266#linked-data-preconf">Code4Lib 2009 Linked Data Pre-Conference</a></li>
+	    <li><a href="http://code4lib.org/conference/2010#conference">Code4Lib 2010</a></li>
+	  </ul>
+	</div>
+
+	<div id="interests" rel="foaf:interest" class="hidden">
+	  <h3>Interests</h3>
+	  <ul>
+	    <li resource="[dbpedia:Programming]">Programming</li>
+	    <li resource="[dbpedia:Digital_library]">Digital libraries</li>
+	    <li resource="[dbpedia:Metadata]">Metadata</li>
+	    <li resource="[dbpedia:Beer]">Beer</li>
+	    <li resource="[dbpedia:Food]">Food</li>
+	    <li resource="[dbpedia:Electric_guitar]">Electric guitar</li>
+	    <li resource="[dbpedia:Politics]">Politics</li>
+	    <li resource="[dbpedia:Tea]">Tea</li>
+	    <li resource="[dbpedia:Mythology]">Mythology</li>
+	    <li resource="[dbpedia:19th_century]">19th century</li>
+	    <li resource="[dbpedia:Digital_curation]">Digital curation</li>
+	    <li resource="[dbpedia:Linked_Data]">Linked data</li>
+	  </ul>
+	</div>
+
+	<div id="knows" class="hidden">
+	  <h3><a href="http://www.foaf-project.org/">FOAF</a> Friends</h3>
+	  <ul rel="foaf:knows">
+	    <li><a href="http://www.barr.eraic.us/foaf.rdf#me">Antonio Barrera</a></li>
+	    <li><a href="http://danbri.org/foaf.rdf#danbri">Dan Brickley</a></li>
+	    <li><a href="http://jbrinley.xplus3.net/id/">Jonathan Brinley</a></li>
+	    <li><a href="http://www.monkey.org/~caz/foaf.xml#jmcasden">Jason Casden</a></li>
+	    <li><a href="http://old.onebiglibrary.net/misc/foaf.rdf#me">Dan Chudnov</a></li>
+	    <li><a href="http://kevinclarke.info/foaf.rdf#me">Kevin Clarke</a></li>
+	    <li><a href="http://ticklefish.org/esme/foaf.rdf#escowles">Esme Cowles</a></li>
+	    <li><a href="http://philcryer.com/foaf.rdf#me">Phil Cryer</a></li>
+	    <li><a href="http://iandavis.com/id/me">Ian Davis</a></li>
+	    <li><a href="http://www.miskatonic.org/foaf.rdf#me">Bill Denton</a></li>
+	    <li><a href="http://billdueber.com/foaf.rdf#me">Bill Dueber</a></li>
+	    <li><a href="http://rc98.net/foaf#me">Gabe Farrell</a></li>
+	    <li><a href="http://declan.net/foaf.rdf#djf">Declan Fleming</a></li>
+	    <li><a href="http://digitalprojects.library.unt.edu/~bfrederi/foaf/foaf.rdf#me">Brad Frederick</a></li>
+	    <li><a href="http://chrisfreeland.com/foaf.rdf#me">Chris Freeland</a></li>
+	    <li><a href="http://dysinterested.com/foaf.rdf#me">Sean Hannan</a></li>
+	    <li><a href="http://harper.bobst.nyu.edu/data/foaf.rdf#me">Corey Harper</a></li>
+	    <li><a href="http://tomkeays.com/about/foaf.rdf#tomkeays">Tom Keays</a></li>
+	    <li><a href="http://unyeildingloyalty.com/shawn/foaf.rdf#me">Shawn Kiewel</a></li>
+	    <li><a href="http://michael.is.outoffoc.us/michael/foaf.rdf#me">Michael Klein</a></li>
+	    <li><a href="http://rhymeswithtoaster.com/foaf.rdf#me">Eric Klooster</a></li>
+	    <li><a href="http://babyponies.com/foaf.rdf#me">Lauren Ko</a></li>
+	    <li><a href="http://eikeon.com/foaf.rdf#eikeon">Dan Krech</a></li>
+	    <li><a href="http://www.columbia.edu/~tjl2112/foaf.rdf#me">Ted Lawless</a></li>
+	    <li><a href="http://www.library.yale.edu/~dlovins/foaf.rdf#dsl">Daniel Lovins</a></li>
+	    <li><a href="http://blog.reallywow.com/foaf#me">Jay Luker</a></li>
+	    <li><a href="http://thesecretmirror.com/foaf.xml#matienzo">Mark Matienzo</a></li>
+	    <li><a href="http://matola.webs.com/about/foaf.rdf#me">Tod Matola</a></li>
+	    <li><a href="http://dltj.org/foaf/">Peter Murray</a></li>
+	    <li><a href="http://vphill.com/foaf.rdf#me">Mark Phillips</a></li>
+	    <li><a href="http://pos.thum.us/ep.rdf#me">Etiette Posthumus</a></li>
+	    <li><a href="http://www.ibiblio.org/bess/foaf.rdf#me">Bess Sadler</a></li>
+	    <li><a href="http://jodischneider.com/#me">Jodi Schneider</a></li>
+	    <li><a href="http://freerangelibrarian.com/foaf.rdf#kgs">Karen G. Schneider</a></li>
+	    <li><a href="http://dilettantes.code4lib.org/blog/about-me/#me">Ross Singer</a></li>
+	    <li><a href="http://brocadedarkness.net/foaf.rdf#me">Anders Söderbäck</a></li>
+	    <li><a href="http://anearalone.com/foaf.rdf#me">Jon Stroop</a></li>
+	    <li><a href="http://inkdroid.org/ehs">Ed Summers</a></li>
+	    <li><a href="http://roytennant.com/foaf.rdf#me">Roy Tennant</a></li>
+	    <li><a href="http://ryanwick.net/foaf.rdf#me">Ryan Wick</a></li>
+	    <li><a href="http://www.code4lib.org/id/zoia">Zoia</a></li>
+	    <li><a href="http://mediashelf.us/about/foaf.rdf#flyingzumwalt">Matt Zumwalt</a></li>
+	  </ul>
+	</div>
+
+	<div id="related" rel="owl:sameAs" class="hidden">
+	  <a href="http://semantictweet.com/mjgiarlo#me">Twitter profile</a>
+	  <a href="http://identi.ca/mjgiarlo/foaf">identi.ca profile</a>
+	</div>
+
+      </div>
+
+      <div id="graph" class="center"></div>
+
+    </div>
+
+    <div id="footer" class="center">
+      <a href="http://validator.w3.org/check?uri=referer">
+	<img class="w3cimg" src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" />
+      </a>
+
+      <a href="http://www.w3.org/2007/08/pyRdfa/extract?uri=referer">
+	<img class="w3cimg" src="http://www.w3.org/Icons/valid-xhtml-rdfa" alt="Valid XHTML+RDFa" />
+      </a>
+
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+	<img class="w3cimg" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS" />
+      </a>
+    </div>
+
+  </body>
+</html>

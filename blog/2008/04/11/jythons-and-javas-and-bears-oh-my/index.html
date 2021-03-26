@@ -1,0 +1,637 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Jythons and Javas and bears, oh my! - Mike Giarlo</title>
+<meta name="description" content="It’s hard to believe but I’ve been at the new job for six months already, a full half-year come the 29th.  Some days it seems like I’ve been here forever; others like I’m still a rank newb.   I haven’t written terribly much about what I’ve been up to (but I assure you I’ve been busy).  Let me rectify that. The Transfer Problem Two of the projects I’ve been working on relate to a fairly general problem that we like to call “transfer,” which revolves around, well, transferring files to and fro.  Sounds simple.  Is simple.  That is, until you start thinking about preservation and accounting for a highly heterogeneous network with idiosyncratic nodes, esoteric storage software, and differential firewall rules.  And that’s where it gets interesting (and problematic). The transferring itself, or copying of files from one location to another which we call “transport,” is the easiest part.  We like to use common tools in our environment.  It makes life easy.  And so good ol’ scp seems like an obvious choice to handle the job.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Mike Giarlo">
+<meta property="og:title" content="Jythons and Javas and bears, oh my!">
+<meta property="og:url" content="https://mike.giarlo.name/blog/2008/04/11/jythons-and-javas-and-bears-oh-my/">
+
+
+  <meta property="og:description" content="It’s hard to believe but I’ve been at the new job for six months already, a full half-year come the 29th.  Some days it seems like I’ve been here forever; others like I’m still a rank newb.   I haven’t written terribly much about what I’ve been up to (but I assure you I’ve been busy).  Let me rectify that. The Transfer Problem Two of the projects I’ve been working on relate to a fairly general problem that we like to call “transfer,” which revolves around, well, transferring files to and fro.  Sounds simple.  Is simple.  That is, until you start thinking about preservation and accounting for a highly heterogeneous network with idiosyncratic nodes, esoteric storage software, and differential firewall rules.  And that’s where it gets interesting (and problematic). The transferring itself, or copying of files from one location to another which we call “transport,” is the easiest part.  We like to use common tools in our environment.  It makes life easy.  And so good ol’ scp seems like an obvious choice to handle the job.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2008-04-11T18:41:52-07:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://mike.giarlo.name/blog/2008/04/11/jythons-and-javas-and-bears-oh-my/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Mike Giarlo",
+      "url": "https://mike.giarlo.name/",
+      "sameAs": ["http://twitter.com/mjgiarlo","http://github.com/mjgiarlo","http://instagram.com/mjgiarlo","http://www.linkedin.com/in/mjgiarlo","http://facebook.com/mjgiarlo","http://orcid.org/0000-0002-2100-6108"]
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mike Giarlo Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Mike Giarlo
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/bio/">Bio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/presentations/">Presentations</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vita/">Vita</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/2021_mjgiarlo.jpg" alt="" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name"></h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Mike Giarlo is a coder for libraries</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Seattle, WA, US</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:leftwing@alumni.rutgers.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-at" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://code4lib.social/@mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://keybase.io/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i><span class="label">Keybase</span></a></li>
+          
+        
+          
+            <li><a href="https://orcid.org/0000-0002-2100-6108" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-orcid" aria-hidden="true"></i><span class="label">ORCiD</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://www.instagram.com/mjgiarlo/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+          
+            <li><a href="https://www.facebook.com/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span class="label">Facebook</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Jythons and Javas and bears, oh my!">
+    <meta itemprop="description" content="It’s hard to believe but I’ve been at the new job for six months already, a full half-year come the 29th.  Some days it seems like I’ve been here forever; others like I’m still a rank newb.   I haven’t written terribly much about what I’ve been up to (but I assure you I’ve been busy).  Let me rectify that.The Transfer ProblemTwo of the projects I’ve been working on relate to a fairly general problem that we like to call “transfer,” which revolves around, well, transferring files to and fro.  Sounds simple.  Is simple.  That is, until you start thinking about preservation and accounting for a highly heterogeneous network with idiosyncratic nodes, esoteric storage software, and differential firewall rules.  And that’s where it gets interesting (and problematic). The transferring itself, or copying of files from one location to another which we call “transport,” is the easiest part.  We like to use common tools in our environment.  It makes life easy.  And so good ol’ scp seems like an obvious choice to handle the job.">
+    <meta itemprop="datePublished" content="2008-04-11T18:41:52-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Jythons and Javas and bears, oh my!
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2008-04-11T18:41:52-07:00">April 11, 2008</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>It’s hard to believe but I’ve been at the <a href="https://mike.giarlo.name/blog/2007/09/27/october/" target="_blank">new job</a> for six months already, a full half-year come the 29th.  Some days it seems like I’ve been here forever; others like I’m still a rank newb.   I haven’t written terribly much about what I’ve been up to (but I assure you I’ve been busy).  Let me rectify that.</p>
+<h2><strong>The Transfer Problem</strong></h2>
+<p>Two of the projects I’ve been working on relate to a fairly general problem that we like to call “transfer,” which revolves around, well, transferring files to and fro.  Sounds simple.  <em>Is</em> simple.  That is, until you start thinking about preservation and accounting for a highly heterogeneous network with idiosyncratic nodes, esoteric storage software, and differential firewall rules.  And that’s where it gets interesting (and problematic). <!--more-->The transferring itself, or copying of files from one location to another which we call “transport,” is the easiest part.  We like to use common tools in our environment.  It makes life easy.  And so good ol’ <a href="http://en.wikipedia.org/wiki/Secure_copy" target="_blank">scp</a> seems like an obvious choice to handle the job.</p>
+
+<p>Since preservation is a core aspect of our “repository,” a term which I use loosely, we must build certain other functionalities into the transfer process: validation, verification, inventory, backup, ingest, and so forth.  Every time a file is copied to a non-transient location, we verify the file against a (<a href="http://www.faqs.org/rfcs/rfc3174.html" target="_blank">SHA1</a>) checksum and record an event for auditing purposes.</p>
+<h2><strong>Repository Workflows</strong></h2>
+<p>Some steps in the transfer process are routine and best handled by machines. Thus we automate them with scripts and code.  Others require human intervention.  This introduces another key aspect of our repository needs: workflows.  No two projects will have the same workflow and yet all will have some steps in common.  We’re using JBoss’s <a href="http://www.jboss.org/jbossjbpm/" target="_blank">jBPM</a> library for workflow management and it is more than capable of handling our workflow needs.  It allows us to model complex and varied flows in a robust and not <em>ad hoc</em> way; it does seem preferable to me to model our workflows via jBPM’s graphical editor (serialized to <a href="http://docs.jboss.com/jbpm/v3/userguide/jpdl.html" target="_blank">JPDL</a> XML) rather than copying around blocks of code and otherwise modeling the workflow procedurally in business logic.</p>
+
+<p>One of my coworkers (<a href="http://www.dlib.org/dlib/july07/littman/07littman.html" target="_blank">the author of this</a>) designed a complete workflow system in jBPM last summer and I’ve taken on implementing, tweaking, and testing this system, which has required bootstrapping my sorry-arse Java skills and learning jBPM.  Though I find it difficult to think in Java patterns and generally find it a burdensome environment, I’m quite impressed by jBPM.  I’ve been working on various updates of and unit test coverage for the workflow system, which has been a crash course in a number of Java technologies and a perfect first task at LC, as it gets me into the guts of things.  The Java stack we use for our workflow is highly abstracted and componentized, which is conveniently modular… but it’s also Java: fairly heavy and arguably not as agile as dynamic languages such as Python.</p>
+<h2><strong>Two Great Tastes?</strong></h2>
+<p>So recently we’ve begun to think about implementing some transfer and workflow components in <a href="http://www.jython.org/" target="_blank">Jython</a> (Python written in Java).  Why?  The value of Jython is as follows:</p>
+<ol>
+	<li><strong>Ease of deployment</strong> - Deploying jar files to existing JVMs in production environments (which we do not control) is a simple task, or at least simpler than some other options.</li>
+	<li><strong>Interoperability</strong> - Our stack is primarily Java-based and so interoperating with existing Java components means not having to rewrite functionality in other languages.  Jython allows Python to talk to Java and vice versa.</li>
+	<li><strong>Familiarity</strong> - It's Python, and we like Python.  It's the closest my team has to a <em>lingua franca</em> and so it increases the chances of sharing code, maintaining code, and so forth.</li>
+</ol>
+<p>It does not come without its drawbacks:</p>
+<ol>
+	<li><strong>Currency</strong> - The Jython project went moribund for a few years or so and the latest stable version is now 2.2.1.  Compare that to the latest version of Python: <a href="http://www.python.org/download/releases/2.5.2/" target="_blank">2.5.2</a>.  I don't begrudge the Jython developers, though.  I'm glad some folks picked the project up, dusted it off, and breathed new life into it.   I am also glad that they're skipping 2.3 and 2.4 releases and plowing right into a 2.5 release.  Because of this currency issue, some Python libraries won't work with the latest Jython and that means you're stuck looking for outdated, potentially vulnerable Python libraries, or hooking into Java libraries for the same functionality (which inevitably means more lines of code).  I'm no lines of code fetishist but it does militate against the goal of agility somewhat.One does have the option of living on the edge and trying out the 2.5 branch, but that seems out of step with an infrastructure that is supposed to preserve terabytes upon terabytes of our nation's, and the world's, intellectual property.  It's a responsibility I do not take lightly, as much as I'd like to be on the bleeding edge.</li>
+	<li><strong>Interoperability difficulties - </strong>Talking to Java from Jython is a snap: just <code>import java</code> at the top of your script, and, assuming your classpath is copacetic, <em>voila:</em> you have access to Java libraries in your Python code!  Talking to your Jython modules from Java code is, well, a little more complicated. Read on.</li>
+</ol>
+<p>Despite the caveats it does seem a sane, reasonable, and potentially productive path to go down. Right?  I am specifically looking to implement two workflow components in Jython: one for transport (wrapping Ant’s<a href="http://www.jcraft.com/jsch/" target="_blank"> JSch</a> library, which provides a slick scp API) and the other for automation of <a href="http://www.opensolaris.org/os/community/zfs/" target="_blank">ZFS</a> filesystem/volume creation on the staging server.  Nothing arcane, nothing tricky, nothing fancy.  So it must be easy!  Right? …</p>
+<h2><strong>Lessons Learned?</strong></h2>
+<p>I’m beginning to wonder about the feasibility of using Jython to make bits of our Java stack more agile. Specifically, there are three ways to get at Jython code from Java:</p>
+<ol>
+	<li>Compile to bytecode/jar via the Jython compiler (jythonc) and reference your Jython objects and methods as though they were <a href="http://en.wikipedia.org/wiki/POJO" target="_blank">POJOs</a></li>
+	<li>Embed a Jython interpreter</li>
+	<li>Instantiate a (<a href="http://jcp.org/en/jsr/detail?id=223" target="_blank">JSR-223</a>) script engine</li>
+</ol>
+<p>Option 1 is nice because you get object- and method-level interop.  However, <a href="http://www.jython.org/Project/jythonc.html" target="_blank">jythonc</a> is unsupported and will disappear.  This does not seem sustainable though I might be able to limp along a while.  And there are <a href="http://sourceforge.net/mailarchive/message.php?msg_name=96c4692d0802280853r70e6b74fg71aed3cdd7701cbf%40mail.gmail.com" target="_blank">signs of hope</a>:</p>
+<blockquote>Though jythonc is going away, all of the capabilities it provides will be present in 2.5 in other forms.  We're adding functionality to expose Python classes as Java classes using decorators to replace the docstring class creation that jythonc provided, and we're adding static compilation of proxy classes so regular jython can run in applets and other environments with restrictive classloaders.  We're definitely doing something about jythonc.</blockquote>
+<p>That doesn’t help much <em>now</em>, of course, but just because jythonc goes away does not mean my jars will stop working.</p>
+
+<p>The suggested methods for option 2 [<a href="http://wiki.python.org/jython/JythonMonthly/Articles/October2006/3" target="_blank">1</a>, <a href="http://wiki.python.org/jython/JythonMonthly/Articles/September2006/1" target="_blank">2</a>] seem to be more trouble than they’re worth.  If the goal is more agile development for certain components, the reliance upon multiple, separate Java classes – an interface class and an object factory, in the examples listed – to get a ten-line Jython script working, this seems suboptimal, both inefficient and not straightforwardly maintainable; it seems, to me and my Java-dumb ways, rather baroque.</p>
+
+<p>Option 3 [<a href="http://wiki.python.org/jython/JythonMonthly/Articles/October2006/1" target="_blank">1</a>, <a href="http://www.jython.org/Project/userguide.html#using-jsr-223" target="_blank">2</a>] is more appealing than option 2 as it does not rely upon these other classes specifically for Jython code.  But the number of lines of Java code that must be wrapped around the Jython to get it working looks like overkill for the drop-dead simple scripts I’m writing – it might be easier, for instance, to just write the darn things in Java and be done with it.  (Did I just say that?)</p>
+<h2><strong>Conclusions</strong></h2>
+<p>Options 2 and 3 are similar as both involve embedding Jython code, or referencing files with Jython code, and interpreting the code within Java.  Generally, I worry that either option would obviate the benefit of agile Jython scripting because you wind up wrapping the code in so much Java.  I offer two disclaimers to counter my objections:</p>
+<ol>
+	<li>Cleverer Java coders than myself could, I am almost certain, find ways to build abstractions (or abstractions of abstractions) to eliminate the "lines of code" and "many separate classes per Jython script" issues</li>
+	<li>The value of Jython in our Java environment increases proportionately with the complexity of the component -- given the overhead, a short Java class seems easier and more straightforward to implement than a short embedded Jython script.  On the other hand, there's value in embedding a Jython script that'd be an order of magnitude simpler than its Java analog.</li>
+</ol>
+<p>At least, that’s the state of my head right now re: getting Jython and Java to play nice.  If I make any breakthroughs or give up entirely, I’ll post follow-ups.</p>
+
+<p>I am but a Java philistine and a Jython neophyte, so I remain humbly open-minded.  I would greatly appreciate comments, questions, corrections, smackdowns, sagacious advice, and so on.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2008-04-11T18:41:52-07:00">April 11, 2008</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Jythons+and+Javas+and+bears%2C+oh+my%21%20https%3A%2F%2Fmike.giarlo.name%2Fblog%2F2008%2F04%2F11%2Fjythons-and-javas-and-bears-oh-my%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmike.giarlo.name%2Fblog%2F2008%2F04%2F11%2Fjythons-and-javas-and-bears-oh-my%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmike.giarlo.name%2Fblog%2F2008%2F04%2F11%2Fjythons-and-javas-and-bears-oh-my%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/2008/03/26/rails-deployment/" class="pagination--pager" title="Rails Deployment
+">Previous</a>
+    
+    
+      <a href="/blog/2008/04/17/jython-scp/" class="pagination--pager" title="Jython scp
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2012/10/27/understanding-eg-dois-for-data-sets/" rel="permalink">Understanding (e.g.) DOIs for data sets
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2012-10-27T18:06:51-07:00">October 27, 2012</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Data citation is a topic that frequently comes up in conversations around data management. During a call with a community of data curators yesterday, I was a...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2011/02/17/ingest-lessons-learned/" rel="permalink">Ingest: Lessons learned
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2011-02-17T04:13:51-08:00">February 17, 2011</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Now that we have a by-no-means-complete-but-still-useful list of common barriers to ingest, I thought I’d share the lessons learned.  We hope to apply these ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2011/02/11/ingest-is-a-barrier-to-ingest/" rel="permalink">Ingest is a barrier to ingest
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2011-02-11T10:35:51-08:00">February 11, 2011</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Last week I attended the latest iteration of one of my favorite conferences, Code4Lib 2011, which included a full-day CURATEcamp hackfest as a pre-conference...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2010/07/28/impressions-from-open-repositories-2010/" rel="permalink">Impressions from Open Repositories 2010
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2010-07-28T06:34:51-07:00">July 28, 2010</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">One minor concern I brought to the conference, which has roots in my attendance at the 2007 conference, was whether it would be too system-oriented to be rel...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Mike Giarlo. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

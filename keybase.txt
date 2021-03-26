@@ -1,0 +1,76 @@
+==================================================================                                                                    https://keybase.io/mjgiarlo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mike.giarlo.name
+  * I am mjgiarlo (https://keybase.io/mjgiarlo) on keybase.
+  * I have a public key with fingerprint F7DB E036 14A6 A4CB 4B7B  6EE7 DF66 BC3F CDD3 FC61
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.25"
+        },
+        "key": {
+            "eldest_kid": "0101f4fcf57489bb6c28ef22959a9c661ff355dca671541f5855131b79ec656a8a0a0a",
+            "fingerprint": "f7dbe03614a6a4cb4b7b6ee7df66bc3fcdd3fc61",
+            "host": "keybase.io",
+            "key_id": "df66bc3fcdd3fc61",
+            "kid": "0101f4fcf57489bb6c28ef22959a9c661ff355dca671541f5855131b79ec656a8a0a0a",
+            "uid": "107bb2ebdc0fcaf09c103dcb2dc2fe00",
+            "username": "mjgiarlo"
+        },
+        "service": {
+            "hostname": "mike.giarlo.name",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1462210050,
+    "expire_in": 157680000,
+    "prev": "9026f5673f2969747b356698449d672ddc7f6591eb78b678a8f9fd0d51d2f26a",
+    "seqno": 43,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtkntMFEccxw8QCkdF6hWqoJZsa/FBz9293dlbpDShwVdqjwoVmrae+5g5Fo5d
+uDsQhKO2DRixXmmNmhLSkqBB5dGWFoUAioFgCaGWU7RiUyxSxWBTxGgISK+7FJs0
+6Z+dSSaTmc/vO9/5zlQuDtDp/UZQx6sDlx9zfv13eV16rMe/GOMVsQiLL8YEuwRl
+lzaTuRyIxWPZsIjnnNAoKTGyIkJjljNmgYnDCqDDKSmySuFGs5GkMXecxmvV0C5C
+p8uaLYnaLoETiEICohnKzPI8EEgzRCTJ0izHCgAQCJloWhQ4wBA0RSDaTNOEieAZ
+FgqABpyZw9WuHogk2QYduQ5Js4ghRuQhbgIExQGOEniKZ3gAISMiAHjBhARRVAdA
+qIWZitP1r8tg806t8/b+g/+ffefPyxE4w/Mk5EUBRwKHcFYgcJMo8KQokAjiuAY6
+oWMh+Jwsm8Q57IoWqrpaIAlQC1a7yRNCyobGvyHj/FIclutQXIqg2NXdTJcrN14r
+dhXlavQeyFsXdKy8JItqlGpB9T9vSKio4JI0ZYICJEngOI3HYbAwV3JAq6QRNAPM
+uNq0c2CBqsniJEA0YEyIZAHLUAxvogFgzRTFioAhRVFgEKBZAvKMmQeMmTMjFom4
+SBMiiUigReOEebKCxVMm1ShnUzWdkk3mXPkOiLkP+K9YpPPT64IC/bVfqtOHhD/5
+ujltS3x5fRd/Gm7uzBna4XtIhKZGZP/SNHW83JsVcW0a/GzoTn3G+b0nwfpgbes7
+o0/tAONp/dEzpd7ET2wR3GutD8ei96+mp4/JV/ST1prGIygYNj0ddrb0vufXW970
+4M2WDTO7Ey4/CpsNtU0kWv4sfSvxwrru8Pb9vqRzqR9OLboWGFN56etDY3NLN8k3
+z043eW4bTr88UDSb+Yr+/O6UN6XB65OTB+tP6EeE5V1zUZFvV+ytjR3aiUra438c
+2FDt5/ns6snGoNvNVUkWN33sg8jfmg33O5q+C2mcNL240WS0H46Q6uW2KkTsLb9V
++1FAyUpD1fD2vr5do8kTS401y8I603YWJM90zF3pmi6byNj1bHFUtzXp5HudQZaM
+mseNg2VBDXWreq3e5I59316stFRGH6KEeqd/ZlpI+91xw4lzKTpm9VDhoG/l6+kt
+Cf2e8q134lpC5sRJ2ws9pwo77n1z5kax3WeY+tivx7fkzlXX4mxHUnurPmDL2HSG
+rWIYJHW7u4ggxZJXvmpkk5zwadbyN4KPH+3NLLpZc2rLD1Etg+9697x/vTdrTdm6
+ewfrYkrqtq0/8ztjDvijzx5+eK3jwOz5ZXR4Ch9SsXmwbVvol2v2KbW+gYALj7aP
+uzcqXHLCS/xX1Z/fWN9T/mBFdXeK0nn6i8BYUyTrxhqGGp7zjm7VP596Saby2/4C
+=dWET
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mjgiarlo
+
+==================================================================

@@ -1,0 +1,627 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Exploring curation micro-services - Mike Giarlo</title>
+<meta name="description" content="As far as I’m concerned, the most exciting developments this year in  repositories and digital curation have come out of the California Digital Library.  It has been impossible not to notice their papers and presentations.  Put simply, their idea is that digital curation is enabled by “micro-services” built upon well-known abstractions such as the filesystem.  The benefits are obvious: filesystem tools are ubiquitous and cross-platform, and there are strong market forces to ensure the filesystem persists.  The idea is radically simple and straightforward, though many questions remain about such a paradigm.  I’ll return to those later.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Mike Giarlo">
+<meta property="og:title" content="Exploring curation micro-services">
+<meta property="og:url" content="https://mike.giarlo.name/blog/2009/09/26/exploring-curation-micro-services/">
+
+
+  <meta property="og:description" content="As far as I’m concerned, the most exciting developments this year in  repositories and digital curation have come out of the California Digital Library.  It has been impossible not to notice their papers and presentations.  Put simply, their idea is that digital curation is enabled by “micro-services” built upon well-known abstractions such as the filesystem.  The benefits are obvious: filesystem tools are ubiquitous and cross-platform, and there are strong market forces to ensure the filesystem persists.  The idea is radically simple and straightforward, though many questions remain about such a paradigm.  I’ll return to those later.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2009-09-26T21:00:29-07:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://mike.giarlo.name/blog/2009/09/26/exploring-curation-micro-services/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Mike Giarlo",
+      "url": "https://mike.giarlo.name/",
+      "sameAs": ["http://twitter.com/mjgiarlo","http://github.com/mjgiarlo","http://instagram.com/mjgiarlo","http://www.linkedin.com/in/mjgiarlo","http://facebook.com/mjgiarlo","http://orcid.org/0000-0002-2100-6108"]
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mike Giarlo Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Mike Giarlo
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/bio/">Bio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/presentations/">Presentations</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vita/">Vita</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/2021_mjgiarlo.jpg" alt="" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name"></h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Mike Giarlo is a coder for libraries</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Seattle, WA, US</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:leftwing@alumni.rutgers.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-at" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://code4lib.social/@mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://keybase.io/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i><span class="label">Keybase</span></a></li>
+          
+        
+          
+            <li><a href="https://orcid.org/0000-0002-2100-6108" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-orcid" aria-hidden="true"></i><span class="label">ORCiD</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://www.instagram.com/mjgiarlo/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+          
+            <li><a href="https://www.facebook.com/mjgiarlo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span class="label">Facebook</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Exploring curation micro-services">
+    <meta itemprop="description" content="As far as I’m concerned, the most exciting developments this year in  repositories and digital curation have come out of the California Digital Library.  It has been impossible not to notice their papers and presentations.  Put simply, their idea is that digital curation is enabled by “micro-services” built upon well-known abstractions such as the filesystem.  The benefits are obvious: filesystem tools are ubiquitous and cross-platform, and there are strong market forces to ensure the filesystem persists.  The idea is radically simple and straightforward, though many questions remain about such a paradigm.  I’ll return to those later.">
+    <meta itemprop="datePublished" content="2009-09-26T21:00:29-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Exploring curation micro-services
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2009-09-26T21:00:29-07:00">September 26, 2009</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><img src="https://mike.giarlo.name/assets/images/micro_repo_thumb.png" alt="thumbnail of micro-repo tree" style="float: left" />As far as I’m concerned, the most exciting developments this year in  repositories and digital curation have come out of the California Digital Library.  It has been impossible <a href="http://conferences.library.gatech.edu/or/or09/paper/view/95">not</a> <a href="http://uccsc2009.ucdavis.edu/preso/UCCSC-2009-CDL-PODS-v05.ppt">to</a> <a href="http://www.ijdc.net/index.php/ijdc/article/view/98">notice</a> <a href="https://meeting-reg.com/sunpasig/abstracts.php">their</a> <a href="http://www.digitalpreservation.gov/news/events/ndiipp_meetings/ndiipp09/docs/NDIIPP%20Partner%20Meeting%202009_Breakout%20Session%20Schedule.pdf">papers</a> <a href="http://www.ijdc.net/index.php/ijdc/article/view/108/84">and</a> <a href="http://www.cdlib.org/iPres/confsched.html">presentations</a>.  Put simply, their idea is that digital curation is enabled by “micro-services” built upon well-known abstractions such as the filesystem.  The benefits are obvious: filesystem tools are ubiquitous and cross-platform, and there are strong market forces to ensure the filesystem persists.  The idea is radically simple and straightforward, though many questions remain about such a paradigm.  I’ll return to those later.</p>
+
+<p>If you have not yet taken a look at CDL’s curation micro-service specifications, most of which may be printed on as few as one or two sheets of paper, see the <a href="http://www.cdlib.org/inside/diglib/">Digital Library Building Blocks</a>.</p>
+
+<p>My co-workers in the LC Repository Development Center have been chatting about these specs on and off throughout the year.  After months of procrastinating, I finally read all of the specs on Thursday; it’s wonderful that you can do so in the course of one reading session, I might add.  Yesterday a bunch of us RDCers got together to chat (informally) about the specs: what they’re for, how they work, and how they interact with one another.  I learn by doing, by examples, so I combed through each of the specs in advance of our meeting and tried to <a href="http://twitter.com/mjgiarlo/statuses/4371794936">construct</a> a minimal repository<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> based on micro-services.
+<!--more-->
+Here is a tree visualization of the final product, inevitable warts and all: <a href="https://mike.giarlo.name/assets/images/micro_repo.png"><img src="https://mike.giarlo.name/assets/images/micro_repo.png" alt="sample micro-services repo tree" /></a>  The services I used were <a href="http://www.cdlib.org/inside/diglib/namaste/namastespec.html">Namaste</a>, <a href="http://www.cdlib.org/inside/diglib/can/canspec.pdf">Content Access Node (CAN)</a>, <a href="http://www.cdlib.org/inside/diglib/pairtree/pairtreespec.html">Pairtree</a>, <a href="http://www.cdlib.org/inside/diglib/dflat/dflatspec.pdf">Dflat</a>, <a href="http://www.cdlib.org/inside/diglib/redd/reddspec.html">Reverse Directory Deltas (ReDD)</a>, <a href="http://www.cdlib.org/inside/diglib/clop/clopspec.pdf">Class-based System for Managing Object Properties (CLOP)</a>, and <a href="http://www.digitalpreservation.gov/library/resources/tools/docs/bagitspec.pdf">BagIt</a> (co-developed by LC and CDL).</p>
+
+<p>As I mentioned in our Friday meeting, recounting my experience exploring the specs: the bad thing is that I spent an hour building a repository with rudimentary tools such as mkdir, touch, cp, ln, and emacs; but the good thing is that I built a <em>repository</em> in <em>one hour</em> using <em>common, rudimentary tools</em>.  It’s a very compelling paradigm.  <a href="http://inkdroid.org/ehs">Ed</a>’s already built a <a href="http://github.com/edsu/dflat">tool</a> implementing some of Dflat, further demonstrating how lightweight these micro-services are.  (<strong>UPDATE</strong>: Ed notes that this code is a work in progress and is “barely functional.”)  (<strong>UPDATE 2</strong>: The dflat library has come a long way.  Check it out if you’re interested.  Also, I just committed a pretty basic Namaste library: <a href="http://github.com/mjgiarlo/namaste">http://github.com/mjgiarlo/namaste</a>.  Only took about an hour, which is a testament to the power of lightweight specs.)</p>
+
+<p>I am certain this will be a running thread at work as the specifications evolve and our understanding of them grows.  Some questions and comments that occurred to me while exploring the micro-service specs and building the minimal repo:</p>
+
+<ul>
+	<li>CAN was a bit puzzling.  The spec is simple enough, but I found some of the conventions confusing, and I was left wondering what CAN provides other than a container.  What I would like to see is a simple use case and perhaps more examples.  Thus, the CAN stuff in my sample repo doesn't feel very useful only because I had a hard time working with the spec.</li>
+	<li>CLOP feels like the least mature of the specifications.  It seems generally useful to be able to put digital objects, however you define that, into classes and define properties on those classes.  The spec did not clearly convey to me just how it accomplishes that aim.  A few examples would go a very long way.  I've got some CLOP stuff in the sample repo but I have no idea how close my implementation matches the spec.</li>
+	<li>Is Dflat dependent on ReDD?  One would assume not since there's an optional property in the dflat-info.txt file for specifying a delta scheme.  But, say, could you stub out the v001 directory (reserved to hold the initial version of a digital object) and use a system such as <a href="http://git-scm.com/">git</a> or <a href="http://bazaar-vcs.org/">bazaar</a>?  <br /><br />One might argue that these established delta schemes, if you want to call them that, have many more developers and users than a system such as ReDD and thus should persist longer and have more tools built around them.  I imagine the micro-service viewpoint would acknowledge that point, but counter that the spirit of these specs is to avoid dependencies from outside the filesystem?</li>
+	<li>Is the ReDD specification meaningful outside of a Dflat given that any one ReDD directory knows nothing of its successors and predecessors, or is it dependent upon Dflat?</li>
+	<li>Could a BagIt bag live inside of the ReDD reserved "full" directory?  That is, could the "full" directory be marked up appropriately to <em>be</em> a BagIt bag?</li>
+	<li>How many tools exist for these specs?  I notice there's code in CPAN for Pairtree and Namaste, which is a fabulous start.  Tools are the difference between YAMF (Yet Another Messy Filesystem) and reliably managed curation services.  Granted, tools such as cp and emacs already exist and are part of the appeal of these micro-services, but there's also tremendous room for error if operations are all done "by hand."</li>
+	<li>To what extent has CDL transitioned to using these specs/tools?</li>
+        <li>Are other institutions using these specs/tools?  I have heard tell that digital library folks from the University of Michigan and the University of North Texas may be involved.</li>
+</ul>
+
+<p>I hope I don’t sound overly critical.  I’m really glad our colleagues at the California Digital Library have written these specifications and applied their deep experience to what could be a transformative paradigm<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> in the digital curation world.  Kudos to them!</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Perhaps it’s more in line with the specs to refer to this space as “a managed filesystem that drives repository and curation services,” given the CDL philosophy that preservation is not a place/repository.  But it’s easier to say “repository,” so there you go. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Please excuse the fanboyishness; this filesystem fetishism is exciting stuff! <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2009-09-26T21:00:29-07:00">September 26, 2009</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Exploring+curation+micro-services%20https%3A%2F%2Fmike.giarlo.name%2Fblog%2F2009%2F09%2F26%2Fexploring-curation-micro-services%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmike.giarlo.name%2Fblog%2F2009%2F09%2F26%2Fexploring-curation-micro-services%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmike.giarlo.name%2Fblog%2F2009%2F09%2F26%2Fexploring-curation-micro-services%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/2009/09/26/command-line-shuffle/" class="pagination--pager" title="Command-line shuffle
+">Previous</a>
+    
+    
+      <a href="/blog/2009/12/19/getting-started/" class="pagination--pager" title="Getting Started (with Digital Library Architecture)
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2012/10/27/understanding-eg-dois-for-data-sets/" rel="permalink">Understanding (e.g.) DOIs for data sets
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2012-10-27T18:06:51-07:00">October 27, 2012</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Data citation is a topic that frequently comes up in conversations around data management. During a call with a community of data curators yesterday, I was a...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2011/02/17/ingest-lessons-learned/" rel="permalink">Ingest: Lessons learned
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2011-02-17T04:13:51-08:00">February 17, 2011</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Now that we have a by-no-means-complete-but-still-useful list of common barriers to ingest, I thought I’d share the lessons learned.  We hope to apply these ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2011/02/11/ingest-is-a-barrier-to-ingest/" rel="permalink">Ingest is a barrier to ingest
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2011-02-11T10:35:51-08:00">February 11, 2011</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Last week I attended the latest iteration of one of my favorite conferences, Code4Lib 2011, which included a full-day CURATEcamp hackfest as a pre-conference...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2010/07/28/impressions-from-open-repositories-2010/" rel="permalink">Impressions from Open Repositories 2010
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2010-07-28T06:34:51-07:00">July 28, 2010</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">One minor concern I brought to the conference, which has roots in my attendance at the 2007 conference, was whether it would be too system-oriented to be rel...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Mike Giarlo. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
