@@ -29,7 +29,7 @@ repository: 'mjgiarlo/mjgiarlo.github.io'
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /blog/:year/:month/:day/:title/
 pagination:
