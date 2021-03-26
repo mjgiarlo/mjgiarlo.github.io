@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 
+gem 'jekyll', '~> 3.9'
+gem 'minimal-mistakes-jekyll'
+
 # if you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'github-pages'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
   gem 'jekyll-gist'
@@ -10,5 +12,5 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'jekyll-include-cache'
   gem 'jekyll-algolia'
-  gem 'minimal-mistakes-jekyll'
+  gem 'kramdown-parser-gfm'
 end
