@@ -39,6 +39,11 @@ pagination:
   sort_reverse: true
 paginate_path: /blog/p:num # absolute, controls link values
 timezone: America/Los_Angeles
+keep_files:
+  - .git
+  - assets
+  - papers
+  - presentations
 
 include:
   - _pages
