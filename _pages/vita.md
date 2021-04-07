@@ -4,49 +4,61 @@ permalink: /vita/
 date: 2012-04-21 22:28
 ---
 
-*   [Experience](#experience)
-*   [Education](#education)
-*   [Honors](#honors-and-awards)
-*   [Memberships](#professional-memberships)
-*   [Committees](#committees--working-groups)
+[ [Experience](#experience) ~ [Education](#education) ~ [Honors](#honors-and-awards) ~ [Memberships](#professional-memberships) ~ [Committees](#committees--working-groups) ]
 
 ## Experience
 
-### smth smth Stanford
+### Senior Software Engineer & Architect at [Stanford University Libraries](https://library.stanford.edu/)
 
 September 2015 - Present
 
-### Digital Library Architect at [The Pennsylvania State University](http://www.psu.edu/)
+* **Accomplishments**
+  * TODO: fill these out
+* Focuses on the design, development, and maintenance of Stanford's digital library, especially the Stanford Digital Repository (SDR)
+* Coordinates the agile- and community-based development of SDR and its components, working extensively with open source software and projects
+* Performs difficult or complex programming and analysis work typically involving multi-project leadership and broad responsibility
+* Contributes to all phases of a project, including systems analysis, program design, development, and implementation
+* Works on systems and programs typically covering two or more functions, large single functions, or major portions of large functions, interfacing with other complex systems and programs
+* Provides innovative programming and analysis skills
+
+NOTE: The first ~2 years of this position were funded by a grant, during which my role was Technical Manager of the Hydra-in-a-Box project. That role had the following functions:
+
+* **Accomplishments**
+  * TODO: fill these out
+* Served as the technical lead for a distributed, multi-institutional development team working to enhance, bundle and deploy a feature complete, and “turnkey”, Samvera-based digital repository solution
+* Led the agile, user-centered development practice of engineers at three formal project partners, and enlist / facilitate contributions from the greater Samvera community
+* Adjudicated overall technical design and direction on the team
+* Responsible for coordinating with the Product Manager, Project Manager and User Experience Designers on cross-functional issues
+
+### Digital Library Architect at [The Pennsylvania State University](https://www.psu.edu/)
 
 December 2009 – September 2015
 
-*   **Accomplishments**
-
-*   Conducted a systematic review of platforms used by the University Libraries to deliver digital content.
-*   Co-founded [CURATEcamp](http://curatecamp.org/) – a series of unconferences about the practice of digital curation #&8211; and facilitated several of these events.
-*   Served as Co-Principal Investigator and technical project manager of the [Databib](http://databib.org/) project, a crowdsourced annotated bibliography of research data repositories.
-*   Invited to serve on numerous federal grant panels and review boards.
-*   Led Penn State's effort to join the [Hydra Project](http://projecthydra.org/) as an adopter and then as a partner.
-*   Designed the architectures, and co-developed the code, for the [prototype repository](http://stewardship.psu.edu/2011/02/caps-a-curation-platform-prototype.html), the [ScholarSphere](http://scholarsphere.psu.edu/) research repository service, and other repository services and components.
-*   Served as Program Chair of the 2012 [Research Data Access & Preservation Summit](http://www.asis.org/rdap/).
-*   Served as Program Co-Chair of the 2014 [International Conference on Open Repositories](http://or2014.helsinki.fi/).
-*   Served on Advisory Board of the 2015 [Advancing Research Communication & Scholarship](http://arcscon.tumblr.com/) conference.
-*   Served on program committees of numerous conferences including the Digital Library Federation Forum, the International Conference on Open Repositories, and the Access Conference.
-*   [Published](/publications) and [presented](/presentations) on the above work.
-
-*   Articulates a vision for, and leads the design and development of, a technical architecture for durable access to the institution's digital assets.
-*   Mentors software developers in the development of the technical architecture.
-*   Develops, publishes, and maintains a roadmap for service and infrastructure implementation.
-*   Collaborates on and contributes to strategic and tactical planning and implementation in the area of digital stewardship and technology strategy.
-*   Tracks technology trends and standards evolution, and contributes to developments in the field.
-*   Engages in national and consortial efforts in the digital library domain, and seeks mutually beneficial partnerships and collaborations with peer institutions.
-*   Advocates and effects cultural, processual, and organizational changes in support of an institutional information strategy.
-*   Liaises among IT software development, operations, and security teams, and between IT and the University Libraries/Archives to build broad support for an institutional information strategy.
-*   Collaborates with stakeholders, curators, archivists, and senior IT staff to provide preservation planning and repository audit & certification.
+* **Accomplishments**
+  * Conducted a systematic review of platforms used by the University Libraries to deliver digital content.
+  * Co-founded [CURATEcamp](http://curatecamp.org/)&mdash;a series of unconferences about the practice of digital curation&mdash;and facilitated several of these events.
+  * Served as Co-Principal Investigator and technical project manager of the [Databib](http://databib.org/) project, a crowdsourced annotated bibliography of research data repositories.
+  * Invited to serve on numerous federal grant panels and review boards.
+  * Led Penn State's effort to join the [Hydra Project](http://projecthydra.org/) as an adopter and then as a partner.
+  * Designed the architectures, and co-developed the code, for the [prototype repository](http://stewardship.psu.edu/2011/02/caps-a-curation-platform-prototype.html), the [ScholarSphere](http://scholarsphere.psu.edu/) research repository service, and other repository services and components.
+  * Served as Program Chair of the 2012 [Research Data Access & Preservation Summit](http://www.asis.org/rdap/).
+  * Served as Program Co-Chair of the 2014 [International Conference on Open Repositories](http://or2014.helsinki.fi/).
+  * Served on Advisory Board of the 2015 [Advancing Research Communication & Scholarship](http://arcscon.tumblr.com/) conference.
+  * Served on program committees of numerous conferences including the Digital Library Federation Forum, the International Conference on Open Repositories, and the Access Conference.
+  * [Published](/publications) and [presented](/presentations) on the above work.
+*   Articulated a vision for, and led the design and development of, a technical architecture for durable access to the institution's digital assets.
+*   Mentored software developers in the development of the technical architecture.
+*   Developed, published, and maintained a roadmap for service and infrastructure implementation.
+*   Collaborated on and contributed to strategic and tactical planning and implementation in the area of digital stewardship and technology strategy.
+*   Tracked technology trends and standards evolution, and contributed to developments in the field.
+*   Engaged in national and consortial efforts in the digital library domain, and sought mutually beneficial partnerships and collaborations with peer institutions.
+*   Advocated and effected cultural, processual, and organizational changes in support of an institutional information strategy.
+*   Liaised among IT software development, operations, and security teams, and between IT and the University Libraries/Archives to build broad support for an institutional information strategy.
+*   Collaborated with stakeholders, curators, archivists, and senior IT staff to provide preservation planning and repository audit & certification.
 
 ### Information Technology Specialist at [The Library of Congress](http://www.loc.gov)
 
-October 2007 – December 2009 <span class="label label-warning">2.5-yr. position</span>
+October 2007 – December 2009 <span class="btn btn--warning">2.5-yr. position</span>
 
 *   Designed, developed, and managed the descriptive metadata mapping utility for the World Digital Library project's cataloging application.
 *   Coordinated the assembly, packaging, and transfer of digital objects between the World Digital Library cataloging application and exhibit application.
@@ -58,7 +70,7 @@ October 2007 – December 2009 <span class="label label-warning">2.5-yr. positio
 
 ### Software Engineering Consultant for [Project Conifer](http://conifer.mcmaster.ca/)
 
-May 2008 – August 2008 <span class="label label-info">Freelance</span>
+May 2008 – August 2008 <span class="btn btn--info">Freelance</span>
 
 *   Developed components of acquisitions and serials modules for the open-source integrated library system Evergreen for Knowledge Ontario's Project Conifer.
 *   Worked on a Ruby client for the OpenSRF messaging back-end.
@@ -66,7 +78,7 @@ May 2008 – August 2008 <span class="label label-info">Freelance</span>
 
 ### Web Development Consultant for [Western New York Library Resources Council](http://wnylrcwatch.org/)
 
-February 2007 – June 2008 <span class="label label-info">Freelance</span>
+February 2007 – June 2008 <span class="btn btn--info">Freelance</span>
 
 Designed and developed websites including:
 
@@ -77,13 +89,13 @@ Designed and developed websites including:
 
 ### Web Development Consultant for [Designing Better Libraries](http://dbl.lishost.org/)
 
-January 2007 – Present <span class="label label-info">Freelance</span>
+January 2007 – Present <span class="btn btn--info">Freelance</span>
 
 *   Designed and developed the WordPress-based Designing Better Libraries blog. Continuing to manage, upgrade, and modify the blog as needs arise.
 
 ### Digital Library Applications Programmer at [Princeton University Library](http://library.princeton.edu/)
 
-October 2006 – October 2007 <span class="label label-warning">1 yr. position</span>
+October 2006 – October 2007 <span class="btn btn--warning">1 yr. position</span>
 
 *   Developed software and metadata (METS, MODS, EAD, MPEG-21) for digital collections.
 *   Led in selection, design, and development of a digital collections repository.
@@ -149,19 +161,19 @@ June 1996 – June 1999
 
 <dl class="dl-horizontal">
 
-<dt><span class="label label-important">May 2006</span></dt>
+<dt><span class="btn btn--danger">May 2006</span></dt>
 
 <dd>[Professional Master of Arts in Computational Linguistics](http://compling.washington.edu/) [_Did not complete coursework -- took leave of absence_], College of Arts and Sciences, University of Washington, Seattle, WA, US</dd>
 
-<dt><span class="label label-important">January 2006</span></dt>
+<dt><span class="btn btn--danger">January 2006</span></dt>
 
 <dd>Master of Library and Information Science, [School of Communication, Information and Library Studies](http://www.scils.rutgers.edu/), Rutgers, The State University of New Jersey, New Brunswick, NJ, US</dd>
 
-<dt><span class="label label-important">January 1998</span></dt>
+<dt><span class="btn btn--danger">January 1998</span></dt>
 
 <dd>Bachelor of Arts in Linguistics and Philosophy, _Magna Cum Laude_ with Departmental Honors, [Henry Rutgers Scholar](http://hrthesis.rutgers.edu/) in Linguistics, Rutgers College, Rutgers, The State University of New Jersey, New Brunswick, NJ, US</dd>
 
-<dt><span class="label label-important">May 1995</span></dt>
+<dt><span class="btn btn--danger">May 1995</span></dt>
 
 <dd>Associate of Arts in Liberal Arts, Middlesex County College, Edison, NJ, US</dd>
 
@@ -171,39 +183,39 @@ June 1996 – June 1999
 
 <dl class="dl-horizontal">
 
-<dt><span class="label label-important">August 2012</span></dt>
+<dt><span class="btn btn--danger">August 2012</span></dt>
 
 <dd>["Academic Architect" Interview](http://stream.it.psu.edu/story4/v2/i1), Penn State IT Stream Magazine</dd>
 
-<dt><span class="label label-important">May 2005</span></dt>
+<dt><span class="btn btn--danger">May 2005</span></dt>
 
 <dd>Outstanding Student in Technical Services/Information Systems Award, School of Communication, Information and Library Studies, Master of Library and Information Science program</dd>
 
-<dt><span class="label label-important">April 2005</span></dt>
+<dt><span class="btn btn--danger">April 2005</span></dt>
 
 <dd>[Technology Innovation Award](http://www.njla.org/njacrl/techinnov.html) (Honorable mention), New Jersey Library Association, [College and University Section](http://www.njla.org/njacrl/)</dd>
 
-<dt><span class="label label-important">March 2005</span></dt>
+<dt><span class="btn btn--danger">March 2005</span></dt>
 
 <dd>Interview, New Jersey Special Libraries Association, [Bulletin](http://units.sla.org/chapter/cnj/Bulletin/current_issue_files/NJSLA3-2005.pdf)</dd>
 
-<dt><span class="label label-important">May 2004</span></dt>
+<dt><span class="btn btn--danger">May 2004</span></dt>
 
 <dd>[Merit Award for Creative Use of Electronic Resources](http://units.sla.org/chapter/cuny/news.html#SARC),Upstate New York Special Libraries Association, Student and Academic Relations Committee</dd>
 
-<dt><span class="label label-important">April 2004</span></dt>
+<dt><span class="btn btn--danger">April 2004</span></dt>
 
 <dd>Technology Innovation Award, New Jersey Library Association, College and University Section</dd>
 
-<dt><span class="label label-important">December 1997</span></dt>
+<dt><span class="btn btn--danger">December 1997</span></dt>
 
 <dd>[Henry Rutgers Scholarship](http://hrthesis.rutgers.edu/), Rutgers College, Rutgers, The State University of New Jersey</dd>
 
-<dt><span class="label label-important">January 1997</span></dt>
+<dt><span class="btn btn--danger">January 1997</span></dt>
 
 <dd>[Phi Beta Kappa](http://pbk.org/), Rutgers, The State University of New Jersey</dd>
 
-<dt><span class="label label-important">January 1995</span></dt>
+<dt><span class="btn btn--danger">January 1995</span></dt>
 
 <dd>[Phi Theta Kappa](http://ptk.org/), Middlesex County College</dd>
 
@@ -213,43 +225,43 @@ June 1996 – June 1999
 
 <dl class="dl-horizontal">
 
-<dt><span class="label label-important">2009 – Present</span></dt>
+<dt><span class="btn btn--danger">2009 – Present</span></dt>
 
 <dd>Member, [Information Technology Architects in Academia](http://www.itana.org/) (ITANA)</dd>
 
-<dt><span class="label label-important">2006 – Present</span></dt>
+<dt><span class="btn btn--danger">2006 – Present</span></dt>
 
 <dd>Member & Volunteer, [Code4Lib](http://code4lib.org/) (code for libraries)</dd>
 
-<dt><span class="label label-important">2006 – 2007</span></dt>
+<dt><span class="btn btn--danger">2006 – 2007</span></dt>
 
 <dd>Member, Library and Information Technology Association</dd>
 
-<dt><span class="label label-important">2005 – 2007</span></dt>
+<dt><span class="btn btn--danger">2005 – 2007</span></dt>
 
 <dd>Member, International Association for Social Science Information Service & Technology</dd>
 
-<dt><span class="label label-important">2004 – 2007</span></dt>
+<dt><span class="btn btn--danger">2004 – 2007</span></dt>
 
 <dd>Member, American Library Association</dd>
 
-<dt><span class="label label-important">2004 – 2007</span></dt>
+<dt><span class="btn btn--danger">2004 – 2007</span></dt>
 
 <dd>Member, New Jersey Library Association [Sections: Information Technologies]</dd>
 
-<dt><span class="label label-important">2004 – 2007</span></dt>
+<dt><span class="btn btn--danger">2004 – 2007</span></dt>
 
 <dd>Member, American Society for Information Science and Technology [SIGs: Digital Libraries, Library Technologies]</dd>
 
-<dt><span class="label label-important">2005 – 2006</span></dt>
+<dt><span class="btn btn--danger">2005 – 2006</span></dt>
 
 <dd>Member, Association for Computational Linguistics</dd>
 
-<dt><span class="label label-important">2004 – 2006</span></dt>
+<dt><span class="btn btn--danger">2004 – 2006</span></dt>
 
 <dd>Member & Webmaster, [Rutgers University Special Libraries Association](http://www.scils.rutgers.edu/~rusla/)</dd>
 
-<dt><span class="label label-important">1999 – 2007</span></dt>
+<dt><span class="btn btn--danger">1999 – 2007</span></dt>
 
 <dd>Member & Presenter, VALE-NJ Technology Awareness Group</dd>
 
@@ -259,107 +271,107 @@ June 1996 – June 1999
 
 <dl class="dl-horizontal">
 
-<dt><span class="label label-important">2010 – Present</span></dt>
+<dt><span class="btn btn--danger">2010 – Present</span></dt>
 
 <dd>_Associate Member_, Penn State University Library Faculty Organization</dd>
 
-<dt><span class="label label-important">2010 – Present</span></dt>
+<dt><span class="btn btn--danger">2010 – Present</span></dt>
 
 <dd>Penn State Content Stewardship Council</dd>
 
-<dt><span class="label label-important">2007 – Present</span></dt>
+<dt><span class="btn btn--danger">2007 – Present</span></dt>
 
 <dd>Code4Lib Conference Planning Group</dd>
 
-<dt><span class="label label-important">2011 – 2012</span></dt>
+<dt><span class="btn btn--danger">2011 – 2012</span></dt>
 
 <dd>Penn State University Data Curation Services Working Group</dd>
 
-<dt><span class="label label-important">2011 – 2013</span></dt>
+<dt><span class="btn btn--danger">2011 – 2013</span></dt>
 
 <dd>Penn State University Architectural Review Board</dd>
 
-<dt><span class="label label-important">2010 – 2012</span></dt>
+<dt><span class="btn btn--danger">2010 – 2012</span></dt>
 
 <dd>Penn State University Libraries Research Data Management Services Team</dd>
 
-<dt><span class="label label-important">2010 – 2012</span></dt>
+<dt><span class="btn btn--danger">2010 – 2012</span></dt>
 
 <dd>MetaArchive Cooperative Preservation Committee</dd>
 
-<dt><span class="label label-important">2010 – 2012</span></dt>
+<dt><span class="btn btn--danger">2010 – 2012</span></dt>
 
 <dd>National Digital Stewardship Alliance, Infrastructure Working Group</dd>
 
-<dt><span class="label label-important">2010 – 2011</span></dt>
+<dt><span class="btn btn--danger">2010 – 2011</span></dt>
 
 <dd>Penn State University Libraries Next-Generation Discovery Interface RFP Planning & Evaluation Committees</dd>
 
-<dt><span class="label label-important">2008 – 2012</span></dt>
+<dt><span class="btn btn--danger">2008 – 2012</span></dt>
 
 <dd>[NISO Institutional Identifiers](http://www.niso.org/workrooms/i2) Working Group, Core Group</dd>
 
-<dt><span class="label label-important">2009</span></dt>
+<dt><span class="btn btn--danger">2009</span></dt>
 
 <dd>Library of Congress Repository Development Center Architecture Team</dd>
 
-<dt><span class="label label-important">2009</span></dt>
+<dt><span class="btn btn--danger">2009</span></dt>
 
 <dd>Library of Congress Repository Development Center Planning Team</dd>
 
-<dt><span class="label label-important">2009</span></dt>
+<dt><span class="btn btn--danger">2009</span></dt>
 
 <dd>Library of Congress [Metadata for Digital Content](http://www.loc.gov/standards/mdc/) Committee</dd>
 
-<dt><span class="label label-important">2008 – 2009</span></dt>
+<dt><span class="btn btn--danger">2008 – 2009</span></dt>
 
 <dd>_Co-Chair & Tech Lead_, NISO Institutional Identifiers Working Group, Institutional Repositories Scenario Group</dd>
 
-<dt><span class="label label-important">2006 – 2007</span></dt>
+<dt><span class="btn btn--danger">2006 – 2007</span></dt>
 
 <dd>unAPI Specification Development Team</dd>
 
-<dt><span class="label label-important">2006 – 2007</span></dt>
+<dt><span class="btn btn--danger">2006 – 2007</span></dt>
 
 <dd>Princeton University Library Digital Library Operations Group</dd>
 
-<dt><span class="label label-important">2005 – 2006</span></dt>
+<dt><span class="btn btn--danger">2005 – 2006</span></dt>
 
 <dd>University of Washington Libraries Organization Development and Communications Advisory Committee</dd>
 
-<dt><span class="label label-important">2005 – 2006</span></dt>
+<dt><span class="btn btn--danger">2005 – 2006</span></dt>
 
 <dd>University of Washington [Digital Futures Alliance](http://digitalfuturesalliance.org/), Technical Issues Working Group</dd>
 
-<dt><span class="label label-important">2004 – 2007</span></dt>
+<dt><span class="btn btn--danger">2004 – 2007</span></dt>
 
 <dd>[Dublin Core Kernel Metadata Working Group](http://dublincore.org/groups/kernel/)</dd>
 
-<dt><span class="label label-important">2003 – 2004</span></dt>
+<dt><span class="btn btn--danger">2003 – 2004</span></dt>
 
 <dd>Rutgers University Libraries Archival Storage Selection Team</dd>
 
-<dt><span class="label label-important">2003 – 2005</span></dt>
+<dt><span class="btn btn--danger">2003 – 2005</span></dt>
 
 <dd>New Jersey Digital Highway Infrastructure Workgroup</dd>
 
-<dt><span class="label label-important">2002 – 2005</span></dt>
+<dt><span class="btn btn--danger">2002 – 2005</span></dt>
 
 <dd>Rutgers University Libraries Repository Implementation Team</dd>
 
-<dt><span class="label label-important">2002 – 2005</span></dt>
+<dt><span class="btn btn--danger">2002 – 2005</span></dt>
 
 <dd>Rutgers University Libraries Digital Architecture Working Group</dd>
 
-<dt><span class="label label-important">2001 – 2003</span></dt>
+<dt><span class="btn btn--danger">2001 – 2003</span></dt>
 
 <dd>Rutgers University Libraries Web Content Management System Thinktank</dd>
 
-<dt><span class="label label-important">2000 – 2001</span></dt>
+<dt><span class="btn btn--danger">2000 – 2001</span></dt>
 
 <dd>Rutgers University Libraries Electronic Journal Development Team</dd>
 
-<dt><span class="label label-important">1999 – 2005</span></dt>
+<dt><span class="btn btn--danger">1999 – 2005</span></dt>
 
 <dd>Rutgers University Libraries Personal Computer Working Group</dd>
 
