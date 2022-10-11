@@ -2,7 +2,7 @@
    Default skin
    ========================================================================== */
 /*!
- * Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+ * Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
 */
@@ -25,6 +25,7 @@
 /* YIQ color contrast */
 /* brands */
 /* links */
+/* notices */
 /* syntax highlighting (base16) */
 /*
    Breakpoints
@@ -890,7 +891,6 @@ td,
 form button,
 input[type="submit"],
 .btn,
-#goog-wm-sb,
 .highlight,
 .archive__item-teaser {
   -webkit-transition: all 0.2s ease-in-out;
@@ -1191,30 +1191,6 @@ select:focus {
   left: 50%;
   z-index: 11; }
 
-/*
-     Google search form
-     ========================================================================== */
-#goog-fixurl ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0; }
-  #goog-fixurl ul li {
-    list-style-type: none; }
-
-#goog-wm-qt {
-  width: auto;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  padding: 8px 20px;
-  display: inline-block;
-  font-size: 0.75em;
-  background-color: #fff;
-  color: #000;
-  border-width: 2px !important;
-  border-style: solid !important;
-  border-color: #f2f3f3;
-  border-radius: 4px; }
-
 /* ==========================================================================
    TABLES
    ========================================================================== */
@@ -1267,7 +1243,7 @@ th {
 /*
    Default button
    ========================================================================== */
-.btn, #goog-wm-sb {
+.btn {
   /* default */
   display: inline-block;
   margin-bottom: 0.25em;
@@ -1286,9 +1262,9 @@ th {
   /* extra large button */
   /* large button */
   /* small button */ }
-  .btn .icon, #goog-wm-sb .icon {
+  .btn .icon {
     margin-right: 0.5em; }
-  .btn .icon + .hidden, #goog-wm-sb .icon + .hidden {
+  .btn .icon + .hidden {
     margin-left: -0.5em;
     /* override for hidden text*/ }
   .btn--primary {
@@ -1421,7 +1397,7 @@ th {
   font-size: 0.75em !important;
   text-indent: initial;
   /* override*/
-  background-color: #f8f9f9;
+  background-color: #f2f3f3;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25); }
   .notice h4 {
@@ -1441,11 +1417,11 @@ th {
     margin-top: 0;
     padding-top: 0; }
   .notice a {
-    color: #bdc1c4; }
+    color: #aaaeb0; }
     .notice a:hover {
-      color: #717476; }
+      color: #5f6162; }
   .notice code {
-    background-color: #fcfcfc; }
+    background-color: #f8f9f9; }
   .notice pre code {
     background-color: inherit; }
   .notice ul:last-child {
@@ -1462,7 +1438,7 @@ th {
   font-size: 0.75em !important;
   text-indent: initial;
   /* override*/
-  background-color: #f1f1f2;
+  background-color: #e2e4e5;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(111, 119, 125, 0.25); }
   .notice--primary h4 {
@@ -1482,11 +1458,11 @@ th {
     margin-top: 0;
     padding-top: 0; }
   .notice--primary a {
-    color: #6f777d; }
+    color: #646b71; }
     .notice--primary a:hover {
-      color: #43474b; }
+      color: #383c3f; }
   .notice--primary code {
-    background-color: #f8f8f9; }
+    background-color: #f1f1f2; }
   .notice--primary pre code {
     background-color: inherit; }
   .notice--primary ul:last-child {
@@ -1503,7 +1479,7 @@ th {
   font-size: 0.75em !important;
   text-indent: initial;
   /* override*/
-  background-color: #ebf5f8;
+  background-color: #d8ebf1;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(59, 156, 186, 0.25); }
   .notice--info h4 {
@@ -1523,11 +1499,11 @@ th {
     margin-top: 0;
     padding-top: 0; }
   .notice--info a {
-    color: #3b9cba; }
+    color: #358ca7; }
     .notice--info a:hover {
-      color: #235e70; }
+      color: #1e4e5d; }
   .notice--info code {
-    background-color: #f5fafc; }
+    background-color: #ebf5f8; }
   .notice--info pre code {
     background-color: inherit; }
   .notice--info ul:last-child {
@@ -1544,7 +1520,7 @@ th {
   font-size: 0.75em !important;
   text-indent: initial;
   /* override*/
-  background-color: #fbf2e6;
+  background-color: #f7e5cd;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(214, 127, 5, 0.25); }
   .notice--warning h4 {
@@ -1564,11 +1540,11 @@ th {
     margin-top: 0;
     padding-top: 0; }
   .notice--warning a {
-    color: #d67f05; }
+    color: #c17205; }
     .notice--warning a:hover {
-      color: #804c03; }
+      color: #6b4003; }
   .notice--warning code {
-    background-color: #fdf9f3; }
+    background-color: #fbf2e6; }
   .notice--warning pre code {
     background-color: inherit; }
   .notice--warning ul:last-child {
@@ -1585,7 +1561,7 @@ th {
   font-size: 0.75em !important;
   text-indent: initial;
   /* override*/
-  background-color: #ecf6ec;
+  background-color: #d9edd9;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(63, 166, 63, 0.25); }
   .notice--success h4 {
@@ -1605,11 +1581,11 @@ th {
     margin-top: 0;
     padding-top: 0; }
   .notice--success a {
-    color: #3fa63f; }
+    color: #399539; }
     .notice--success a:hover {
-      color: #266426; }
+      color: #205320; }
   .notice--success code {
-    background-color: #f5fbf5; }
+    background-color: #ecf6ec; }
   .notice--success pre code {
     background-color: inherit; }
   .notice--success ul:last-child {
@@ -1626,7 +1602,7 @@ th {
   font-size: 0.75em !important;
   text-indent: initial;
   /* override*/
-  background-color: #fdefef;
+  background-color: #fcdfde;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(238, 95, 91, 0.25); }
   .notice--danger h4 {
@@ -1646,11 +1622,11 @@ th {
     margin-top: 0;
     padding-top: 0; }
   .notice--danger a {
-    color: #ee5f5b; }
+    color: #d65652; }
     .notice--danger a:hover {
-      color: #8f3937; }
+      color: #77302e; }
   .notice--danger code {
-    background-color: #fef7f7; }
+    background-color: #fdefef; }
   .notice--danger pre code {
     background-color: inherit; }
   .notice--danger ul:last-child {
@@ -3097,9 +3073,9 @@ body {
   .page__content p {
     margin: 0 0 1.3em;
     /* sibling indentation*/ }
-  .page__content a:not(.btn):not(#goog-wm-sb):hover {
+  .page__content a:not(.btn):hover {
     text-decoration: underline; }
-    .page__content a:not(.btn):not(#goog-wm-sb):hover img {
+    .page__content a:not(.btn):hover img {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); }
   .page__content dt {
     margin-top: 1em;
@@ -3155,8 +3131,7 @@ body {
     .page__hero--overlay .page__meta,
     .page__hero--overlay .comment__date,
     .page__hero--overlay .page__lead,
-    .page__hero--overlay .btn,
-    .page__hero--overlay #goog-wm-sb {
+    .page__hero--overlay .btn {
       color: #fff;
       text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); }
     .page__hero--overlay .page__lead {
@@ -3201,7 +3176,7 @@ body {
   padding-top: 1em;
   border-top: 1px solid #f2f3f3; }
   @media (max-width: 37.5em) {
-    .page__share .btn span, .page__share #goog-wm-sb span {
+    .page__share .btn span {
       border: 0;
       clip: rect(0 0 0 0);
       height: 1px;
@@ -3636,7 +3611,7 @@ body {
   .feature__item .archive__item-body {
     padding-left: 1.6949152542%;
     padding-right: 1.6949152542%; }
-  .feature__item a.btn::before, .feature__item a#goog-wm-sb::before {
+  .feature__item a.btn::before {
     content: '';
     position: absolute;
     left: 0;
@@ -3655,7 +3630,7 @@ body {
       float: left; }
     .feature__item--left .archive__item-teaser {
       margin-bottom: 2em; }
-    .feature__item--left a.btn::before, .feature__item--left a#goog-wm-sb::before {
+    .feature__item--left a.btn::before {
       content: '';
       position: absolute;
       left: 0;
@@ -3683,7 +3658,7 @@ body {
       float: left; }
     .feature__item--right .archive__item-teaser {
       margin-bottom: 2em; }
-    .feature__item--right a.btn::before, .feature__item--right a#goog-wm-sb::before {
+    .feature__item--right a.btn::before {
       content: '';
       position: absolute;
       left: 0;
@@ -3714,7 +3689,7 @@ body {
       width: 100%; }
     .feature__item--center .archive__item-teaser {
       margin-bottom: 2em; }
-    .feature__item--center a.btn::before, .feature__item--center a#goog-wm-sb::before {
+    .feature__item--center a.btn::before {
       content: '';
       position: absolute;
       left: 0;
