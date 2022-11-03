@@ -29,7 +29,8 @@ repository: 'mjgiarlo/mjgiarlo.github.io'
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+# theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /blog/:year/:month/:day/:title/
 pagination:
@@ -162,3 +163,6 @@ social:
     - 'http://www.linkedin.com/in/mjgiarlo'
     - 'http://facebook.com/mjgiarlo'
     - 'http://orcid.org/0000-0002-2100-6108'
+    - 'https://code4lib.social/@mjgiarlo'
+    - 'https://cohost.org/mjgiarlo'
+    - 'https://keybase.io/mjgiarlo'
